@@ -1,0 +1,22 @@
+{
+  "name": "good-first-issue",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "good-first-issue": "./bin/good-first-issue.js"
+  },
+  "keywords": [],
+  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^15.15.1",
+    "boxen": "^2.0.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0"
+  }
+}
