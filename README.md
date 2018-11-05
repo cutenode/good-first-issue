@@ -13,11 +13,19 @@ npm i -g good-first-issue
 good-first-issue <project>
 ```
 
+## TODOs: What's coming up next
+`good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
+
+- [x] `good-first-issue node` command
+- [ ] Interactive selector when `good-first-issue` is run without a sub command
+- [ ] Export good first issues for all repos that have a command
+
 ## Projects
 The list of projects which are _currently_ supported.
 
 ### Node.js
 The Node.js project spans over 100 repositories. Using `good-first-issue` to look for good first issues in Node.js will search through the entire [Node.js GitHub organization](https://github.com/nodejs/) including both technical and community repositories.
+
 #### Usage
 Via npx:
 ```
