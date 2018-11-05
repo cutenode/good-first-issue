@@ -19,6 +19,7 @@ good-first-issue <project>
 - [x] `good-first-issue node` command
 - [ ] Interactive selector when `good-first-issue` is run without a sub command
 - [ ] Export good first issues for all repos that have a command
+- [ ] Add tests
 
 ## Projects
 The list of projects which are _currently_ supported.
