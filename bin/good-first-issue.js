@@ -1,8 +1,6 @@
 #!/usr/bin/env node
 
 var cli = require('commander')
-var inquirer = require('inquirer')
-
 
 cli
   .version('0.0.1', '-v, --version')
