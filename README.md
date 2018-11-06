@@ -39,6 +39,21 @@ npm i -g good-first-issue
 good-first-issue node
 ```
 
+### Electron
+Electron is one of the most vital pieces of desktop application infrastructure in the world, powering applications like Spotify, Slack,  Atom, VS Code, GitHub Desktop, WordPress.com, and hundreds of other applications. You can use `good-first-issue` to look for good first issues in the various Electron repositories in the [Electron GitHub organization](https://github.com/electron/).
+
+#### Usage
+Via npx:
+```
+npx good-first-issue electron
+```
+
+As a global module:
+```
+npm i -g good-first-issue
+good-first-issue electron
+```
+
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
