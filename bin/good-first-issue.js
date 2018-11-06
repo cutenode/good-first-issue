@@ -8,4 +8,5 @@ cli
   .description('CLI tool to find good first issues.')
   .command('node', 'Good First Issues for Node.js')
   .command('electron', 'Good First Issues for Electron')
+  .command('gutenberg', 'Good First Issues for Gutenberg by WordPress')
   .parse(process.argv)
