@@ -66,6 +66,6 @@ If you'd like to add a new project to `good-first-issue`, you're more than welco
 
 ### Adding New Projects: More Information
 
-You can pull your queries directly from a standard GitHub search! If you want to build something a bit more complex, you can use the advanced serach tool if you want to build more specific custom queries: https://github.com/search/advanced
+You can pull your queries directly from a standard GitHub search! If you want to build something a bit more complex, you can use the advanced search tool if you want to build more specific custom queries: https://github.com/search/advanced
 
 As a CLI, `good-first-issue` uses the Commander.js CLI framework. If you want to better understand how our CLI is built, commander.js is pretty [well documented](https://github.com/tj/commander.js/). Also used are Chalk for terminal coloring and [boxen](https://github.com/sindresorhus/boxen) to simplify the output container implementation.
