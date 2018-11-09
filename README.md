@@ -21,6 +21,8 @@ good-first-issue <project>
 - [ ] Export good first issues for all repos that have a command
 - [ ] Add tests
 
+If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
+
 ## Projects
 The list of projects which are _currently_ supported.
 
@@ -52,6 +54,21 @@ As a global module:
 ```
 npm i -g good-first-issue
 good-first-issue electron
+```
+
+### VS Code
+VS Code is a text editor from Microsoft that has gained widespread adoption. It's built using JavaScript, Node.js, Electron, and a suite of other web technologies. You can use `good-first-issue` to look for good first issues in the various Electron repositories in the [Electron GitHub organization](https://github.com/electron/).
+
+#### Usage
+Via npx:
+```
+npx good-first-issue vscode
+```
+
+As a global module:
+```
+npm i -g good-first-issue
+good-first-issue vscode
 ```
 
 ## Adding New Projects
