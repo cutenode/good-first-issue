@@ -1,7 +1,7 @@
 {
   "name": "good-first-issue",
-  "version": "0.3.0",
-  "description": "",
+  "version": "0.4.1",
+  "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,11 @@
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bnb/good-first-issue.git"
+  },
+  "homepage": "https://github.com/bnb/good-first-issue",
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",

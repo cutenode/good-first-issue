@@ -21,6 +21,8 @@ good-first-issue <project>
 - [ ] Export good first issues for all repos that have a command
 - [ ] Add tests
 
+If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
+
 ## Projects
 The list of projects which are _currently_ supported.
 
@@ -54,6 +56,21 @@ npm i -g good-first-issue
 good-first-issue electron
 ```
 
+### VS Code
+VS Code is a text editor from Microsoft that has gained widespread adoption. It's built using JavaScript, Node.js, Electron, and a suite of other web technologies. You can use `good-first-issue` to look for good first issues in the various Electron repositories in the [Electron GitHub organization](https://github.com/electron/).
+
+#### Usage
+Via npx:
+```
+npx good-first-issue vscode
+```
+
+As a global module:
+```
+npm i -g good-first-issue
+good-first-issue vscode
+```
+
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
@@ -66,6 +83,6 @@ If you'd like to add a new project to `good-first-issue`, you're more than welco
 
 ### Adding New Projects: More Information
 
-You can pull your queries directly from a standard GitHub search! If you want to build something a bit more complex, you can use the advanced serach tool if you want to build more specific custom queries: https://github.com/search/advanced
+You can pull your queries directly from a standard GitHub search! If you want to build something a bit more complex, you can use the advanced search tool if you want to build more specific custom queries: https://github.com/search/advanced
 
 As a CLI, `good-first-issue` uses the Commander.js CLI framework. If you want to better understand how our CLI is built, commander.js is pretty [well documented](https://github.com/tj/commander.js/). Also used are Chalk for terminal coloring and [boxen](https://github.com/sindresorhus/boxen) to simplify the output container implementation.
