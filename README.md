@@ -57,7 +57,7 @@ good-first-issue electron
 ```
 
 ### VS Code
-VS Code is a text editor from Microsoft that has gained widespread adoption. It's built using JavaScript, Node.js, Electron, and a suite of other web technologies. You can use `good-first-issue` to look for good first issues in the various Electron repositories in the [Electron GitHub organization](https://github.com/electron/).
+VS Code is a text editor from Microsoft that has gained widespread adoption. It's built using JavaScript, Node.js, Electron, and a suite of other web technologies. You can use `good-first-issue` to look for good first issues in the [Microsoft/vscode repository](https://github.com/microsoft/vscode).
 
 #### Usage
 Via npx:
@@ -69,6 +69,21 @@ As a global module:
 ```
 npm i -g good-first-issue
 good-first-issue vscode
+```
+
+### Gutenberg
+Gutenberg is the new editor from the WordPress team, using a modern JavaScript front end stack. You can use `good-first-issue` to look for good first issues in the [WordPress/gutenberg repository](https://github.com/wordpress/gutenberg)
+
+#### Usage
+Via npx:
+```
+npx good-first-issue gutenberg
+```
+
+As a global module:
+```
+npm i -g good-first-issue
+good-first-issue gutenberg
 ```
 
 ## Adding New Projects
