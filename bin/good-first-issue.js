@@ -9,4 +9,5 @@ cli
   .command('node', 'Good First Issues for Node.js')
   .command('electron', 'Good First Issues for Electron')
   .command('vscode', 'Good First Issues for VS Code')
+  .command('gutenberg', 'Good First Issues for Gutenberg by WordPress')
   .parse(process.argv)
