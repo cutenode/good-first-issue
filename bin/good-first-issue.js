@@ -10,4 +10,5 @@ cli
   .command('electron', 'Good First Issues for Electron')
   .command('vscode', 'Good First Issues for VS Code')
   .command('gutenberg', 'Good First Issues for Gutenberg by WordPress')
+  .command('wolkenkit', 'Good First Issues for wolkenkit')
   .parse(process.argv)
