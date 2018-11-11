@@ -2,6 +2,9 @@
 A CLI for finding issues labeled with "good-first-issue" to _hopefully_ lower the barrier to contributing to open source projects.
 
 ## Usage
+
+### As CLI
+
 Via npx:
 ```
 npx good-first-issue <project>
@@ -11,6 +14,17 @@ As a global module:
 ```
 npm i -g good-first-issue
 good-first-issue <project>
+```
+
+### As Module
+
+```js
+const gfi = require('good-first-issue')
+
+// project should be from the below projects table
+gfi(project, (err, issues) => {
+  // typeof issues is Array
+})
 ```
 
 ## TODOs: What's coming up next
