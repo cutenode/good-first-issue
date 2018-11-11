@@ -31,7 +31,7 @@ gfi(project, (err, issues) => {
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
 
 - [x] `good-first-issue node` command
-- [ ] Interactive selector when `good-first-issue` is run without a sub command
+- [x] Interactive selector when `good-first-issue` is run without a sub command
 - [ ] Export good first issues for all repos that have a command
 - [ ] Add tests
 
