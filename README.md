@@ -24,77 +24,23 @@ good-first-issue <project>
 If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
 
 ## Projects
-The list of projects which are _currently_ supported.
+The table of projects which are _currently_ supported.
 
-### Node.js
-The Node.js project spans over 100 repositories. Using `good-first-issue` to look for good first issues in Node.js will search through the entire [Node.js GitHub organization](https://github.com/nodejs/) including both technical and community repositories.
-
-#### Usage
-Via npx:
-```
-npx good-first-issue node
-```
-
-As a global module:
-```
-npm i -g good-first-issue
-good-first-issue node
-```
-
-### Electron
-Electron is one of the most vital pieces of desktop application infrastructure in the world, powering applications like Spotify, Slack,  Atom, VS Code, GitHub Desktop, WordPress.com, and hundreds of other applications. You can use `good-first-issue` to look for good first issues in the various Electron repositories in the [Electron GitHub organization](https://github.com/electron/).
-
-#### Usage
-Via npx:
-```
-npx good-first-issue electron
-```
-
-As a global module:
-```
-npm i -g good-first-issue
-good-first-issue electron
-```
-
-### VS Code
-VS Code is a text editor from Microsoft that has gained widespread adoption. It's built using JavaScript, Node.js, Electron, and a suite of other web technologies. You can use `good-first-issue` to look for good first issues in the [Microsoft/vscode repository](https://github.com/microsoft/vscode).
-
-#### Usage
-Via npx:
-```
-npx good-first-issue vscode
-```
-
-As a global module:
-```
-npm i -g good-first-issue
-good-first-issue vscode
-```
-
-### Gutenberg
-Gutenberg is the new editor from the WordPress team, using a modern JavaScript front end stack. You can use `good-first-issue` to look for good first issues in the [WordPress/gutenberg repository](https://github.com/wordpress/gutenberg)
-
-#### Usage
-Via npx:
-```
-npx good-first-issue gutenberg
-```
-
-As a global module:
-```
-npm i -g good-first-issue
-good-first-issue gutenberg
-```
+| Name | Project `<project>` |
+| --- | --- |
+| Node.js | `node` |
+| Electron | `electron` |
+| VS Code | `vscode` |
+| Gutenberg | `gutenberg` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
-- Update `bin/good-first-issue.js`
-  - You will need to update this file to include a `command()` for your project that will output a **single**, **random** issue with the label Good First Issue.
 - Update `lib/projects.js`
   - Add your `<project>` as a property of `projects` with an object that includes a `name` and a `q` (representing the GitHub search query).
-- Add `bin/good-first-issue-<project>.js`
-  - This needs to be a JavaScript file that will execute when someone runs `good-first-issue <project>`. You can see a maintained example in [good-first-issue-node.js](bin/good-first-issue-node.js)
+
+- Update `README.md`
+  - Add your `<project>` at the bottom of the [Projects](#projects) table above with `name` and `project`
 
 ### Adding New Projects: More Information
 
