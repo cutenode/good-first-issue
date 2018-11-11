@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 var cli = require('commander')
+var chalk = require('chalk')
+
 var pJson = require('../package.json')
 
 const log = require('../lib/log')
@@ -13,6 +15,14 @@ cli
   .description('CLI tool to find good first issues.')
   .arguments('<project>')
   .action((project) => {
+    // if project is not found
+    if (!(project in projects)) {
+      console.log(chalk.red(`${project} was not found in good-first-issue`))
+      console.log('--------------------------------')
+      console.log('If you\'d like to add a new project to good-first-issue')
+      console.log('please read - https://github.com/bnb/good-first-issue#adding-new-projects')
+      process.exit(0)
+    }
     search(projects[project].q, (error, issues) => {
       if(error) throw error
       
