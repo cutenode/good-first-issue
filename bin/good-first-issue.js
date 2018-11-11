@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 var cli = require('commander')
+var pJson = require('../package.json')
 
 const log = require('../lib/log')
 const projects = require('../lib/projects')
 const search = require('../lib/search')
 
 cli
-  .version('0.4.0', '-v, --version')
+  .version(pJson.version, '-v, --version')
   .usage('[options]')
   .description('CLI tool to find good first issues.')
   .arguments('<project>')
