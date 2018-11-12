@@ -17,6 +17,7 @@ cli
   .description('CLI tool to find good first issues.')
   .arguments('[project]')
   .option('-o --open', 'Open in browser')
+  .option('--not-random', 'Not random, return the top issue')
   .action(async (project, cmd) => {
     let input = project
     if (!project) {
@@ -38,14 +39,18 @@ cli
       log(issues, projects[input].name, function(error, output) {
         if(error) throw error
         // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-        var random = Math.floor(Math.random() * Math.floor(output.length - 1));
+        var key = Math.floor(Math.random() * Math.floor(output.length - 1));
+
+        if (cmd.notRandom) {
+          key = 0
+        }
         
         if (cmd.open) {
-          opn(issues[random].url)
+          opn(issues[key].url)
         }
 
         // Log the issue!
-        console.log(output[random].toString())
+        console.log(output[key].toString())
       })
     })    
   })
