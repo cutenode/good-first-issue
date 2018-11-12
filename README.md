@@ -46,6 +46,7 @@ The table of projects which are _currently_ supported.
 | Electron | `electron` |
 | VS Code | `vscode` |
 | Gutenberg | `gutenberg` |
+| wolkenkit | `wolkenkit` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
