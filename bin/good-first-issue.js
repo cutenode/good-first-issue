@@ -23,10 +23,10 @@ cli
 
     // if project is not found
     if (!(input in projects)) {
-      console.log(chalk.red(`${input} was not found in good-first-issue`))
+      console.log(chalk.red(`${input} was not found in good-first-issue.`))
       console.log('--------------------------------')
-      console.log('If you\'d like to add a new project to good-first-issue')
-      console.log('please read - https://github.com/bnb/good-first-issue#adding-new-projects')
+      console.log('If you\'d like to add a new project to good-first-issue,')
+      console.log('please see the module\'s Github repository: ' + chalk.cyan('https://github.com/bnb/good-first-issue#adding-new-projects'))
       process.exit(0)
     }
     search(projects[input].q, (error, issues) => {

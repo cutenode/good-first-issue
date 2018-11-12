@@ -19,10 +19,10 @@ good-first-issue <project>
 ### As Module
 
 ```js
-const gfi = require('good-first-issue')
+const goodFirstIssue = require('good-first-issue')
 
 // project should be from the below projects table
-gfi(project, (err, issues) => {
+goodFirstIssue(project, (err, issues) => {
   // typeof issues is Array
 })
 ```
