@@ -16,6 +16,10 @@ npm i -g good-first-issue
 good-first-issue <project>
 ```
 
+#### Options
+
+- `-o, --open` - open in browser
+
 ### As Module
 
 ```js
