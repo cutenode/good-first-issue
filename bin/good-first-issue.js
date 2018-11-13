@@ -15,8 +15,9 @@ cli
   .version(pJson.version, '-v, --version')
   .description('CLI tool to find good first issues.')
   .arguments('[project]')
-  .action(async (project) => {
+  .action(async project => {
     let input = project
+
     if (!project) {
       input = await prompt()
     }
@@ -25,22 +26,30 @@ cli
     if (!(input in projects)) {
       console.log(chalk.red(`"${input}" was not found in good-first-issue.`))
       console.log('--------------------------------')
-      console.log('If you\'d like to add a new project to good-first-issue,')
-      console.log('please see the module\'s Github repository: ' + chalk.cyan('https://github.com/bnb/good-first-issue#adding-new-projects'))
+      console.log("If you'd like to add a new project to good-first-issue,")
+      console.log(
+        "please see the module's Github repository: " +
+          chalk.cyan(
+            'https://github.com/bnb/good-first-issue#adding-new-projects'
+          )
+      )
       process.exit(0)
     }
-    search(projects[input].q, (error, issues) => {
-      if(error) throw error
-      
-      // Call the log functionality, output the result to the console.
-      log(issues, projects[input].name, function(error, output) {
-        if(error) throw error
-        // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-        var random = Math.floor(Math.random() * Math.floor(output.length - 1));
-    
-        // Log the issue!
-        console.log(output[random].toString())
-      })
-    })    
+
+    const issues = await search(projects[input].q)
+
+    if (issues.length === 0) {
+      console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
+      process.exit(0)
+    }
+    // Call the log functionality, output the result to the console.
+    log(issues, projects[input].name, function(error, output) {
+      if (error) throw error
+      // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
+      var random = Math.floor(Math.random() * Math.floor(output.length - 1))
+
+      // Log the issue!
+      console.log(output[random].toString())
+    })
   })
   .parse(process.argv)
