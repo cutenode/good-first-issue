@@ -30,17 +30,17 @@ cli
       process.exit(0)
     }
     search(projects[input].q, (error, issues) => {
-      if(error) throw error
-      
+      if (error) throw error
+
       // Call the log functionality, output the result to the console.
-      log(issues, projects[input].name, function(error, output) {
-        if(error) throw error
+      log(issues, projects[input].name, function (error, output) {
+        if (error) throw error
         // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-        var random = Math.floor(Math.random() * Math.floor(output.length - 1));
-    
+        var random = Math.floor(Math.random() * Math.floor(output.length - 1))
+
         // Log the issue!
         console.log(output[random].toString())
       })
-    })    
+    })
   })
   .parse(process.argv)
