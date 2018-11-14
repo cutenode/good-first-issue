@@ -7,7 +7,8 @@
     "test": "jest"
   },
   "bin": {
-    "good-first-issue": "./bin/good-first-issue.js"
+    "good-first-issue": "./bin/good-first-issue.js",
+    "gfi": "./bin/good-first-issue.js"
   },
   "files": [
     "bin/",
