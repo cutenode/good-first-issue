@@ -19,7 +19,7 @@ good-first-issue <project>
 #### Options
 
 - `-o, --open` - open in browser
-- `--not-random` - Not random, return the top issue
+- `-f, --first` - Return first/top issue
 
 ### As Module
 

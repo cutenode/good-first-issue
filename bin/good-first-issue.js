@@ -16,8 +16,8 @@ cli
   .version(pJson.version, '-v, --version')
   .description('CLI tool to find good first issues.')
   .arguments('[project]')
-  .option('-o --open', 'Open in browser')
-  .option('--not-random', 'Not random, return the top issue')
+  .option('-o, --open', 'Open in browser')
+  .option('-f, --first', 'Return first/top issue')
   .action(async (project, cmd) => {
     let input = project
     if (!project) {
@@ -41,7 +41,7 @@ cli
         // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
         var key = Math.floor(Math.random() * Math.floor(output.length - 1));
 
-        if (cmd.notRandom) {
+        if (cmd.first) {
           key = 0
         }
         
