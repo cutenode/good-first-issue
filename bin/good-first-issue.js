@@ -2,6 +2,7 @@
 
 var cli = require('commander')
 var chalk = require('chalk')
+var opn = require('opn')
 
 var pJson = require('../package.json')
 
@@ -15,7 +16,9 @@ cli
   .version(pJson.version, '-v, --version')
   .description('CLI tool to find good first issues.')
   .arguments('[project]')
-  .action(async (project) => {
+  .option('-o, --open', 'Open in browser')
+  .option('-f, --first', 'Return first/top issue')
+  .action(async (project, cmd) => {
     let input = project
     if (!project) {
       input = await prompt()
@@ -36,10 +39,18 @@ cli
       log(issues, projects[input].name, function(error, output) {
         if(error) throw error
         // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-        var random = Math.floor(Math.random() * Math.floor(output.length - 1));
-    
+        var key = Math.floor(Math.random() * Math.floor(output.length - 1));
+
+        if (cmd.first) {
+          key = 0
+        }
+        
+        if (cmd.open) {
+          opn(issues[key].url)
+        }
+
         // Log the issue!
-        console.log(output[random].toString())
+        console.log(output[key].toString())
       })
     })    
   })
