@@ -1,6 +1,6 @@
 {
   "name": "good-first-issue",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
   },
+  "files": [
+    "bin/",
+    "lib/",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/bnb/good-first-issue.git"
