@@ -77,3 +77,6 @@ typings/
 
 # VS Code settings
 .vscode/
+
+# npm lockfile
+package-lock.json
