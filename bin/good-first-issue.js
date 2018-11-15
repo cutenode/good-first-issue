@@ -47,15 +47,15 @@ cli
     }
 
     // Call the log functionality, output the result to the console.
-    log(issues, projects[input].name, function(error, output) {
-      if(error) throw error
+    log(issues, projects[input].name, function (error, output) {
+      if (error) throw error
       // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-      var key = Math.floor(Math.random() * Math.floor(output.length - 1));
+      var key = Math.floor(Math.random() * Math.floor(output.length - 1))
 
       if (cmd.first) {
         key = 0
       }
-      
+
       if (cmd.open) {
         opn(issues[key].url)
       }
