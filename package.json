@@ -22,6 +22,11 @@
   "keywords": [],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
+  "standard": {
+    "ignore": [
+      "**/*.spec.js"
+    ]
+  },
   "dependencies": {
     "@octokit/rest": "^15.15.1",
     "boxen": "^2.0.0",
