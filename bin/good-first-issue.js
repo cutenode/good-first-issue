@@ -56,12 +56,13 @@ cli
         key = 0
       }
 
-      if (cmd.open) {
-        opn(issues[key].url)
-      }
-
       // Log the issue!
       console.log(output[key].toString())
+
+      if (cmd.open) {
+        opn(issues[key].url)
+        process.exit(0)
+      }
     })
   })
   .parse(process.argv)
