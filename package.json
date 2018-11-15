@@ -19,7 +19,13 @@
     "url": "https://github.com/bnb/good-first-issue.git"
   },
   "homepage": "https://github.com/bnb/good-first-issue",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "node-cli",
+    "good-first-issue",
+    "github",
+    "community"
+  ],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
   "standard": {
@@ -27,6 +33,16 @@
       "**/*.spec.js"
     ]
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bnb/good-first-issue/issues",
+    "email": "hello@bnb.im,dhruvjainpenny@gmail.com"
+  },
+  "contributors": [
+    "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.github.io)"
+  ],
   "dependencies": {
     "@octokit/rest": "^15.15.1",
     "boxen": "^2.0.0",
