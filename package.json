@@ -4,7 +4,7 @@
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest && standard"
   },
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
@@ -28,15 +28,13 @@
   ],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
-  "dependencies": {
-    "@octokit/rest": "^15.15.1",
-    "boxen": "^2.0.0",
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0",
-    "inquirer": "^6.2.0"
+  "standard": {
+    "ignore": [
+      "**/*.spec.js"
+    ]
   },
-  "devDependencies": {
-    "jest": "^23.6.0"
+  "engines": {
+    "node": ">=8.0.0"
   },
   "bugs": {
     "url": "https://github.com/bnb/good-first-issue/issues",
@@ -45,7 +43,16 @@
   "contributors": [
     "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.github.io)"
   ],
-  "engines": {
-    "node": ">=8.0.0"
+  "dependencies": {
+    "@octokit/rest": "^15.15.1",
+    "boxen": "^2.0.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0",
+    "opn": "^5.4.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "standard": "^12.0.1"
   }
 }
