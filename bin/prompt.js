@@ -8,7 +8,7 @@ module.exports = async function () {
       type: 'list',
       name: 'project',
       message: 'Choose a project:',
-      choices: Object.keys(projects).sort().map(p => `${projects[p].name} - ${p}`)
+      choices: Object.keys(projects)
     }
   ])
   return a.project
