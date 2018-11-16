@@ -7,7 +7,7 @@ module.exports = async function () {
     {
       type: 'list',
       name: 'project',
-      message: 'Select one of the following projects.',
+      message: 'Choose a project:',
       choices: Object.keys(projects)
     }
   ])

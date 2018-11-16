@@ -22,27 +22,32 @@ cli
     let input = project
 
     if (!project) {
+      console.log('')
       input = await prompt()
     }
 
     // if project is not found
     if (!(input in projects)) {
+      console.log('')
       console.log(chalk.red(`"${input}" was not found in good-first-issue.`))
       console.log('--------------------------------')
       console.log("If you'd like to add a new project to good-first-issue,")
       console.log(
-        "please see the module's Github repository: " +
+        "Please see the module's Github repository: " +
           chalk.cyan(
             'https://github.com/bnb/good-first-issue#adding-new-projects'
           )
       )
+      console.log('')
       process.exit(0)
     }
 
     const issues = await search(projects[input].q)
 
     if (issues.length === 0) {
+      console.log('')
       console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
+      console.log('')
       process.exit(0)
     }
 
