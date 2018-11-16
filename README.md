@@ -54,6 +54,7 @@ The table of projects which are _currently_ supported.
 | wolkenkit | `wolkenkit` |
 | TypeScript | `typescript` |
 | Strapi | `strapi` |
+| Create React App | `create-react-app` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
