@@ -45,16 +45,16 @@ If you'd like to help with any of these, feel free to submit a PR or ask how you
 ## Projects
 The table of projects which are _currently_ supported.
 
-| Name | Project `<project>` |
-| --- | --- |
-| Node.js | `node` |
-| Electron | `electron` |
-| VS Code | `vscode` |
-| Gutenberg | `gutenberg` |
-| wolkenkit | `wolkenkit` |
-| TypeScript | `typescript` |
-| Strapi | `strapi` |
-| Create React App | `create-react-app` |
+| S. No. | Name | Project `<project>` |
+| --- | --- | --- |
+| 1. | Node.js | `node` |
+| 2. | Electron | `electron` |
+| 3. | VS Code | `vscode` |
+| 4. | Gutenberg | `gutenberg` |
+| 5. | wolkenkit | `wolkenkit` |
+| 6. | TypeScript | `typescript` |
+| 7. | Strapi | `strapi` |
+| 8. | Create React App | `create-react-app` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
