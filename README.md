@@ -53,6 +53,7 @@ The table of projects which are _currently_ supported.
 | Gutenberg | `gutenberg` |
 | wolkenkit | `wolkenkit` |
 | TypeScript | `typescript` |
+| Strapi | `strapi` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
