@@ -8,13 +8,13 @@ var pJson = require('../package.json')
 
 const log = require('../lib/log')
 const projects = require('../lib/projects')
-const search = require('../lib/search')
+const goodFirstIssue = require('..')
 
 const prompt = require('./prompt')
 
 cli
   .version(pJson.version, '-v, --version')
-  .description('CLI tool to find good first issues.')
+  .description(pJson.description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
@@ -42,7 +42,7 @@ cli
       process.exit(0)
     }
 
-    const issues = await search(projects[input].q)
+    const issues = await goodFirstIssue(input)
 
     if (issues.length === 0) {
       console.log('')
@@ -52,22 +52,16 @@ cli
     }
 
     // Call the log functionality, output the result to the console.
-    log(issues, projects[input].name, function (error, output) {
-      if (error) throw error
-      // Configure the randomizer for the pool of good-first-issues. This cannot exceed how many entries are actually available from the API.
-      var key = Math.floor(Math.random() * Math.floor(output.length - 1))
+    let output = await log(issues, projects[input].name)
 
-      if (cmd.first) {
-        key = 0
-      }
+    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(output.length - 1))
 
-      // Log the issue!
-      console.log(output[key].toString())
+    // Log the issue!
+    console.log(output[key].toString())
 
-      if (cmd.open) {
-        opn(issues[key].url)
-        process.exit(0)
-      }
-    })
+    if (cmd.open) {
+      await opn(issues[key].url)
+      process.exit(0)
+    }
   })
   .parse(process.argv)
