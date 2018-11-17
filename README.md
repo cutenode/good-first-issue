@@ -10,6 +10,8 @@ Via npx:
 npx good-first-issue <project>
 ```
 
+> To select from available projects, use the project selector by running `npx good-first-issue`
+
 As a global module:
 ```
 npm i -g good-first-issue
