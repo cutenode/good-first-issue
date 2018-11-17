@@ -4,7 +4,7 @@
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
-    "test": "jest && standard"
+    "test": "jest --collectCoverage && standard"
   },
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
