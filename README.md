@@ -10,6 +10,8 @@ Via npx:
 npx good-first-issue <project>
 ```
 
+> If project is omitted (e.g. `npx good-first-issue`), a project selector will be presented, allowing you to select from the list of available projects.
+
 As a global module:
 ```
 npm i -g good-first-issue
