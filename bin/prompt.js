@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 
-const projects = require('../lib/projects')
+const projects = require('../data/projects.json')
 
 module.exports = async function () {
   let a = await inquirer.prompt([
