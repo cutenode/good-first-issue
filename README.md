@@ -10,7 +10,7 @@ Via npx:
 npx good-first-issue <project>
 ```
 
-> To select from available projects, use the project selector by running `npx good-first-issue`
+> If project is omitted (e.g. `npx good-first-issue`), a project selector will be presented, allowing you to select from the list of available projects.
 
 As a global module:
 ```
