@@ -60,7 +60,7 @@ cli
     console.log(output[key].toString())
 
     if (cmd.open) {
-      await opn(issues[key].url)
+      opn(issues[key].url)
       process.exit(0)
     }
   })
