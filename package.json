@@ -4,7 +4,9 @@
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
-    "test": "jest && standard"
+    "pretest": "standard",
+    "test": "jest",
+    "prepublish": "npm run test"
   },
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
