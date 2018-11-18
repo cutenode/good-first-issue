@@ -29,10 +29,15 @@ good-first-issue <project>
 const goodFirstIssue = require('good-first-issue')
 
 // project should be from the below projects table
-goodFirstIssue(project, (err, issues) => {
-  // typeof issues is Array
-})
+await goodFirstIssue(project, options)
 ```
+
+#### Options
+
+| Field | Type | Description |
+| --- | --- | --- |
+| `sort` | `string` | Allowed values: `comments`, `created`, `updated` |
+| `order` | `string` | Allowed values: `asc`, `desc` |
 
 ## TODOs: What's coming up next
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
