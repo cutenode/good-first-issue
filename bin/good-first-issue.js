@@ -7,7 +7,7 @@ var opn = require('opn')
 var pJson = require('../package.json')
 
 const log = require('../lib/log')
-const projects = require('../lib/projects')
+const projects = require('../data/projects.json')
 const goodFirstIssue = require('..')
 
 const prompt = require('./prompt')

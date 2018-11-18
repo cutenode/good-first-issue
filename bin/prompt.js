@@ -1,6 +1,6 @@
 const inquirer = require('inquirer')
 
-const projects = require('../lib/projects')
+const projects = require('../data/projects.json')
 
 module.exports = async function () {
   const projectNames = Object.keys(projects).map(key => {
