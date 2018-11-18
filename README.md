@@ -61,8 +61,8 @@ The table of projects which are _currently_ supported.
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
-- Update `lib/projects.js`
-  - Add your `<project>` as a property of `projects` with an object that includes a `name` and a `q` (representing the GitHub search query).
+- Update `data/projects.json`
+  - Add your `<project>` as a property of `projects` with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
 
 - Update `README.md`
   - Add your `<project>` at the bottom of the [Projects](#projects) table above with `name` and `project`
