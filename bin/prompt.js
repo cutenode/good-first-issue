@@ -5,7 +5,7 @@ const projects = require('../data/projects.json')
 module.exports = async function () {
   let name
   const projectNames = Object.keys(projects).sort().map(key => {
-    name = `${projects[key].name} ${projects[key].description ? ':' + projects[key].description : ''}`
+    name = `${projects[key].name}${projects[key].description ? ' - ' + projects[key].description : ''}`
     return { value: key, name }
   })
   let a = await inquirer.prompt([
