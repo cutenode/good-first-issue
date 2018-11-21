@@ -1,6 +1,10 @@
+const fs = require('fs')
+const path = require('path')
 const inquirer = require('inquirer')
 
-const projects = require('../data/projects.json')
+const dataSrc = path.resolve(__dirname, '..', 'data', 'projects.json')
+
+const projects = JSON.parse(fs.readFileSync(dataSrc))
 
 module.exports = async function () {
   let name
