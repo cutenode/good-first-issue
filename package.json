@@ -1,6 +1,6 @@
 {
   "name": "good-first-issue",
-  "version": "0.14.1",
+  "version": "0.14.2",
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
