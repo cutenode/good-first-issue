@@ -6,7 +6,7 @@
 - Run tests with `npm test` before submitting a PR / pushing
   - Resolve issues if tests surface them
 
-## How Can You Contribute
+## How You Can Contribute
 
 There are a few things we'll always want to improve in Good First Issue... and are great ways to contribute!
 
