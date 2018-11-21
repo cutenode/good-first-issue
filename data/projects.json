@@ -46,5 +46,9 @@
   "feeling-lucky": {
     "name": "I'm Feeling Lucky (Random Project)",
     "q": "is:issue is:open label:\"good first issue\""
+  },
+  "netlify": {
+    "name": "Netlify",
+    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
