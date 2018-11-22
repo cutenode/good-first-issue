@@ -7,3 +7,5 @@ cache: npm
 os:
   - osx
   - precise
+  - xenial
+  - windows
