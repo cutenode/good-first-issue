@@ -57,7 +57,8 @@ The table of projects which are _currently_ supported.
 | 6. | TypeScript | `typescript` |
 | 7. | Strapi | `strapi` |
 | 8. | Create React App | `create-react-app` |
-| 9. | I'm Feeling Lucky (Random Project) | `feeling-lucky` |
+| 9. | bigtestjs.io | `bigtestjs.io` |
+| 10. | I'm Feeling Lucky (Random Project) | `feeling-lucky` |
 
 ## Adding New Projects
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
