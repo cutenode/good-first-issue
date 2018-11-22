@@ -34,6 +34,9 @@ goodFirstIssue(project, (err, issues) => {
 })
 ```
 
+#### Examples
+Good First Issues has an [examples/](./examples) directory, in which we try to maintain various examples of how Good First Issue can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
+
 ## TODOs: What's coming up next
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
 
