@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "node"
+  - "lts/10"
+  - "lts/8"
+cache: npm
+os:
+  - osx
+  - precise
+  - xenial
+  - windows
+script:
+  - npm test
+notifications:
+  email:
+    on_success: never
+    on_failure: always
