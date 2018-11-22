@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "node"
+  - "lts/10"
+  - "lts/8"
+cache: npm
+os:
+  - osx
+  - precise
