@@ -42,5 +42,9 @@
   "jest": {
     "name": "Jest",
     "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\""
+  },
+  "feeling-lucky": {
+    "name": "I'm Feeling Lucky (Random Project)",
+    "q": "is:issue is:open label:\"good first issue\""
   }
 }
