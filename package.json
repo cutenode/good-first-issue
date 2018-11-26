@@ -4,6 +4,7 @@
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
+    "markdown": "md-magic",
     "pretest": "standard",
     "test": "jest --collectCoverage",
     "prepublish": "npm run test"
@@ -56,6 +57,7 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
+    "markdown-magic": "^0.1.25",
     "standard": "^12.0.1"
   }
 }
