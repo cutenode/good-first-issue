@@ -56,7 +56,7 @@ If you'd like to help with any of these, feel free to submit a PR or ask how you
 The table of projects which are _currently_ supported.
 
 <!--
-  This comment is automatically updated with `npm run markdown`
+  Content below is automatically updated with `npm run markdown`
   Please do not manually update these contents
 -->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
