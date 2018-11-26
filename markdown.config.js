@@ -1,6 +1,6 @@
 const path = require('path')
 
-const HEADER = `
+const TABLE_HEADER = `
 | S. No. | Name | Project \`<project>\` |
 | --- | --- | --- |
 `.trim()
@@ -23,7 +23,7 @@ module.exports = {
         })
 
       return [
-        HEADER,
+        TABLE_HEADER,
         list.join('\n')
       ].join('\n')
     }

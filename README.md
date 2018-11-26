@@ -55,16 +55,20 @@ If you'd like to help with any of these, feel free to submit a PR or ask how you
 
 The table of projects which are _currently_ supported.
 
+<!--
+  This comment is automatically updated with `npm run markdown`
+  Please do not manually update these contents
+-->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
 |1.|Node.js|`node`|
 |2.|Electron|`electron`|
 |3.|VS Code|`vscode`|
-|4.|gutenberg|`gutenberg`|
+|4.|Gutenberg|`gutenberg`|
 |5.|wolkenkit|`wolkenkit`|
 |6.|TypeScript|`typescript`|
-|7.|strapi|`strapi`|
+|7.|Strapi|`strapi`|
 |8.|Create React App|`create-react-app`|
 |9.|debugger.html|`debugger.html`|
 |10.|webpack CLI|`webpack-cli`|
