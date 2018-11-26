@@ -66,6 +66,7 @@ The table of projects which are _currently_ supported.
 | 7. | Strapi | `strapi` |
 | 8. | Create React App | `create-react-app` |
 | 9. | I'm Feeling Lucky (Random Project) | `feeling-lucky` |
+| 10. | Gatsby | `gatsby` |
 
 ## Adding New Projects
 

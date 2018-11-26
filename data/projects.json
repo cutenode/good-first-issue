@@ -50,5 +50,9 @@
   "netlify": {
     "name": "Netlify",
     "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "gatsby": {
+    "name": "Gatsby",
+    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
   }
 }
