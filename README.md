@@ -1,5 +1,7 @@
 # Good First Issue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bnb/good-first-issue.svg)](https://greenkeeper.io/)
+
 A CLI for finding issues labeled with "good-first-issue" to _hopefully_ lower the barrier to contributing to open source projects.
 
 ## Usage
