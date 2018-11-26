@@ -7,7 +7,7 @@ const HEADER = `
 
 module.exports = {
   transforms: {
-    PROJECTS(content, options) {
+    PROJECTS (content, options) {
       const { path: filePath } = options
       const projects = require(path.resolve(filePath))
       const list = Object.keys(projects)
