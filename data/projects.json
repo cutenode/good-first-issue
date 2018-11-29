@@ -12,7 +12,7 @@
     "q": "repo:microsoft/vscode state:open label:\"good first issue\""
   },
   "gutenberg": {
-    "name": "gutenberg",
+    "name": "Gutenberg",
     "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\""
   },
   "wolkenkit": {
@@ -24,7 +24,7 @@
     "q": "repo:microsoft/typescript is:issue is:open label:\"good first issue\""
   },
   "strapi": {
-    "name": "strapi",
+    "name": "Strapi",
     "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\""
   },
   "create-react-app": {
@@ -50,5 +50,9 @@
   "feeling-lucky": {
     "name": "I'm Feeling Lucky (Random Project)",
     "q": "is:issue is:open label:\"good first issue\""
+  },
+  "netlify": {
+    "name": "Netlify",
+    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
