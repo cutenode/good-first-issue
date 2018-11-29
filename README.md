@@ -77,6 +77,7 @@ The table of projects which are _currently_ supported.
 |11.|Jest|`jest`|
 |12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
 |13.|Netlify|`netlify`|
+|14.|bigtestjs.io|`bigtestjs.io`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
