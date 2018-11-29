@@ -75,9 +75,10 @@ The table of projects which are _currently_ supported.
 |9.|debugger.html|`debugger.html`|
 |10.|webpack CLI|`webpack-cli`|
 |11.|Jest|`jest`|
-|12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|13.|Netlify|`netlify`|
-|14.|bigtestjs.io|`bigtestjs.io`|
+|12.|BigTestjs.io|`bigtestjs.io`|
+|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|14.|Netlify|`netlify`|
+|15.|EasyGraphQL|`easygraphql`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
