@@ -62,6 +62,8 @@ The table of projects which are _currently_ supported.
   Please do not manually update these contents
 -->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
+| S. No. | Name | Project `<project>` |
+| --- | --- | --- |
 |1.|Node.js|`node`|
 |2.|Electron|`electron`|
 |3.|VS Code|`vscode`|
