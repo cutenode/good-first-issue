@@ -1,5 +1,7 @@
 # Good First Issue
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bnb/good-first-issue.svg)](https://greenkeeper.io/)
+
 A CLI for finding issues labeled with "good-first-issue" to _hopefully_ lower the barrier to contributing to open source projects.
 
 ## Usage
@@ -55,18 +57,29 @@ If you'd like to help with any of these, feel free to submit a PR or ask how you
 
 The table of projects which are _currently_ supported.
 
+<!--
+  Content below is automatically updated with `npm run markdown`
+  Please do not manually update these contents
+-->
+<!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
-| 1. | Node.js | `node` |
-| 2. | Electron | `electron` |
-| 3. | VS Code | `vscode` |
-| 4. | Gutenberg | `gutenberg` |
-| 5. | wolkenkit | `wolkenkit` |
-| 6. | TypeScript | `typescript` |
-| 7. | Strapi | `strapi` |
-| 8. | Create React App | `create-react-app` |
-| 9. | I'm Feeling Lucky (Random Project) | `feeling-lucky` |
-| 10. | Gatsby | `gatsby` |
+|1.|Node.js|`node`|
+|2.|Electron|`electron`|
+|3.|VS Code|`vscode`|
+|4.|Gutenberg|`gutenberg`|
+|5.|wolkenkit|`wolkenkit`|
+|6.|TypeScript|`typescript`|
+|7.|Strapi|`strapi`|
+|8.|Create React App|`create-react-app`|
+|9.|debugger.html|`debugger.html`|
+|10.|webpack CLI|`webpack-cli`|
+|11.|Jest|`jest`|
+|12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|13.|Netlify|`netlify`|
+|14.|bigtestjs.io|`bigtestjs.io`|
+|15.|Gatsby|`gatsby`|
+<!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
 
@@ -75,8 +88,8 @@ If you'd like to add a new project to `good-first-issue`, you're more than welco
 - Update `data/projects.json`
   - Add your `<project>` as a property of `projects` with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
 
-- Update `README.md`
-  - Add your `<project>` at the bottom of the [Projects](#projects) table above with `name` and `project`
+- Update `README.md` by running `npm run markdown`
+  - This will automatically update README.md with the new project
 
 ### Adding New Projects: More Information
 

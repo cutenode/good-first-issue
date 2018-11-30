@@ -1,9 +1,10 @@
 {
   "name": "good-first-issue",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
+    "markdown": "md-magic",
     "pretest": "standard",
     "test": "jest --collectCoverage",
     "prepublish": "npm run test"
@@ -47,7 +48,7 @@
     "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.github.io)"
   ],
   "dependencies": {
-    "@octokit/rest": "^15.15.1",
+    "@octokit/rest": "^16.0.1",
     "boxen": "^2.0.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
@@ -56,6 +57,7 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
+    "markdown-magic": "^0.1.25",
     "standard": "^12.0.1"
   }
 }
