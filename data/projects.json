@@ -62,5 +62,9 @@
   "easygraphql": {
       "name": "EasyGraphQL",
       "q": "org:easygraphql is:issue is:open label:\"good first issue\""
+  },
+  "storybook": {
+    "name": "Storybook",
+    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
   }
 }
