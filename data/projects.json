@@ -66,5 +66,9 @@
   "apollo": {
     "name": "Apollo",
     "q": "org:apollographql is:issue is:open label:\"good first issue\""
+  },
+  "docz": {
+    "name": "Docz",
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
   }
 }
