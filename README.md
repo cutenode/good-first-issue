@@ -33,10 +33,14 @@ good-first-issue <project>
 ```js
 const goodFirstIssue = require('good-first-issue')
 
-// project should be from the below projects table
-goodFirstIssue(project, (err, issues) => {
-  // typeof issues is Array
-})
+let log = async () => {
+  let issues = await goodFirstIssue('node')
+  issues.forEach(function (issue) {
+    console.log('#' + issue.pr + ': ' + issue.title)
+  })
+}
+
+log()
 ```
 
 #### Examples
