@@ -62,5 +62,9 @@
   "easygraphql": {
       "name": "EasyGraphQL",
       "q": "org:easygraphql is:issue is:open label:\"good first issue\""
+  },
+  "styled-components": {
+    "name": "Styled Components",
+    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
   }
 }
