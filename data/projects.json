@@ -58,5 +58,9 @@
   "gatsby": {
     "name": "Gatsby",
     "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "q": "repo:Microsoft/TypeScript is:issue is:open label:\"good first issue\""
   }
 }
