@@ -66,5 +66,13 @@
   "apollo": {
     "name": "Apollo",
     "q": "org:apollographql is:issue is:open label:\"good first issue\""
+  },
+  "react": {
+    "name": "React",
+    "q": "repo:facebook/react is:issue is:open label:\"good first issue\""
+  },
+  "react-native": {
+    "name": "React Native",
+    "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\""
   }
 }
