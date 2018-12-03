@@ -77,6 +77,6 @@
   },
   "babel": {
     "name": "Babel",
-    "q": "repo:babel/babel is:issue is:open label:\"good first issue\""
+    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
   }
 }
