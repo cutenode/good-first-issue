@@ -47,7 +47,7 @@ cli
     try {
       issues = await goodFirstIssue(input)
     } catch (e) {
-      console.log('Oops! We encountered an issue while searching. Please check your network connection.')
+      console.log(chalk.red('Oops! We encountered an issue while searching. Please check your network connection.'))
       process.exit(1)
     }
 
