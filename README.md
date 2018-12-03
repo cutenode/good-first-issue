@@ -106,6 +106,7 @@ The table of projects which are _currently_ supported.
 |14.|Netlify|`netlify`|
 |15.|Gatsby|`gatsby`|
 |16.|EasyGraphQL|`easygraphql`|
+|17.|Styled Components|`styled-components`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
