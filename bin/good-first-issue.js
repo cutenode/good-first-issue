@@ -34,15 +34,22 @@ cli
       console.log("If you'd like to add a new project to good-first-issue,")
       console.log(
         "Please see the module's Github repository: " +
-          chalk.cyan(
-            'https://github.com/bnb/good-first-issue#adding-new-projects'
-          )
+        chalk.cyan(
+          'https://github.com/bnb/good-first-issue#adding-new-projects'
+        )
       )
       console.log('')
       process.exit(0)
     }
 
-    const issues = await goodFirstIssue(input)
+    var issues
+
+    try {
+      issues = await goodFirstIssue(input)
+    } catch (e) {
+      console.log('Oops! We encountered an issue while searching. Please check your network connection.')
+      process.exit(1)
+    }
 
     if (issues.length === 0) {
       console.log('')
