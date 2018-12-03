@@ -110,6 +110,7 @@ The table of projects which are _currently_ supported.
 |18.|React|`react`|
 |19.|React Native|`react-native`|
 |20.|Babel|`babel`|
+|21.|React Navigation|`react-navigation`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
