@@ -55,8 +55,12 @@
     "name": "Netlify",
     "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
   },
+  "gatsby": {
+    "name": "Gatsby",
+    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
+  },
   "easygraphql": {
-    "name": "EasyGraphQL",
-    "q": "org:easygraphql is:issue is:open sort:updated-desc label:\"good first issue\""
+      "name": "EasyGraphQL",
+      "q": "org:easygraphql is:issue is:open label:\"good first issue\""
   }
 }

@@ -1,8 +1,30 @@
-# Good First Issue
+<h3 align="center">Good First Issue</h1>
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bnb/good-first-issue.svg)](https://greenkeeper.io/)
 
-A CLI for finding issues labeled with "good-first-issue" to _hopefully_ lower the barrier to contributing to open source projects.
+<p align="center">
+  A CLI for finding issues labeled with "Good First Issue" to help lower the barrier to contributing to open source projects.
+  <br>
+  <a href="#usage">Usage</a> •
+  <a href="#projects">Projects</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+<p align="center">
+  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/bnb/good-first-issue.svg"></a>
+  <a href="https://travis-ci.org/bnb/good-first-issue/branches"><img src="https://img.shields.io/travis/bnb/good-first-issue.svg"></a>
+</p>
+
+</p>
+
+## Prerequisites
+
+To use Good First Issue, you'll need to have a few things installed:
+
+- Node.js 8.0.0 or above
+  - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
+- npm 5.0.0 or above
+  - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
+  - If you need to update your npm CLI, run `npm i -g npm`
 
 ## Usage
 
@@ -33,10 +55,14 @@ good-first-issue <project>
 ```js
 const goodFirstIssue = require('good-first-issue')
 
-// project should be from the below projects table
-goodFirstIssue(project, (err, issues) => {
-  // typeof issues is Array
-})
+let log = async () => {
+  let issues = await goodFirstIssue('node')
+  issues.forEach(function (issue) {
+    console.log('#' + issue.pr + ': ' + issue.title)
+  })
+}
+
+log()
 ```
 
 #### Examples
@@ -78,7 +104,8 @@ The table of projects which are _currently_ supported.
 |12.|BigTestjs.io|`bigtestjs.io`|
 |13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
 |14.|Netlify|`netlify`|
-|15.|EasyGraphQL|`easygraphql`|
+|15.|Gatsby|`gatsby`|
+|16.|EasyGraphQL|`easygraphql`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
@@ -97,6 +124,6 @@ You can pull your queries directly from a standard GitHub search! If you want to
 
 As a CLI, `good-first-issue` uses the Commander.js CLI framework. If you want to better understand how our CLI is built, commander.js is pretty [well documented](https://github.com/tj/commander.js/). Also used are Chalk for terminal coloring and [boxen](https://github.com/sindresorhus/boxen) to simplify the output container implementation.
 
-### Contributing
+## Contributing
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md)
