@@ -62,5 +62,9 @@
   "easygraphql": {
       "name": "EasyGraphQL",
       "q": "org:easygraphql is:issue is:open label:\"good first issue\""
+  },
+  "apollo": {
+    "name": "Apollo",
+    "q": "org:apollographql is:issue is:open label:\"good first issue\""
   }
 }
