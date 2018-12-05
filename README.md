@@ -107,6 +107,7 @@ The table of projects which are _currently_ supported.
 |15.|Gatsby|`gatsby`|
 |16.|EasyGraphQL|`easygraphql`|
 |17.|Apollo|`apollo`|
+|18.|Mocha|`mocha`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

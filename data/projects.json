@@ -66,5 +66,9 @@
   "apollo": {
     "name": "Apollo",
     "q": "org:apollographql is:issue is:open label:\"good first issue\""
+  },
+  "mocha": {
+    "name": "Mocha",
+    "q": "org:mochajs is:issue is:open label:good-first-issue"
   }
 }
