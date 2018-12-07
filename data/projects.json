@@ -78,5 +78,13 @@
   "babel": {
     "name": "Babel",
     "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
+  },
+  "neos": {
+    "name": "Neos",
+    "q": "repo:neos/neos-development-collection is:issue is:open label:\"Good first issue\""
+  },
+  "neos-ui": {
+    "name": "Neos UI",
+    "q": "repo:neos/neos-ui is:issue is:open label:\"Good first issue\""
   }
 }
