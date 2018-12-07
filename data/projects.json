@@ -74,5 +74,9 @@
   "react-native": {
     "name": "React Native",
     "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\""
+  },
+  "babel": {
+    "name": "Babel",
+    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
   }
 }

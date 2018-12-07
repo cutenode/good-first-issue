@@ -109,6 +109,7 @@ The table of projects which are _currently_ supported.
 |17.|Apollo|`apollo`|
 |18.|React|`react`|
 |19.|React Native|`react-native`|
+|20.|Babel|`babel`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
