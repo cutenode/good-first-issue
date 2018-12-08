@@ -81,10 +81,6 @@
   },
   "neos": {
     "name": "Neos",
-    "q": "repo:neos/neos-development-collection is:issue is:open label:\"Good first issue\""
-  },
-  "neos-ui": {
-    "name": "Neos UI",
-    "q": "repo:neos/neos-ui is:issue is:open label:\"Good first issue\""
+    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
