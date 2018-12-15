@@ -36,7 +36,7 @@ cli
     }
 
     // Call the log functionality, output the result to the console.
-    let output = await log(issues, projects[input].name)
+    let output = await log(issues, (input in projects) ? projects[input].name : project)
 
     let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(output.length - 1))
 
