@@ -111,6 +111,7 @@ The table of projects which are _currently_ supported.
 |React Native|`react-native`|
 |Babel|`babel`|
 |Mocha|`mocha`|
+|P1|`p1`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
