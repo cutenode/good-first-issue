@@ -87,5 +87,5 @@
     "fastify": {
     "name": "Fastify",
     "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
-  },
+  }
 }
