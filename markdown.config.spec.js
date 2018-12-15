@@ -32,7 +32,7 @@ function getProjectsFromReadme() {
     const table = fileContent.slice(endOfOpeningTagIndex + closingTag.length,
         startOfClosingTagIndex)
 
-    const regex = /\d+\.\|(.*)\|`(.*)`\|/gm;
+    const regex = /\|(.*)\|`(.*)`\|/gm;
     var match = regex.exec(table)
 
     var projects = {};

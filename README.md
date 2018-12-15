@@ -88,29 +88,29 @@ The table of projects which are _currently_ supported.
   Please do not manually update these contents
 -->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
-| S. No. | Name | Project `<project>` |
-| --- | --- | --- |
-|1.|Node.js|`node`|
-|2.|Electron|`electron`|
-|3.|VS Code|`vscode`|
-|4.|Gutenberg|`gutenberg`|
-|5.|wolkenkit|`wolkenkit`|
-|6.|TypeScript|`typescript`|
-|7.|Strapi|`strapi`|
-|8.|Create React App|`create-react-app`|
-|9.|debugger.html|`debugger.html`|
-|10.|webpack CLI|`webpack-cli`|
-|11.|Jest|`jest`|
-|12.|BigTestjs.io|`bigtestjs.io`|
-|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|14.|Netlify|`netlify`|
-|15.|Gatsby|`gatsby`|
-|16.|EasyGraphQL|`easygraphql`|
-|17.|Apollo|`apollo`|
-|18.|React|`react`|
-|19.|React Native|`react-native`|
-|20.|Babel|`babel`|
-|21.|Mocha|`mocha`|
+| Name | Project `<project>` |
+| --- | --- |
+|Node.js|`node`|
+|Electron|`electron`|
+|VS Code|`vscode`|
+|Gutenberg|`gutenberg`|
+|wolkenkit|`wolkenkit`|
+|TypeScript|`typescript`|
+|Strapi|`strapi`|
+|Create React App|`create-react-app`|
+|debugger.html|`debugger.html`|
+|webpack CLI|`webpack-cli`|
+|Jest|`jest`|
+|BigTestjs.io|`bigtestjs.io`|
+|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|Netlify|`netlify`|
+|Gatsby|`gatsby`|
+|EasyGraphQL|`easygraphql`|
+|Apollo|`apollo`|
+|React|`react`|
+|React Native|`react-native`|
+|Babel|`babel`|
+|Mocha|`mocha`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
