@@ -82,5 +82,9 @@
   "mocha": {
     "name": "Mocha",
     "q": "org:mochajs is:issue is:open label:good-first-issue"
-  }
+  },
+  "docz": {
+    "name": "Docz",
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
+   }
 }
