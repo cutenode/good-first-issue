@@ -1,8 +1,8 @@
-<h3 align="center">Good First Issue</h1>
+<h3 align="center">Good First Issue</h3>
 
 
 <p align="center">
-  A CLI for finding issues labeled with "Good First Issue" to help lower the barrier to contributing to open source projects.
+  A CLI for finding issues labeled with <kbd>Good First Issue</kbd> to help lower the barrier to contributing to open source projects.
   <br>
   <a href="#usage">Usage</a> •
   <a href="#projects">Projects</a> •
@@ -18,7 +18,7 @@
 
 ## Prerequisites
 
-To use Good First Issue, you'll need to have a few things installed:
+To use <kbd>Good First Issue</kbd>, you'll need to have a few things installed:
 
 - Node.js 8.0.0 or above
   - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
@@ -66,7 +66,7 @@ log()
 ```
 
 #### Examples
-Good First Issues has an [examples/](./examples) directory, in which we try to maintain various examples of how Good First Issue can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
+<kbd>Good First Issue</kbd> has an [examples/](./examples) directory, in which we try to maintain various examples of how <kbd>Good First Issue</kbd> can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
 
 ## TODOs: What's coming up next
 
@@ -74,7 +74,7 @@ Good First Issues has an [examples/](./examples) directory, in which we try to m
 
 - [x] `good-first-issue node` command
 - [x] Interactive selector when `good-first-issue` is run without a sub command
-- [ ] Export good first issues for all repos that have a command
+- [ ] Export <kbd>Good First Issue</kbd>s for all repos that have a command
 - [ ] Add tests
 
 If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
@@ -107,7 +107,11 @@ The table of projects which are _currently_ supported.
 |15.|Gatsby|`gatsby`|
 |16.|EasyGraphQL|`easygraphql`|
 |17.|Apollo|`apollo`|
-|18.|Docz|`docz`|
+|18.|React|`react`|
+|19.|React Native|`react-native`|
+|20.|Babel|`babel`|
+|21.|Mocha|`mocha`|
+|22.|Docz|`docz`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
