@@ -111,6 +111,7 @@ The table of projects which are _currently_ supported.
 |19.|React Native|`react-native`|
 |20.|Babel|`babel`|
 |21.|Mocha|`mocha`|
+|22.|Fastify|`fastify`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
