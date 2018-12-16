@@ -1,8 +1,30 @@
-# Good First Issue
+<h3 align="center">Good First Issue</h3>
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bnb/good-first-issue.svg)](https://greenkeeper.io/)
 
-A CLI for finding issues labeled with "good-first-issue" to _hopefully_ lower the barrier to contributing to open source projects.
+<p align="center">
+  A CLI for finding issues labeled with <kbd>Good First Issue</kbd> to help lower the barrier to contributing to open source projects.
+  <br>
+  <a href="#usage">Usage</a> •
+  <a href="#projects">Projects</a> •
+  <a href="#contributing">Contributing</a>
+</p>
+
+<p align="center">
+  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/bnb/good-first-issue.svg"></a>
+  <a href="https://travis-ci.org/bnb/good-first-issue/branches"><img src="https://img.shields.io/travis/bnb/good-first-issue.svg"></a>
+</p>
+
+</p>
+
+## Prerequisites
+
+To use <kbd>Good First Issue</kbd>, you'll need to have a few things installed:
+
+- Node.js 8.0.0 or above
+  - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
+- npm 5.0.0 or above
+  - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
+  - If you need to update your npm CLI, run `npm i -g npm`
 
 ## Usage
 
@@ -33,14 +55,18 @@ good-first-issue <project>
 ```js
 const goodFirstIssue = require('good-first-issue')
 
-// project should be from the below projects table
-goodFirstIssue(project, (err, issues) => {
-  // typeof issues is Array
-})
+let log = async () => {
+  let issues = await goodFirstIssue('node')
+  issues.forEach(function (issue) {
+    console.log('#' + issue.pr + ': ' + issue.title)
+  })
+}
+
+log()
 ```
 
 #### Examples
-Good First Issues has an [examples/](./examples) directory, in which we try to maintain various examples of how Good First Issue can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
+<kbd>Good First Issue</kbd> has an [examples/](./examples) directory, in which we try to maintain various examples of how <kbd>Good First Issue</kbd> can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
 
 ## TODOs: What's coming up next
 
@@ -48,7 +74,7 @@ Good First Issues has an [examples/](./examples) directory, in which we try to m
 
 - [x] `good-first-issue node` command
 - [x] Interactive selector when `good-first-issue` is run without a sub command
-- [ ] Export good first issues for all repos that have a command
+- [ ] Export <kbd>Good First Issue</kbd>s for all repos that have a command
 - [ ] Add tests
 
 If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
@@ -75,10 +101,16 @@ The table of projects which are _currently_ supported.
 |9.|debugger.html|`debugger.html`|
 |10.|webpack CLI|`webpack-cli`|
 |11.|Jest|`jest`|
-|12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|13.|Netlify|`netlify`|
-|14.|bigtestjs.io|`bigtestjs.io`|
+|12.|BigTestjs.io|`bigtestjs.io`|
+|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|14.|Netlify|`netlify`|
 |15.|Gatsby|`gatsby`|
+|16.|EasyGraphQL|`easygraphql`|
+|17.|Apollo|`apollo`|
+|18.|React|`react`|
+|19.|React Native|`react-native`|
+|20.|Babel|`babel`|
+|21.|Mocha|`mocha`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
@@ -97,6 +129,6 @@ You can pull your queries directly from a standard GitHub search! If you want to
 
 As a CLI, `good-first-issue` uses the Commander.js CLI framework. If you want to better understand how our CLI is built, commander.js is pretty [well documented](https://github.com/tj/commander.js/). Also used are Chalk for terminal coloring and [boxen](https://github.com/sindresorhus/boxen) to simplify the output container implementation.
 
-### Contributing
+## Contributing
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md)
