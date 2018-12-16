@@ -142,7 +142,7 @@ Good First Issue follows a relatively strict release process intended to ensure 
 | Patch (x.x.**x**) | Bug fixes, minor enhancements to metadata and content | Tiny, hardly visible fixes to improve UX/DX or fix the module |
 
 ## Labels and Milestones
-We use both GitHub Labels and Milestones to track releases. Since project additons count as a minor release, we prefer to space those out and ship them individually rather than shipping many at once. This pace may be revised later, but for now it introduces the need for a release queue and setting things up to be released ahead of them acutally being released.
+We use both GitHub Labels and Milestones to track releases. Since project additions count as a minor release, we prefer to space those out and ship them individually rather than shipping many at once. This pace may be revised later, but for now, it introduces the need for a release queue and setting things up to be released ahead of them actually being released.
 
 We use the release queue [label](https://github.com/bnb/good-first-issue/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) and [milestone](https://github.com/bnb/good-first-issue/milestone/16) to queue up PRs that have been reviewed and are ready to be released.
 
