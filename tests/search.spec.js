@@ -13,11 +13,10 @@ beforeEach(() => {
       }
     }
   })
-  search = require('./search')
+  search = require('../lib/search')
 })
 
 test('should return filtered issues if there is only one page', () => {
-
   const items = [
     {
       title: 'fooTitle',
@@ -77,13 +76,11 @@ test('should return filtered issues if there is only one page', () => {
         assignees: 'fooAssignees',
         locked: false
       }
-    ])
-    
-    })
+    ])  
+  })
 })
 
 test('should return filtered issues if there is more than one page', () => {
-
   const firstCallItems = [
     {
       title: 'fooFirstTitle',
@@ -193,7 +190,6 @@ test('should return filtered issues if there is more than one page', () => {
 })
 
 test('should return filtered issues if there are more than allowed pages', () => {
-
   const firstCallItems = [
     {
       title: 'fooFirstTitle',
