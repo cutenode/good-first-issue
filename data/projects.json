@@ -83,7 +83,11 @@
     "name": "Mocha",
     "q": "org:mochajs is:issue is:open label:good-first-issue"
   },
-    "fastify": {
+  "docz": {
+    "name": "Docz",
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
+  },
+  "fastify": {
     "name": "Fastify",
     "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
   }
