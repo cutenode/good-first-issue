@@ -56,8 +56,14 @@
     "opn": "^5.4.0"
   },
   "devDependencies": {
+    "husky": "^1.2.1",
     "jest": "^23.6.0",
     "markdown-magic": "^0.1.25",
     "standard": "^12.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test && npm run markdown"
+    }
   }
 }
