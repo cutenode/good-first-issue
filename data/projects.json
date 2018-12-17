@@ -79,6 +79,14 @@
     "name": "Babel",
     "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
   },
+  "mocha": {
+    "name": "Mocha",
+    "q": "org:mochajs is:issue is:open label:good-first-issue"
+  },
+  "docz": {
+    "name": "Docz",
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
+  },
   "react-navigation": {
     "name": "React Navigation",
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
