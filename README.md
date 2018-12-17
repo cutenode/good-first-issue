@@ -10,6 +10,8 @@
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/good-first-issue"><img src="https://img.shields.io/npm/v/good-first-issue/latest.svg"></a>
+  <a href="https://www.npmjs.com/package/good-first-issue"><img src="https://img.shields.io/npm/dm/good-first-issue/latest.svg"></a>
   <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/bnb/good-first-issue.svg"></a>
   <a href="https://travis-ci.org/bnb/good-first-issue/branches"><img src="https://img.shields.io/travis/bnb/good-first-issue.svg"></a>
 </p>
