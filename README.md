@@ -114,6 +114,7 @@ The table of projects which are _currently_ supported.
 |20.|Babel|`babel`|
 |21.|Mocha|`mocha`|
 |22.|Docz|`docz`|
+|23.|React Navigation|`react-navigation`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
