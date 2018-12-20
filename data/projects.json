@@ -90,5 +90,9 @@
   "react-navigation": {
     "name": "React Navigation",
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "react-admin": {
+    "name": "React Admin",
+    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
   }
 }
