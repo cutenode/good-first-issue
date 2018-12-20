@@ -92,29 +92,29 @@ The table of projects which are _currently_ supported.
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
-|1.|Node.js|`node`|
-|2.|Electron|`electron`|
-|3.|VS Code|`vscode`|
-|4.|Gutenberg|`gutenberg`|
-|5.|wolkenkit|`wolkenkit`|
-|6.|TypeScript|`typescript`|
-|7.|Strapi|`strapi`|
-|8.|Create React App|`create-react-app`|
-|9.|debugger.html|`debugger.html`|
-|10.|webpack CLI|`webpack-cli`|
-|11.|Jest|`jest`|
-|12.|BigTestjs.io|`bigtestjs.io`|
-|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|1.|Apollo|`apollo`|
+|2.|Babel|`babel`|
+|3.|BigTestjs.io|`bigtestjs.io`|
+|4.|Create React App|`create-react-app`|
+|5.|debugger.html|`debugger.html`|
+|6.|Docz|`docz`|
+|7.|EasyGraphQL|`easygraphql`|
+|8.|Electron|`electron`|
+|9.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|10.|Gatsby|`gatsby`|
+|11.|Gutenberg|`gutenberg`|
+|12.|Jest|`jest`|
+|13.|Mocha|`mocha`|
 |14.|Netlify|`netlify`|
-|15.|Gatsby|`gatsby`|
-|16.|EasyGraphQL|`easygraphql`|
-|17.|Apollo|`apollo`|
-|18.|React|`react`|
-|19.|React Native|`react-native`|
-|20.|Babel|`babel`|
-|21.|Mocha|`mocha`|
-|22.|Docz|`docz`|
-|23.|React Navigation|`react-navigation`|
+|15.|Node.js|`node`|
+|16.|React|`react`|
+|17.|React Native|`react-native`|
+|18.|React Navigation|`react-navigation`|
+|19.|Strapi|`strapi`|
+|20.|TypeScript|`typescript`|
+|21.|VS Code|`vscode`|
+|22.|webpack CLI|`webpack-cli`|
+|23.|wolkenkit|`wolkenkit`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
