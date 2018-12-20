@@ -90,5 +90,9 @@
   "react-navigation": {
     "name": "React Navigation",
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "nativescript": {
+    "name": "NativeScript",
+    "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
