@@ -90,5 +90,9 @@
   "react-navigation": {
     "name": "React Navigation",
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "PHPBignum": {
+    "name": "PHPBignum",
+    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
   }
 }
