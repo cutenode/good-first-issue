@@ -90,5 +90,9 @@
   "react-navigation": {
     "name": "React Navigation",
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "rebus": {
+    "name": "Rebus",
+    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
   }
 }
