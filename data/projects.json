@@ -114,5 +114,9 @@
   "react-admin": {
     "name": "React Admin",
     "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+  },
+  "phpbignum": {
+    "name": "PHPBignum",
+    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
   }
 }

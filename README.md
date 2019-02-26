@@ -121,6 +121,7 @@ The table of projects which are _currently_ supported.
 |27.|Vue.js|`vuejs`|
 |28.|Fastify|`fastify`|
 |29.|React Admin|`react-admin`|
+|24.|PHPBignum|`phpbignum`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
