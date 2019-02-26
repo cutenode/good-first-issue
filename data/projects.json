@@ -102,5 +102,9 @@
   "neos": {
     "name": "Neos",
     "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "vuejs": {
+    "name": "Vue.js",
+    "q": "org:vuejs is:issue is:open label:\"good first issue\""
   }
 }

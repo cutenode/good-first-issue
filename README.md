@@ -118,6 +118,7 @@ The table of projects which are _currently_ supported.
 |24.|Styled Components|`styled-components`|
 |25.|Storybook|`storybook`|
 |26.|Neos|`neos`|
+|27.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
