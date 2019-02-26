@@ -119,6 +119,7 @@ The table of projects which are _currently_ supported.
 |25.|Storybook|`storybook`|
 |26.|Neos|`neos`|
 |27.|Vue.js|`vuejs`|
+|28.|Fastify|`fastify`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

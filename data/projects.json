@@ -106,5 +106,9 @@
   "vuejs": {
     "name": "Vue.js",
     "q": "org:vuejs is:issue is:open label:\"good first issue\""
+  },
+  "fastify": {
+    "name": "Fastify",
+    "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
