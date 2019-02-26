@@ -117,6 +117,7 @@ The table of projects which are _currently_ supported.
 |23.|React Navigation|`react-navigation`|
 |24.|Styled Components|`styled-components`|
 |25.|Storybook|`storybook`|
+|26.|Neos|`neos`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

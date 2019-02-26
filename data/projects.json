@@ -98,5 +98,9 @@
   "storybook": {
     "name": "Storybook",
     "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
+  },
+  "neos": {
+    "name": "Neos",
+    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
