@@ -120,6 +120,7 @@ The table of projects which are _currently_ supported.
 |26.|Neos|`neos`|
 |27.|Vue.js|`vuejs`|
 |28.|Fastify|`fastify`|
+|29.|React Admin|`react-admin`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
