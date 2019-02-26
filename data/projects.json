@@ -94,5 +94,9 @@
   "styled-components": {
     "name": "Styled Components",
     "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
+  },
+  "storybook": {
+    "name": "Storybook",
+    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
   }
 }

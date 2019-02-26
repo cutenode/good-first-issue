@@ -116,6 +116,7 @@ The table of projects which are _currently_ supported.
 |22.|Docz|`docz`|
 |23.|React Navigation|`react-navigation`|
 |24.|Styled Components|`styled-components`|
+|25.|Storybook|`storybook`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
