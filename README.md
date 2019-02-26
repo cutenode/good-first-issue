@@ -123,6 +123,7 @@ The table of projects which are _currently_ supported.
 |29.|React Admin|`react-admin`|
 |30.|PHPBignum|`phpbignum`|
 |31.|Rebus|`rebus`|
+|32.|NativeScript|`nativescript`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

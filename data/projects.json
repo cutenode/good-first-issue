@@ -122,5 +122,9 @@
   "rebus": {
     "name": "Rebus",
     "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
+  },
+  "nativescript": {
+    "name": "NativeScript",
+    "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
