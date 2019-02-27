@@ -51,13 +51,13 @@ cli
       process.exit(0)
     }
 
-    // Call the log functionality, output the result to the console.
-    let output = await log(issues, projects[input].name)
+    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
 
-    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(output.length - 1))
+    // Call the log functionality, output the result to the console.
+    let output = await log(issues[key], projects[input].name)
 
     // Log the issue!
-    console.log(output[key].toString())
+    console.log(output.toString())
 
     if (cmd.open) {
       opn(issues[key].url)

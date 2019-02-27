@@ -82,5 +82,49 @@
   "mocha": {
     "name": "Mocha",
     "q": "org:mochajs is:issue is:open label:good-first-issue"
+  },
+  "docz": {
+    "name": "Docz",
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
+  },
+  "react-navigation": {
+    "name": "React Navigation",
+    "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "styled-components": {
+    "name": "Styled Components",
+    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
+  },
+  "storybook": {
+    "name": "Storybook",
+    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
+  },
+  "neos": {
+    "name": "Neos",
+    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "vuejs": {
+    "name": "Vue.js",
+    "q": "org:vuejs is:issue is:open label:\"good first issue\""
+  },
+  "fastify": {
+    "name": "Fastify",
+    "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "react-admin": {
+    "name": "React Admin",
+    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+  },
+  "phpbignum": {
+    "name": "PHPBignum",
+    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
+  },
+  "rebus": {
+    "name": "Rebus",
+    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
+  },
+  "nativescript": {
+    "name": "NativeScript",
+    "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
