@@ -26,26 +26,31 @@ cli
       input = await prompt()
     }
 
-    const issues = await goodFirstIssue(input)
+    try {
+      const issues = await goodFirstIssue(input)
 
-    if (issues.length === 0) {
-      console.log('')
-      console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
-      console.log('')
-      process.exit(0)
-    }
+      if (issues.length === 0) {
+        console.log('')
+        console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
+        console.log('')
+        process.exit(0)
+      }
 
-    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
 
-    // Call the log functionality, output the result to the console.
-    let output = await log(issues[key], (input in projects) ? projects[input].name : project)
+      // Call the log functionality, output the result to the console.
+      let output = await log(issues[key], (input in projects) ? projects[input].name : project)
 
-    // Log the issue!
-    console.log(output.toString())
+      // Log the issue!
+      console.log(output.toString())
 
-    if (cmd.open) {
-      opn(issues[key].url)
-      process.exit(0)
+      if (cmd.open) {
+        opn(issues[key].url)
+        process.exit(0)
+      }
+    } catch (err) {
+      console.error(err)
+      process.exit(1)
     }
   })
   .parse(process.argv)
