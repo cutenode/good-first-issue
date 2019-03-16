@@ -53,7 +53,7 @@
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "inquirer": "^6.2.0",
-    "opn": "^5.4.0"
+    "opn": "^5.5.0"
   },
   "devDependencies": {
     "jest": "^23.6.0",
