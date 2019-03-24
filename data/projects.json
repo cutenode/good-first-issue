@@ -145,6 +145,6 @@
   },
   "material-ui": {
     "name": "Material UI",
-    "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open"
+    "q": "repo:mui-org/material-ui label:\"good first issue\" state:open"
   }
 }
