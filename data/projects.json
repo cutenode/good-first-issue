@@ -126,5 +126,25 @@
   "nativescript": {
     "name": "NativeScript",
     "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "mpv": {
+    "name": "mpv Player",
+    "q": "repo:mpv-player/mpv label:\"good first issue\" state:open"
+  },
+  "kotlin": {
+    "name": "Kotlin",
+    "q": "repo:JetBrains/kotlin label:\"good first issue\" state:open"
+  },
+  "tesseract-ocr": {
+    "name": "Tesseract",
+    "q": "repo:tesseract-ocr/tesseract label:\"good first issue\" state:open"
+  },
+  "spring-cloud-gcp": {
+    "name": "Spring Cloud GCP",
+    "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open"
+  },
+  "material-ui": {
+    "name": "Material UI",
+    "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open"
   }
 }

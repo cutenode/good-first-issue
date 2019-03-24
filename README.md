@@ -124,6 +124,11 @@ The table of projects which are _currently_ supported.
 |30.|PHPBignum|`phpbignum`|
 |31.|Rebus|`rebus`|
 |32.|NativeScript|`nativescript`|
+|33.|mpv Player|`mpv`|
+|34.|Kotlin|`kotlin`|
+|35.|Tesseract|`tesseract-ocr`|
+|36.|Spring Cloud GCP|`spring-cloud-gcp`|
+|37.|Material UI|`material-ui`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
