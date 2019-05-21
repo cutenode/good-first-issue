@@ -1,51 +1,63 @@
 {
   "node": {
     "name": "Node.js",
-    "q": "org:nodejs is:issue is:open label:\"good first issue\""
+    "q": "org:nodejs is:issue is:open label:\"good first issue\"",
+    "description":"Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine."
   },
   "electron": {
     "name": "Electron",
-    "q": "org:electron is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:electron is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS."
   },
   "vscode": {
     "name": "VS Code",
-    "q": "repo:microsoft/vscode state:open label:\"good first issue\""
+    "q": "repo:microsoft/vscode state:open label:\"good first issue\"",
+    "description":"VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle."
   },
   "gutenberg": {
     "name": "Gutenberg",
-    "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"The Block Editor project for WordPress and beyond."
   },
   "wolkenkit": {
     "name": "wolkenkit",
-    "q": "repo:thenativeweb/wolkenkit is:issue is:open sort:updated-desc label:\"Good first issue\""
+    "q": "repo:thenativeweb/wolkenkit is:issue is:open sort:updated-desc label:\"Good first issue\"",
+    "description":"wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. "
   },
   "typescript": {
     "name": "TypeScript",
-    "q": "repo:microsoft/typescript is:issue is:open label:\"good first issue\""
+    "q": "repo:microsoft/typescript is:issue is:open label:\"good first issue\"",
+    "description":"TypeScript is a superset of JavaScript that compiles to clean JavaScript output."
   },
   "strapi": {
     "name": "Strapi",
-    "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\""
+    "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\"",
+    "description":"Open source Node.js Headless CMS to easily build customisable APIs."
   },
   "create-react-app": {
     "name": "Create React App",
-    "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\""
+    "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\"",
+    "description":"Set up a modern web app by running one command."
   },
   "debugger.html": {
     "name": "debugger.html",
-    "q": "repo:devtools-html/debugger.html is:issue is:open label:\"good first issue\""
+    "q": "repo:devtools-html/debugger.html is:issue is:open label:\"good first issue\"",
+    "description":"The Firefox debugger that works anywhere."
   },
   "webpack-cli": {
     "name": "webpack CLI",
-    "q": "repo:webpack/webpack-cli is:open is:issue label:\"Good First Contribution\""
+    "q": "repo:webpack/webpack-cli is:open is:issue label:\"Good First Contribution\"",
+    "description":"webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project."
   },
   "jest": {
     "name": "Jest",
-    "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\""
+    "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\"",
+    "description":"Jest is a delightful JavaScript Testing Framework with a focus on simplicity"
   },
   "bigtestjs.io": {
     "name": "BigTestjs.io",
-    "q": "repo:bigtestjs/bigtestjs.io is:open is:issue label:\"good first issue\""
+    "q": "repo:bigtestjs/bigtestjs.io is:open is:issue label:\"good first issue\"",
+    "description":"A Suite of JavaScript libraries and framework extensions to help you answer the question."
   },
   "feeling-lucky": {
     "name": "I'm Feeling Lucky (Random Project)",
@@ -53,78 +65,97 @@
   },
   "netlify": {
     "name": "Netlify",
-    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"Netlify builds, deploys and hosts your front-end."
   },
   "gatsby": {
     "name": "Gatsby",
-    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
+    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\"",
+    "description":"Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps."
   },
   "easygraphql": {
-      "name": "EasyGraphQL",
-      "q": "org:easygraphql is:issue is:open label:\"good first issue\""
+    "name": "EasyGraphQL",
+    "q": "org:easygraphql is:issue is:open label:\"good first issue\"",
+    "description":"EasyGraphQL is a group of open source tools, with the main focus to help developers that use GraphQL or just want to start using it."
   },
   "apollo": {
     "name": "Apollo",
-    "q": "org:apollographql is:issue is:open label:\"good first issue\""
+    "q": "org:apollographql is:issue is:open label:\"good first issue\"",
+    "description":"A community building flexible open source tools for GraphQL."
   },
   "react": {
     "name": "React",
-    "q": "repo:facebook/react is:issue is:open label:\"good first issue\""
+    "q": "repo:facebook/react is:issue is:open label:\"good first issue\"",
+    "description":"A declarative, efficient, and flexible JavaScript library for building user interfaces."
   },
   "react-native": {
     "name": "React Native",
-    "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\""
+    "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\"",
+    "description":"A framework for building native apps with React."
   },
   "babel": {
     "name": "Babel",
-    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
+    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\"",
+    "description":"Babel is a compiler for writing next generation JavaScript."
   },
   "mocha": {
     "name": "Mocha",
-    "q": "org:mochajs is:issue is:open label:good-first-issue"
+    "q": "org:mochajs is:issue is:open label:good-first-issue",
+    "description":"Simple, flexible, fun javascript test framework for node.js & the browser."
   },
   "docz": {
     "name": "Docz",
-    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
+    "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\"",
+    "description":"It has never been so easy to document your things!"
   },
   "react-navigation": {
     "name": "React Navigation",
-    "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+    "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\"",
+    "description":"Routing and navigation for your React Native apps."
   },
   "styled-components": {
     "name": "Styled Components",
-    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
+    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\"",
+    "description":""
   },
   "storybook": {
     "name": "Storybook",
-    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
+    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\"",
+    "description":"Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress."
   },
   "neos": {
     "name": "Neos",
-    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"Neos is a Content Application Platform with a CMS and an application framework at its core."
   },
   "vuejs": {
     "name": "Vue.js",
-    "q": "org:vuejs is:issue is:open label:\"good first issue\""
+    "q": "org:vuejs is:issue is:open label:\"good first issue\"",
+    "description":"Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
   },
   "fastify": {
     "name": "Fastify",
-    "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"Fast and low overhead web framework, for Node.js"
   },
   "react-admin": {
     "name": "React Admin",
-    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\"",
+    "description":"A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design."
   },
   "phpbignum": {
     "name": "PHPBignum",
-    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
+    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\"",
+    "description":"A bignum library for PHP"
   },
   "rebus": {
     "name": "Rebus",
-    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
+    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open",
+    "description":"Take your first steps as an open source contributor "
   },
   "nativescript": {
     "name": "NativeScript",
-    "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description":"Build awesome cross-platform native mobile apps with JavaScript & TypeScript."
   }
 }
