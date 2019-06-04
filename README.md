@@ -124,6 +124,13 @@ The table of projects which are _currently_ supported.
 |30.|PHPBignum|`phpbignum`|
 |31.|Rebus|`rebus`|
 |32.|NativeScript|`nativescript`|
+|33.|Scrapy|`scrapy`|
+|34.|Elasticsearch|`elasticsearch`|
+|35.|ESLint|`eslint`|
+|36.|Yarn|`yarn`|
+|37.|Homebrew|`homebrew`|
+|38.|scikit-learn|`scikit-learn`|
+|39.|Flask|`flask`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

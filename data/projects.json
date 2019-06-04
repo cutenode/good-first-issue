@@ -126,5 +126,33 @@
   "nativescript": {
     "name": "NativeScript",
     "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "scrapy": {
+    "name": "Scrapy",
+    "q": "repo:scrapy/scrapy is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "elasticsearch": {
+    "name": "Elasticsearch",
+    "q": "repo:elastic/elasticsearch is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "eslint": {
+    "name": "ESLint",
+    "q": "repo:eslint/eslint is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "yarn": {
+    "name": "Yarn",
+    "q": "repo:yarnpkg/yarn is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "homebrew": {
+    "name": "Homebrew",
+    "q": "repo:Homebrew/brew is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "scikit-learn": {
+    "name": "scikit-learn",
+    "q": "repo:scikit-learn/scikit-learn is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "flask": {
+    "name": "Flask",
+    "q": "repo:pallets/flask is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
