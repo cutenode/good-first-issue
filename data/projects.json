@@ -126,5 +126,9 @@
   "nativescript": {
     "name": "NativeScript",
     "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "docusaurus": {
+    "name": "Docusaurus",
+    "q": "org:facebook is:issue is:open label:\"good first issue\""
   }
 }

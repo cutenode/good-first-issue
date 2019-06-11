@@ -124,6 +124,7 @@ The table of projects which are _currently_ supported.
 |30.|PHPBignum|`phpbignum`|
 |31.|Rebus|`rebus`|
 |32.|NativeScript|`nativescript`|
+|33.|Docusaurus|`docusaurus`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
