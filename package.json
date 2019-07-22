@@ -6,8 +6,7 @@
   "scripts": {
     "markdown": "md-magic",
     "pretest": "standard",
-    "test": "jest --collectCoverage",
-    "prepublish": "npm run test"
+    "test": "jest --collectCoverage"
   },
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
