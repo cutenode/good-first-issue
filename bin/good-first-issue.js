@@ -2,7 +2,7 @@
 
 var cli = require('commander')
 var chalk = require('chalk')
-var opn = require('opn')
+var open = require('open')
 
 var pJson = require('../package.json')
 
@@ -60,7 +60,7 @@ cli
     console.log(output.toString())
 
     if (cmd.open) {
-      opn(issues[key].url)
+      open(issues[key].url)
       process.exit(0)
     }
   })
