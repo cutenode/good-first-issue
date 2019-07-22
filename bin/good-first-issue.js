@@ -26,42 +26,31 @@ cli
       input = await prompt()
     }
 
-    // if project is not found
-    if (!(input in projects)) {
-      console.log('')
-      console.log(chalk.red(`"${input}" was not found in good-first-issue.`))
-      console.log('--------------------------------')
-      console.log("If you'd like to add a new project to good-first-issue,")
-      console.log(
-        "Please see the module's Github repository: " +
-          chalk.cyan(
-            'https://github.com/bnb/good-first-issue#adding-new-projects'
-          )
-      )
-      console.log('')
-      process.exit(0)
-    }
+    try {
+      const issues = await goodFirstIssue(input)
 
-    const issues = await goodFirstIssue(input)
+      if (issues.length === 0) {
+        console.log('')
+        console.log(chalk.yellow(`No Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.`))
+        console.log('')
+        process.exit(0)
+      }
 
-    if (issues.length === 0) {
-      console.log('')
-      console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
-      console.log('')
-      process.exit(0)
-    }
+      let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
 
-    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      // Call the log functionality, output the result to the console.
+      let output = await log(issues[key], (input in projects) ? projects[input].name : project)
 
-    // Call the log functionality, output the result to the console.
-    let output = await log(issues[key], projects[input].name)
+      // Log the issue!
+      console.log(output.toString())
 
-    // Log the issue!
-    console.log(output.toString())
-
-    if (cmd.open) {
-      opn(issues[key].url)
-      process.exit(0)
+      if (cmd.open) {
+        opn(issues[key].url)
+        process.exit(0)
+      }
+    } catch (err) {
+      console.error(err)
+      process.exit(1)
     }
   })
   .parse(process.argv)
