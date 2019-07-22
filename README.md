@@ -92,39 +92,40 @@ The table of projects which are _currently_ supported.
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
-|1.|Node.js|`node`|
-|2.|Electron|`electron`|
-|3.|VS Code|`vscode`|
-|4.|Gutenberg|`gutenberg`|
-|5.|wolkenkit|`wolkenkit`|
-|6.|TypeScript|`typescript`|
-|7.|Strapi|`strapi`|
-|8.|Create React App|`create-react-app`|
-|9.|debugger.html|`debugger.html`|
-|10.|webpack CLI|`webpack-cli`|
-|11.|Jest|`jest`|
-|12.|BigTestjs.io|`bigtestjs.io`|
-|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|14.|Netlify|`netlify`|
-|15.|Gatsby|`gatsby`|
-|16.|EasyGraphQL|`easygraphql`|
-|17.|Apollo|`apollo`|
-|18.|React|`react`|
-|19.|React Native|`react-native`|
-|20.|Babel|`babel`|
-|21.|Mocha|`mocha`|
-|22.|Docz|`docz`|
-|23.|React Navigation|`react-navigation`|
-|24.|Styled Components|`styled-components`|
-|25.|Storybook|`storybook`|
-|26.|Neos|`neos`|
-|27.|Vue.js|`vuejs`|
-|28.|Fastify|`fastify`|
-|29.|React Admin|`react-admin`|
-|30.|PHPBignum|`phpbignum`|
-|31.|Rebus|`rebus`|
-|32.|NativeScript|`nativescript`|
+|1.|Apollo|`apollo`|
+|2.|Babel|`babel`|
+|3.|BigTestjs.io|`bigtestjs.io`|
+|4.|Create React App|`create-react-app`|
+|5.|debugger.html|`debugger.html`|
+|6.|Docz|`docz`|
+|7.|EasyGraphQL|`easygraphql`|
+|8.|Electron|`electron`|
+|9.|Fastify|`fastify`|
+|10.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|11.|hyper|`hyper`|
+|12.|Gatsby|`gatsby`|
+|13.|Gutenberg|`gutenberg`|
+|14.|Jest|`jest`|
+|15.|Mocha|`mocha`|
+|16.|NativeScript|`nativescript`|
+|17.|Neos|`neos`|
+|18.|Netlify|`netlify`|
+|19.|Node.js|`node`|
+|20.|PHPBignum|`phpbignum`|
+|21.|React|`react`|
+|22.|React Admin|`react-admin`|
+|23.|React Native|`react-native`|
+|24.|React Navigation|`react-navigation`|
+|25.|Rebus|`rebus`|
+|26.|Strapi|`strapi`|
+|27.|Storybook|`storybook`|
+|28.|Styled Components|`styled-components`|
+|29.|TypeScript|`typescript`|
+|30.|VS Code|`vscode`|
+|31.|webpack CLI|`webpack-cli`|
+|32.|wolkenkit|`wolkenkit`|
 |33.|Verdaccio|`verdaccio`|
+|34.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
