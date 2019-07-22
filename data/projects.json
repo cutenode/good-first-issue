@@ -56,7 +56,7 @@
     "q": "repo:Homebrew/brew is:issue is:open sort:updated-desc label:\"good first issue\""
   },
   "hyper": {
-    "name": "hyper",
+    "name": "Hyper",
     "q": "repo:zeit/hyper is:issue is:issue is:open label:\"good first issue\""
   },
   "gatsby": {
