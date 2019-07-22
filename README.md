@@ -98,33 +98,39 @@ The table of projects which are _currently_ supported.
 |5.|debugger.html|`debugger.html`|
 |6.|Docz|`docz`|
 |7.|EasyGraphQL|`easygraphql`|
-|8.|Electron|`electron`|
-|9.|Fastify|`fastify`|
-|10.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|11.|hyper|`hyper`|
-|12.|Gatsby|`gatsby`|
-|13.|Gutenberg|`gutenberg`|
-|14.|Jest|`jest`|
-|15.|Mocha|`mocha`|
-|16.|NativeScript|`nativescript`|
-|17.|Neos|`neos`|
-|18.|Netlify|`netlify`|
-|19.|Node.js|`node`|
-|20.|PHPBignum|`phpbignum`|
-|21.|React|`react`|
-|22.|React Admin|`react-admin`|
-|23.|React Native|`react-native`|
-|24.|React Navigation|`react-navigation`|
-|25.|Rebus|`rebus`|
-|26.|Strapi|`strapi`|
-|27.|Storybook|`storybook`|
-|28.|Styled Components|`styled-components`|
-|29.|TypeScript|`typescript`|
-|30.|VS Code|`vscode`|
-|31.|webpack CLI|`webpack-cli`|
-|32.|wolkenkit|`wolkenkit`|
-|33.|Verdaccio|`verdaccio`|
-|34.|Vue.js|`vuejs`|
+|8.|Elasticsearch|`elasticsearch`|
+|9.|Electron|`electron`|
+|10.|ESLint|`eslint`|
+|11.|Fastify|`fastify`|
+|12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|13.|Homebrew|`homebrew`|
+|14.|hyper|`hyper`|
+|15.|Gatsby|`gatsby`|
+|16.|Gutenberg|`gutenberg`|
+|17.|Jest|`jest`|
+|18.|Mocha|`mocha`|
+|19.|NativeScript|`nativescript`|
+|20.|Neos|`neos`|
+|21.|Netlify|`netlify`|
+|22.|Node.js|`node`|
+|23.|PHPBignum|`phpbignum`|
+|24.|React|`react`|
+|25.|React Admin|`react-admin`|
+|26.|React Native|`react-native`|
+|27.|React Navigation|`react-navigation`|
+|28.|Rebus|`rebus`|
+|29.|scikit-learn|`scikit-learn`|
+|30.|Scrapy|`scrapy`|
+|31.|Strapi|`strapi`|
+|32.|Storybook|`storybook`|
+|33.|Styled Components|`styled-components`|
+|34.|TypeScript|`typescript`|
+|35.|VS Code|`vscode`|
+|36.|webpack CLI|`webpack-cli`|
+|37.|wolkenkit|`wolkenkit`|
+|38.|Verdaccio|`verdaccio`|
+|39.|Vue.js|`vuejs`|
+|40.|Yarn|`yarn`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
