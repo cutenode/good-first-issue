@@ -11,9 +11,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/good-first-issue"><img src="https://img.shields.io/npm/v/good-first-issue/latest.svg"></a>
-  <a href="https://www.npmjs.com/package/good-first-issue"><img src="https://img.shields.io/npm/dm/good-first-issue/latest.svg"></a>
-  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/bnb/good-first-issue.svg"></a>
-  <a href="https://travis-ci.org/bnb/good-first-issue/branches"><img src="https://img.shields.io/travis/bnb/good-first-issue.svg"></a>
+  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/cutenode/good-first-issue.svg"></a>
 </p>
 
 </p>
@@ -68,6 +66,7 @@ log()
 ```
 
 #### Examples
+
 <kbd>Good First Issue</kbd> has an [examples/](./examples) directory, in which we try to maintain various examples of how <kbd>Good First Issue</kbd> can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
 
 ## TODOs: What's coming up next
@@ -92,39 +91,47 @@ The table of projects which are _currently_ supported.
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
-|1.|Node.js|`node`|
-|2.|Electron|`electron`|
-|3.|VS Code|`vscode`|
-|4.|Gutenberg|`gutenberg`|
-|5.|wolkenkit|`wolkenkit`|
-|6.|TypeScript|`typescript`|
-|7.|Strapi|`strapi`|
-|8.|Create React App|`create-react-app`|
-|9.|debugger.html|`debugger.html`|
-|10.|webpack CLI|`webpack-cli`|
-|11.|Jest|`jest`|
-|12.|BigTestjs.io|`bigtestjs.io`|
+|1.|Apollo|`apollo`|
+|2.|Babel|`babel`|
+|3.|BigTestjs.io|`bigtestjs.io`|
+|4.|Create React App|`create-react-app`|
+|5.|debugger.html|`debugger.html`|
+|6.|Docusaurus|`docusaurus`|
+|7.|Docz|`docz`|
+|8.|EasyGraphQL|`easygraphql`|
+|9.|Elasticsearch|`elasticsearch`|
+|10.|Electron|`electron`|
+|11.|ESLint|`eslint`|
+|12.|Fastify|`fastify`|
 |13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|14.|Netlify|`netlify`|
-|15.|Gatsby|`gatsby`|
-|16.|EasyGraphQL|`easygraphql`|
-|17.|Apollo|`apollo`|
-|18.|React|`react`|
-|19.|React Native|`react-native`|
-|20.|Babel|`babel`|
-|21.|Mocha|`mocha`|
-|22.|Docz|`docz`|
-|23.|React Navigation|`react-navigation`|
-|24.|Styled Components|`styled-components`|
-|25.|Storybook|`storybook`|
-|26.|Neos|`neos`|
-|27.|Vue.js|`vuejs`|
-|28.|Fastify|`fastify`|
-|29.|React Admin|`react-admin`|
-|30.|PHPBignum|`phpbignum`|
-|31.|Rebus|`rebus`|
-|32.|NativeScript|`nativescript`|
-|33.|Docusaurus|`docusaurus`|
+|14.|Homebrew|`homebrew`|
+|15.|hyper|`hyper`|
+|16.|Gatsby|`gatsby`|
+|17.|Gutenberg|`gutenberg`|
+|18.|Jest|`jest`|
+|19.|Mocha|`mocha`|
+|20.|NativeScript|`nativescript`|
+|21.|Neos|`neos`|
+|22.|Netlify|`netlify`|
+|23.|Node.js|`node`|
+|24.|PHPBignum|`phpbignum`|
+|25.|React|`react`|
+|26.|React Admin|`react-admin`|
+|27.|React Native|`react-native`|
+|28.|React Navigation|`react-navigation`|
+|29.|Rebus|`rebus`|
+|30.|scikit-learn|`scikit-learn`|
+|31.|Scrapy|`scrapy`|
+|32.|Strapi|`strapi`|
+|33.|Storybook|`storybook`|
+|34.|Styled Components|`styled-components`|
+|35.|TypeScript|`typescript`|
+|36.|VS Code|`vscode`|
+|37.|webpack CLI|`webpack-cli`|
+|38.|wolkenkit|`wolkenkit`|
+|39.|Verdaccio|`verdaccio`|
+|40.|Vue.js|`vuejs`|
+|41.|Yarn|`yarn`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
@@ -156,20 +163,22 @@ Good First Issue follows a relatively strict release process intended to ensure 
 | Patch (x.x.**x**) | Bug fixes, minor enhancements to metadata and content | Tiny, hardly visible fixes to improve UX/DX or fix the module |
 
 ## Labels and Milestones
+
 We use both GitHub Labels and Milestones to track releases. Since project additions count as a minor release, we prefer to space those out and ship them individually rather than shipping many at once. This pace may be revised later, but for now, it introduces the need for a release queue and setting things up to be released ahead of them actually being released.
 
 We use the release queue [label](https://github.com/bnb/good-first-issue/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) and [milestone](https://github.com/bnb/good-first-issue/milestone/16) to queue up PRs that have been reviewed and are ready to be released.
 
 Once a PR is ready to be released, a milestone will be added that correlates to the SemVer version it will be released in. Ideally this will _eventually_ be used for changelog tracking but for now it's just a good way to keep organized. To keep things tidy, once a new version has shipped the milestone will be closed out.
 
-### Local testing
+### Local Testing
+
 Prior to each release, whoever is releasing should be testing the release locally to ensure that the code is working as expected. This would include either running `npm i -g` or `npm link` in the PR branch and then testing whatever the PR is adding. Ensuring the experience isn't broken is vital.
 
 It is worth noting that we limit the file we publish to npm with the `files` property in [`package.json`](https://github.com/bnb/good-first-issue/blob/master/package.json). This property prevents code that's not explicitly listed from being shipped. We have had a situation where local testing and the published module differed because a PR was merged that added needed code in a directory that wasn't included. So, what works on your machine may not work for the end user.
 
 To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is reccomended. For example:
 
-```
+```text
 npm i -g # This assumes your current working directory is the module's directory
 good-first-issue
 good-first-issue <the PR's newly added project>
