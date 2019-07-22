@@ -5,30 +5,39 @@ jobs:
         linux_node_8:
           imageName: ubuntu-16.04
           node_version: 8.x
+          displayName: 'Linux – Node.js 8'
         linux_node_10:
           imageName: ubuntu-16.04
           node_version: 10.x
+          displayName: 'Linux – Node.js 10'
         linux_node_12:
           imageName: ubuntu-16.04
           node_version: 12.x
+          displayName: 'Linux – Node.js 12'
         mac_node_8: 
-          imageName: macos-10.13
+          imageName: macOS-10.14
           node_version: 8.x
+          displayName: 'macOS Mojave – Node.js 8'
         mac_node_10:
-          imageName: macos-10.13
+          imageName: macOS-10.14
           node_version: 10.x
+          displayName: 'macOS Mojave – Node.js 10'
         mac_node_12:
-          imageName: macos-10.13
+          imageName: macOS-10.14
           node_version: 12.x
+          displayName: 'macOS Mojave – Node.js 12'
         windows_node_8: 
-          imageName: vs2017-win2016
+          imageName: windows-2019
           node_version: 8.x
+          displayName: 'Windows – Node.js 8'
         windows_node_10:
-          imageName: vs2017-win2016
+          imageName: windows-2019
           node_version: 10.x
+          displayName: 'Windows – Node.js 10'
         windows_node_12:
-          imageName: vs2017-win2016
+          imageName: windows-2019
           node_version: 12.x
+          displayName: 'Windows – Node.js 12'
 
     pool:
       vmImage: $(imageName)
@@ -37,11 +46,12 @@ jobs:
     - task: NodeTool@0 
       inputs:
         versionSpec: $(node_version)
+      displayName: 'Install Node.js'
 
     - script: |
         npm install
         npm test
-      displayName: 'npm install and build'
+      displayName: 'npm install and npm test'
   
 trigger:
     - master
