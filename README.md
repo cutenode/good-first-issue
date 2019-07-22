@@ -124,7 +124,8 @@ The table of projects which are _currently_ supported.
 |30.|VS Code|`vscode`|
 |31.|webpack CLI|`webpack-cli`|
 |32.|wolkenkit|`wolkenkit`|
-|33.|Vue.js|`vuejs`|
+|33.|Verdaccio|`verdaccio`|
+|34.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

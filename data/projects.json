@@ -127,6 +127,10 @@
     "name": "wolkenkit",
     "q": "repo:thenativeweb/wolkenkit is:issue is:open sort:updated-desc label:\"Good first issue\""
   },
+  "verdaccio": {
+    "name": "Verdaccio",
+    "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
   "vuejs": {
     "name": "Vue.js",
     "q": "org:vuejs is:issue is:open label:\"good first issue\""
