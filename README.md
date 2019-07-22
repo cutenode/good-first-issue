@@ -102,28 +102,29 @@ The table of projects which are _currently_ supported.
 |8.|Electron|`electron`|
 |9.|Fastify|`fastify`|
 |10.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|11.|Gatsby|`gatsby`|
-|12.|Gutenberg|`gutenberg`|
-|13.|Jest|`jest`|
-|14.|Mocha|`mocha`|
-|15.|NativeScript|`nativescript`|
-|16.|Neos|`neos`|
-|17.|Netlify|`netlify`|
-|18.|Node.js|`node`|
-|19.|PHPBignum|`phpbignum`|
-|20.|React|`react`|
-|21.|React Admin|`react-admin`|
-|22.|React Native|`react-native`|
-|23.|React Navigation|`react-navigation`|
-|24.|Rebus|`rebus`|
-|25.|Strapi|`strapi`|
-|26.|Storybook|`storybook`|
-|27.|Styled Components|`styled-components`|
-|28.|TypeScript|`typescript`|
-|29.|VS Code|`vscode`|
-|30.|webpack CLI|`webpack-cli`|
-|31.|wolkenkit|`wolkenkit`|
-|32.|Vue.js|`vuejs`|
+|11.|hyper|`hyper`|
+|12.|Gatsby|`gatsby`|
+|13.|Gutenberg|`gutenberg`|
+|14.|Jest|`jest`|
+|15.|Mocha|`mocha`|
+|16.|NativeScript|`nativescript`|
+|17.|Neos|`neos`|
+|18.|Netlify|`netlify`|
+|19.|Node.js|`node`|
+|20.|PHPBignum|`phpbignum`|
+|21.|React|`react`|
+|22.|React Admin|`react-admin`|
+|23.|React Native|`react-native`|
+|24.|React Navigation|`react-navigation`|
+|25.|Rebus|`rebus`|
+|26.|Strapi|`strapi`|
+|27.|Storybook|`storybook`|
+|28.|Styled Components|`styled-components`|
+|29.|TypeScript|`typescript`|
+|30.|VS Code|`vscode`|
+|31.|webpack CLI|`webpack-cli`|
+|32.|wolkenkit|`wolkenkit`|
+|33.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

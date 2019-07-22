@@ -1,23 +1,22 @@
-let issues
+let issuesAndPullRequests
 let search
 
 beforeEach(() => {
   jest.resetModules()
   jest.restoreAllMocks()
   jest.resetAllMocks()
-  issues = jest.fn()
+  issuesAndPullRequests = jest.fn()
   jest.doMock('@octokit/rest', () => () => {
     return {
       search: {
-        issues
+        issuesAndPullRequests
       }
     }
   })
-  search = require('./search')
+  search = require('../lib/search')
 })
 
 test('should return filtered issues if there is only one page', () => {
-
   const items = [
     {
       title: 'fooTitle',
@@ -56,7 +55,7 @@ test('should return filtered issues if there is only one page', () => {
 
   const total_count = items.length
 
-  issues.mockResolvedValue({
+  issuesAndPullRequests.mockResolvedValue({
     data: {
       total_count,
       items
@@ -64,7 +63,7 @@ test('should return filtered issues if there is only one page', () => {
   })
 
   return search({}).then(result => {
-    expect(issues).toHaveBeenCalledTimes(1)
+    expect(issuesAndPullRequests).toHaveBeenCalledTimes(1)
     expect(result).toEqual([
       {
         title: 'fooTitle',
@@ -77,13 +76,11 @@ test('should return filtered issues if there is only one page', () => {
         assignees: 'fooAssignees',
         locked: false
       }
-    ])
-    
-    })
+    ])  
+  })
 })
 
 test('should return filtered issues if there is more than one page', () => {
-
   const firstCallItems = [
     {
       title: 'fooFirstTitle',
@@ -159,7 +156,7 @@ test('should return filtered issues if there is more than one page', () => {
   //set total_count more than default per_page = 30
   const total_count = 45;
 
-  issues.mockResolvedValueOnce({
+  issuesAndPullRequests.mockResolvedValueOnce({
     data: {
       total_count,
       items: firstCallItems
@@ -172,8 +169,8 @@ test('should return filtered issues if there is more than one page', () => {
   })
 
   return search({}).then(result => {
-    expect(issues).toHaveBeenCalledTimes(2)    
-    const searchParams = issues.mock.calls[1][0]
+    expect(issuesAndPullRequests).toHaveBeenCalledTimes(2)    
+    const searchParams = issuesAndPullRequests.mock.calls[1][0]
     expect(searchParams["page"]).toBeLessThanOrEqual(2)
     expect(result).toEqual([
       {
@@ -193,7 +190,6 @@ test('should return filtered issues if there is more than one page', () => {
 })
 
 test('should return filtered issues if there are more than allowed pages', () => {
-
   const firstCallItems = [
     {
       title: 'fooFirstTitle',
@@ -269,7 +265,7 @@ test('should return filtered issues if there are more than allowed pages', () =>
   //set total_count more than allowed_records = 1000 
   const total_count = 57000;
 
-  issues.mockResolvedValueOnce({
+  issuesAndPullRequests.mockResolvedValueOnce({
     data: {
       total_count,
       items: firstCallItems
@@ -282,8 +278,8 @@ test('should return filtered issues if there are more than allowed pages', () =>
   })
 
   return search({}).then(result =>{
-    expect(issues).toHaveBeenCalledTimes(2)    
-    const searchParams = issues.mock.calls[1][0]
+    expect(issuesAndPullRequests).toHaveBeenCalledTimes(2)    
+    const searchParams = issuesAndPullRequests.mock.calls[1][0]
     expect(searchParams["page"]).toBeLessThanOrEqual(34)
     expect(result).toEqual([
       {
@@ -303,6 +299,6 @@ test('should return filtered issues if there are more than allowed pages', () =>
 
 test('should throw', async () => {
   const error = new Error('myError')
-  issues.mockRejectedValue(error)
+  issuesAndPullRequests.mockRejectedValue(error)
   await expect(search()).rejects.toEqual(error)
 })

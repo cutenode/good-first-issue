@@ -39,6 +39,10 @@
     "name": "I'm Feeling Lucky (Random Project)",
     "q": "is:issue is:open label:\"good first issue\""
   },
+  "hyper": {
+    "name": "hyper",
+    "q": "repo:zeit/hyper is:issue is:issue is:open label:\"good first issue\""
+  },
   "gatsby": {
     "name": "Gatsby",
     "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
