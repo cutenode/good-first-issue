@@ -92,38 +92,38 @@ The table of projects which are _currently_ supported.
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
 | S. No. | Name | Project `<project>` |
 | --- | --- | --- |
-|1.|Node.js|`node`|
-|2.|Electron|`electron`|
-|3.|VS Code|`vscode`|
-|4.|Gutenberg|`gutenberg`|
-|5.|wolkenkit|`wolkenkit`|
-|6.|TypeScript|`typescript`|
-|7.|Strapi|`strapi`|
-|8.|Create React App|`create-react-app`|
-|9.|debugger.html|`debugger.html`|
-|10.|webpack CLI|`webpack-cli`|
-|11.|Jest|`jest`|
-|12.|BigTestjs.io|`bigtestjs.io`|
-|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|14.|Netlify|`netlify`|
-|15.|Gatsby|`gatsby`|
-|16.|EasyGraphQL|`easygraphql`|
-|17.|Apollo|`apollo`|
-|18.|React|`react`|
-|19.|React Native|`react-native`|
-|20.|Babel|`babel`|
-|21.|Mocha|`mocha`|
-|22.|Docz|`docz`|
+|1.|Apollo|`apollo`|
+|2.|Babel|`babel`|
+|3.|BigTestjs.io|`bigtestjs.io`|
+|4.|Create React App|`create-react-app`|
+|5.|debugger.html|`debugger.html`|
+|6.|Docz|`docz`|
+|7.|EasyGraphQL|`easygraphql`|
+|8.|Electron|`electron`|
+|9.|Fastify|`fastify`|
+|10.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|11.|Gatsby|`gatsby`|
+|12.|Gutenberg|`gutenberg`|
+|13.|Jest|`jest`|
+|14.|Mocha|`mocha`|
+|15.|NativeScript|`nativescript`|
+|16.|Neos|`neos`|
+|17.|Netlify|`netlify`|
+|18.|Node.js|`node`|
+|19.|PHPBignum|`phpbignum`|
+|20.|React|`react`|
+|21.|React Admin|`react-admin`|
+|22.|React Native|`react-native`|
 |23.|React Navigation|`react-navigation`|
-|24.|Styled Components|`styled-components`|
-|25.|Storybook|`storybook`|
-|26.|Neos|`neos`|
-|27.|Vue.js|`vuejs`|
-|28.|Fastify|`fastify`|
-|29.|React Admin|`react-admin`|
-|30.|PHPBignum|`phpbignum`|
-|31.|Rebus|`rebus`|
-|32.|NativeScript|`nativescript`|
+|24.|Rebus|`rebus`|
+|25.|Strapi|`strapi`|
+|26.|Storybook|`storybook`|
+|27.|Styled Components|`styled-components`|
+|28.|TypeScript|`typescript`|
+|29.|VS Code|`vscode`|
+|30.|webpack CLI|`webpack-cli`|
+|31.|wolkenkit|`wolkenkit`|
+|32.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
