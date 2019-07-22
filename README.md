@@ -100,21 +100,30 @@ The table of projects which are _currently_ supported.
 |6.|Docz|`docz`|
 |7.|EasyGraphQL|`easygraphql`|
 |8.|Electron|`electron`|
-|9.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|10.|Gatsby|`gatsby`|
-|11.|Gutenberg|`gutenberg`|
-|12.|Jest|`jest`|
-|13.|Mocha|`mocha`|
-|14.|Netlify|`netlify`|
-|15.|Node.js|`node`|
-|16.|React|`react`|
-|17.|React Native|`react-native`|
-|18.|React Navigation|`react-navigation`|
-|19.|Strapi|`strapi`|
-|20.|TypeScript|`typescript`|
-|21.|VS Code|`vscode`|
-|22.|webpack CLI|`webpack-cli`|
-|23.|wolkenkit|`wolkenkit`|
+|9.|Fastify|`fastify`|
+|10.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|11.|Gatsby|`gatsby`|
+|12.|Gutenberg|`gutenberg`|
+|13.|Jest|`jest`|
+|14.|Mocha|`mocha`|
+|15.|NativeScript|`nativescript`|
+|16.|Neos|`neos`|
+|17.|Netlify|`netlify`|
+|18.|Node.js|`node`|
+|19.|PHPBignum|`phpbignum`|
+|20.|React|`react`|
+|21.|React Admin|`react-admin`|
+|22.|React Native|`react-native`|
+|23.|React Navigation|`react-navigation`|
+|24.|Rebus|`rebus`|
+|25.|Strapi|`strapi`|
+|26.|Storybook|`storybook`|
+|27.|Styled Components|`styled-components`|
+|28.|TypeScript|`typescript`|
+|29.|VS Code|`vscode`|
+|30.|webpack CLI|`webpack-cli`|
+|31.|wolkenkit|`wolkenkit`|
+|32.|Vue.js|`vuejs`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
