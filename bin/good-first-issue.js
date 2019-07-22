@@ -31,7 +31,7 @@ cli
 
       if (issues.length === 0) {
         console.log('')
-        console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
+        console.log(chalk.yellow(`No Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.`))
         console.log('')
         process.exit(0)
       }
