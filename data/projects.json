@@ -19,6 +19,10 @@
     "name": "debugger.html",
     "q": "repo:devtools-html/debugger.html is:issue is:open label:\"good first issue\""
   },
+  "docusaurus": {
+    "name": "Docusaurus",
+    "q": "org:facebook is:issue is:open label:\"good first issue\""
+  },
   "docz": {
     "name": "Docz",
     "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""

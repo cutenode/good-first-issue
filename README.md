@@ -96,41 +96,42 @@ The table of projects which are _currently_ supported.
 |3.|BigTestjs.io|`bigtestjs.io`|
 |4.|Create React App|`create-react-app`|
 |5.|debugger.html|`debugger.html`|
-|6.|Docz|`docz`|
-|7.|EasyGraphQL|`easygraphql`|
-|8.|Elasticsearch|`elasticsearch`|
-|9.|Electron|`electron`|
-|10.|ESLint|`eslint`|
-|11.|Fastify|`fastify`|
-|12.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|13.|Homebrew|`homebrew`|
-|14.|hyper|`hyper`|
-|15.|Gatsby|`gatsby`|
-|16.|Gutenberg|`gutenberg`|
-|17.|Jest|`jest`|
-|18.|Mocha|`mocha`|
-|19.|NativeScript|`nativescript`|
-|20.|Neos|`neos`|
-|21.|Netlify|`netlify`|
-|22.|Node.js|`node`|
-|23.|PHPBignum|`phpbignum`|
-|24.|React|`react`|
-|25.|React Admin|`react-admin`|
-|26.|React Native|`react-native`|
-|27.|React Navigation|`react-navigation`|
-|28.|Rebus|`rebus`|
-|29.|scikit-learn|`scikit-learn`|
-|30.|Scrapy|`scrapy`|
-|31.|Strapi|`strapi`|
-|32.|Storybook|`storybook`|
-|33.|Styled Components|`styled-components`|
-|34.|TypeScript|`typescript`|
-|35.|VS Code|`vscode`|
-|36.|webpack CLI|`webpack-cli`|
-|37.|wolkenkit|`wolkenkit`|
-|38.|Verdaccio|`verdaccio`|
-|39.|Vue.js|`vuejs`|
-|40.|Yarn|`yarn`|
+|6.|Docusaurus|`docusaurus`|
+|7.|Docz|`docz`|
+|8.|EasyGraphQL|`easygraphql`|
+|9.|Elasticsearch|`elasticsearch`|
+|10.|Electron|`electron`|
+|11.|ESLint|`eslint`|
+|12.|Fastify|`fastify`|
+|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
+|14.|Homebrew|`homebrew`|
+|15.|hyper|`hyper`|
+|16.|Gatsby|`gatsby`|
+|17.|Gutenberg|`gutenberg`|
+|18.|Jest|`jest`|
+|19.|Mocha|`mocha`|
+|20.|NativeScript|`nativescript`|
+|21.|Neos|`neos`|
+|22.|Netlify|`netlify`|
+|23.|Node.js|`node`|
+|24.|PHPBignum|`phpbignum`|
+|25.|React|`react`|
+|26.|React Admin|`react-admin`|
+|27.|React Native|`react-native`|
+|28.|React Navigation|`react-navigation`|
+|29.|Rebus|`rebus`|
+|30.|scikit-learn|`scikit-learn`|
+|31.|Scrapy|`scrapy`|
+|32.|Strapi|`strapi`|
+|33.|Storybook|`storybook`|
+|34.|Styled Components|`styled-components`|
+|35.|TypeScript|`typescript`|
+|36.|VS Code|`vscode`|
+|37.|webpack CLI|`webpack-cli`|
+|38.|wolkenkit|`wolkenkit`|
+|39.|Verdaccio|`verdaccio`|
+|40.|Vue.js|`vuejs`|
+|41.|Yarn|`yarn`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
