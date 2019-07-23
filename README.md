@@ -105,33 +105,35 @@ The table of projects which are _currently_ supported.
 |12.|Fastify|`fastify`|
 |13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
 |14.|Homebrew|`homebrew`|
-|15.|hyper|`hyper`|
+|15.|Hyper|`hyper`|
 |16.|Gatsby|`gatsby`|
 |17.|Gutenberg|`gutenberg`|
 |18.|Jest|`jest`|
-|19.|Mocha|`mocha`|
-|20.|NativeScript|`nativescript`|
-|21.|Neos|`neos`|
-|22.|Netlify|`netlify`|
-|23.|Node.js|`node`|
-|24.|PHPBignum|`phpbignum`|
-|25.|React|`react`|
-|26.|React Admin|`react-admin`|
-|27.|React Native|`react-native`|
-|28.|React Navigation|`react-navigation`|
-|29.|Rebus|`rebus`|
-|30.|scikit-learn|`scikit-learn`|
-|31.|Scrapy|`scrapy`|
-|32.|Strapi|`strapi`|
-|33.|Storybook|`storybook`|
-|34.|Styled Components|`styled-components`|
-|35.|TypeScript|`typescript`|
-|36.|VS Code|`vscode`|
-|37.|webpack CLI|`webpack-cli`|
-|38.|wolkenkit|`wolkenkit`|
-|39.|Verdaccio|`verdaccio`|
-|40.|Vue.js|`vuejs`|
-|41.|Yarn|`yarn`|
+|19.|Material UI|`material-ui`|
+|20.|Mocha|`mocha`|
+|21.|NativeScript|`nativescript`|
+|22.|Neos|`neos`|
+|23.|Netlify|`netlify`|
+|24.|Node.js|`node`|
+|25.|PHPBignum|`phpbignum`|
+|26.|React|`react`|
+|27.|React Admin|`react-admin`|
+|28.|React Native|`react-native`|
+|29.|React Navigation|`react-navigation`|
+|30.|Rebus|`rebus`|
+|31.|scikit-learn|`scikit-learn`|
+|32.|Scrapy|`scrapy`|
+|33.|Spring Cloud GCP|`spring-cloud-gcp`|
+|34.|Strapi|`strapi`|
+|35.|Storybook|`storybook`|
+|36.|Styled Components|`styled-components`|
+|37.|TypeScript|`typescript`|
+|38.|VS Code|`vscode`|
+|39.|webpack CLI|`webpack-cli`|
+|40.|wolkenkit|`wolkenkit`|
+|41.|Verdaccio|`verdaccio`|
+|42.|Vue.js|`vuejs`|
+|43.|Yarn|`yarn`|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

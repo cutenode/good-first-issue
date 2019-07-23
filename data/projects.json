@@ -71,6 +71,10 @@
     "name": "Jest",
     "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\""
   },
+  "material-ui": {
+    "name": "Material UI",
+    "q": "repo:mui-org/material-ui label:\"good first issue\" state:open"
+  },
   "mocha": {
     "name": "Mocha",
     "q": "org:mochajs is:issue is:open label:good-first-issue"
@@ -122,6 +126,10 @@
   "scrapy": {
     "name": "Scrapy",
     "q": "repo:scrapy/scrapy is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "spring-cloud-gcp": {
+    "name": "Spring Cloud GCP",
+    "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open"
   },
   "strapi": {
     "name": "Strapi",
