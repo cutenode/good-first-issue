@@ -200,7 +200,8 @@
   },
   "verdaccio": {
     "name": "Verdaccio",
-    "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\""
+    "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description": "A lightweight private npm proxy registry"
   },
   "vuejs": {
     "name": "Vue.js",
