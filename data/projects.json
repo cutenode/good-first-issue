@@ -88,6 +88,10 @@
     "q": "repo:facebook/react is:issue is:open label:\"good first issue\"",
     "description":"A declarative, efficient, and flexible JavaScript library for building user interfaces."
   },
+  "react-admin": {
+    "name": "React Admin",
+    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+  },
   "react-native": {
     "name": "React Native",
     "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\"",
