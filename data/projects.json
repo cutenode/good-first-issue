@@ -1,31 +1,15 @@
 {
-  "node": {
-    "name": "Node.js",
-    "q": "org:nodejs is:issue is:open label:\"good first issue\""
+  "apollo": {
+    "name": "Apollo",
+    "q": "org:apollographql is:issue is:open label:\"good first issue\""
   },
-  "electron": {
-    "name": "Electron",
-    "q": "org:electron is:issue is:open sort:updated-desc label:\"good first issue\""
+  "babel": {
+    "name": "Babel",
+    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
   },
-  "vscode": {
-    "name": "VS Code",
-    "q": "repo:microsoft/vscode state:open label:\"good first issue\""
-  },
-  "gutenberg": {
-    "name": "Gutenberg",
-    "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\""
-  },
-  "wolkenkit": {
-    "name": "wolkenkit",
-    "q": "repo:thenativeweb/wolkenkit is:issue is:open sort:updated-desc label:\"Good first issue\""
-  },
-  "typescript": {
-    "name": "TypeScript",
-    "q": "repo:microsoft/typescript is:issue is:open label:\"good first issue\""
-  },
-  "strapi": {
-    "name": "Strapi",
-    "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\""
+  "bigtestjs.io": {
+    "name": "BigTestjs.io",
+    "q": "repo:bigtestjs/bigtestjs.io is:open is:issue label:\"good first issue\""
   },
   "create-react-app": {
     "name": "Create React App",
@@ -35,116 +19,156 @@
     "name": "debugger.html",
     "q": "repo:devtools-html/debugger.html is:issue is:open label:\"good first issue\""
   },
-  "webpack-cli": {
-    "name": "webpack CLI",
-    "q": "repo:webpack/webpack-cli is:open is:issue label:\"Good First Contribution\""
-  },
-  "jest": {
-    "name": "Jest",
-    "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\""
-  },
-  "bigtestjs.io": {
-    "name": "BigTestjs.io",
-    "q": "repo:bigtestjs/bigtestjs.io is:open is:issue label:\"good first issue\""
-  },
-  "feeling-lucky": {
-    "name": "I'm Feeling Lucky (Random Project)",
-    "q": "is:issue is:open label:\"good first issue\""
-  },
-  "netlify": {
-    "name": "Netlify",
-    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
-  },
-  "gatsby": {
-    "name": "Gatsby",
-    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
-  },
-  "easygraphql": {
-      "name": "EasyGraphQL",
-      "q": "org:easygraphql is:issue is:open label:\"good first issue\""
-  },
-  "apollo": {
-    "name": "Apollo",
-    "q": "org:apollographql is:issue is:open label:\"good first issue\""
-  },
-  "react": {
-    "name": "React",
-    "q": "repo:facebook/react is:issue is:open label:\"good first issue\""
-  },
-  "react-native": {
-    "name": "React Native",
-    "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\""
-  },
-  "babel": {
-    "name": "Babel",
-    "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\""
-  },
-  "mocha": {
-    "name": "Mocha",
-    "q": "org:mochajs is:issue is:open label:good-first-issue"
+  "docusaurus": {
+    "name": "Docusaurus",
+    "q": "org:facebook is:issue is:open label:\"good first issue\""
   },
   "docz": {
     "name": "Docz",
     "q": "repo:pedronauck/docz is:issue is:open label:\"good first issue\""
   },
-  "react-navigation": {
-    "name": "React Navigation",
-    "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  "easygraphql": {
+    "name": "EasyGraphQL",
+    "q": "org:easygraphql is:issue is:open label:\"good first issue\""
   },
-  "styled-components": {
-    "name": "Styled Components",
-    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
+  "elasticsearch": {
+    "name": "Elasticsearch",
+    "q": "repo:elastic/elasticsearch is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "storybook": {
-    "name": "Storybook",
-    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
+  "electron": {
+    "name": "Electron",
+    "q": "org:electron is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "neos": {
-    "name": "Neos",
-    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
-  },
-  "vuejs": {
-    "name": "Vue.js",
-    "q": "org:vuejs is:issue is:open label:\"good first issue\""
+  "eslint": {
+    "name": "ESLint",
+    "q": "repo:eslint/eslint is:issue is:open sort:updated-desc label:\"good first issue\""
   },
   "fastify": {
     "name": "Fastify",
     "q": "org:fastify is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "react-admin": {
-    "name": "React Admin",
-    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+  "feeling-lucky": {
+    "name": "I'm Feeling Lucky (Random Project)",
+    "q": "is:issue is:open label:\"good first issue\""
   },
-  "phpbignum": {
-    "name": "PHPBignum",
-    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
+  "homebrew": {
+    "name": "Homebrew",
+    "q": "repo:Homebrew/brew is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "rebus": {
-    "name": "Rebus",
-    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
+  "hyper": {
+    "name": "Hyper",
+    "q": "repo:zeit/hyper is:issue is:issue is:open label:\"good first issue\""
+  },
+  "gatsby": {
+    "name": "Gatsby",
+    "q": "org:gatsbyjs is:issue is:open label:\"good first issue\""
+  },
+  "gutenberg": {
+    "name": "Gutenberg",
+    "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "jest": {
+    "name": "Jest",
+    "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\""
+  },
+  "material-ui": {
+    "name": "Material UI",
+    "q": "repo:mui-org/material-ui label:\"good first issue\" state:open"
+  },
+  "mocha": {
+    "name": "Mocha",
+    "q": "org:mochajs is:issue is:open label:good-first-issue"
   },
   "nativescript": {
     "name": "NativeScript",
     "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "mpv": {
-    "name": "mpv Player",
-    "q": "repo:mpv-player/mpv label:\"good first issue\" state:open"
+ "neos": {
+    "name": "Neos",
+    "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "kotlin": {
-    "name": "Kotlin",
-    "q": "repo:JetBrains/kotlin label:\"good first issue\" state:open"
+  "netlify": {
+    "name": "Netlify",
+    "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\""
   },
-  "tesseract-ocr": {
-    "name": "Tesseract",
-    "q": "repo:tesseract-ocr/tesseract label:\"good first issue\" state:open"
+  "node": {
+    "name": "Node.js",
+    "q": "org:nodejs is:issue is:open label:\"good first issue\""
+  },
+  "phpbignum": {
+    "name": "PHPBignum",
+    "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\""
+  },
+  "react": {
+    "name": "React",
+    "q": "repo:facebook/react is:issue is:open label:\"good first issue\""
+  },
+  "react-admin": {
+    "name": "React Admin",
+    "q": "repo:marmelab/react-admin is:issue is:issue is:open label:\"good first issue\""
+  },
+  "react-native": {
+    "name": "React Native",
+    "q": "repo:facebook/react-native is:issue is:open label:\"Good first issue\""
+  },
+  "react-navigation": {
+    "name": "React Navigation",
+    "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\""
+  },
+  "rebus": {
+    "name": "Rebus",
+    "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open"
+  },
+  "scikit-learn": {
+    "name": "scikit-learn",
+    "q": "repo:scikit-learn/scikit-learn is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "scrapy": {
+    "name": "Scrapy",
+    "q": "repo:scrapy/scrapy is:issue is:open sort:updated-desc label:\"good first issue\""
   },
   "spring-cloud-gcp": {
     "name": "Spring Cloud GCP",
     "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open"
   },
-  "material-ui": {
-    "name": "Material UI",
-    "q": "repo:mui-org/material-ui label:\"good first issue\" state:open"
+  "strapi": {
+    "name": "Strapi",
+    "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\""
+  },
+  "storybook": {
+    "name": "Storybook",
+    "q": "repo:storybooks/storybook is:issue is:open label:\"good first issue\""
+  },
+  "styled-components": {
+    "name": "Styled Components",
+    "q": "repo:styled-components/styled-components is:issue is:open label:\"good first issue :octocat:\""
+  },
+  "typescript": {
+    "name": "TypeScript",
+    "q": "repo:microsoft/typescript is:issue is:open label:\"good first issue\""
+  },
+  "vscode": {
+    "name": "VS Code",
+    "q": "repo:microsoft/vscode state:open label:\"good first issue\""
+  },
+  "webpack-cli": {
+    "name": "webpack CLI",
+    "q": "repo:webpack/webpack-cli is:open is:issue label:\"Good First Contribution\""
+  },
+  "wolkenkit": {
+    "name": "wolkenkit",
+    "q": "repo:thenativeweb/wolkenkit is:issue is:open sort:updated-desc label:\"Good first issue\""
+  },
+  "verdaccio": {
+    "name": "Verdaccio",
+    "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\""
+  },
+  "vuejs": {
+    "name": "Vue.js",
+    "q": "org:vuejs is:issue is:open label:\"good first issue\""
+  },
+  "yarn": {
+    "name": "Yarn",
+    "q": "repo:yarnpkg/yarn is:issue is:open sort:updated-desc label:\"good first issue\""
   }
 }
