@@ -2,7 +2,7 @@ const search = require('./lib/search')
 
 const projects = require('./data/projects.json')
 
-module.exports = async function (project) {
+module.exports = project => {
   if (project in projects) {
     return search(projects[project].q)
   } else {
