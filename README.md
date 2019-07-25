@@ -22,30 +22,40 @@ To use <kbd>Good First Issue</kbd>, you'll need to have a few things installed:
 
 - Node.js 8.0.0 or above
   - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
+  - If you want to use a dynamic version manager, you can use something like nvm [on macOS, Linux, and WSL](https://gist.github.com/d2s/372b5943bce17b964a79).
 - npm 5.0.0 or above
   - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
   - If you need to update your npm CLI, run `npm i -g npm`
 
 ## Usage
 
-### As CLI
+### As a CLI
 
-Via npx:
+This module can be used as an interactive CLI.
 
-```shell
-npx good-first-issue <project>
+### Installation
+
+The suggested usage is via npx:
+
+```bash
+npx good-first-issue [project] # temporarily install and run the module, optionally passing `project`
 ```
 
-> If project is omitted (e.g. `npx good-first-issue`), a project selector will be presented, allowing you to select from the list of available projects.
+Alternatively, you could absolutely install good-first-issue as a global module:
 
-As a global module:
-
-```shell
-npm i -g good-first-issue
-good-first-issue <project>
+```bash
+npm i -g good-first-issue # install globally
+good-first issue # call the CLI
 ```
 
-#### Options
+### Commands
+
+- `good-first-issue`: open up the interactive project selection tool.
+- `good-first-issue [project]`: you can pass in a name from the [list of projects](#projects) which is a curated list of projects that have been verified to have good-first-issues.
+- `good-first-issue [GitHub organization or user]`: similar to `[project]` but will search any GitHub organization or user that exists for issues labeled with "Good First Issue".
+- `good-first-issue [GitHub organization or user]/[repo]`: similar to `[project]`, but will search a specific repository on GitHub within the organization for issues labeled with "Good First Issue".
+
+### CLI Options
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
