@@ -61,6 +61,7 @@
   },
   "feeling-lucky": {
     "name": "I'm Feeling Lucky (Random Project)",
+    "description": "Receive a good first issue from any eligible project",
     "q": "is:issue is:open label:\"good first issue\""
   },
   "homebrew": {
