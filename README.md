@@ -99,51 +99,51 @@ The table of projects which are _currently_ supported.
   Please do not manually update these contents
 -->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
-| S. No. | Name | Project `<project>` |
-| --- | --- | --- |
-|1.|Apollo|`apollo`|
-|2.|Babel|`babel`|
-|3.|BigTestjs.io|`bigtestjs.io`|
-|4.|Create React App|`create-react-app`|
-|5.|debugger.html|`debugger.html`|
-|6.|Docusaurus|`docusaurus`|
-|7.|Docz|`docz`|
-|8.|EasyGraphQL|`easygraphql`|
-|9.|Elasticsearch|`elasticsearch`|
-|10.|Electron|`electron`|
-|11.|ESLint|`eslint`|
-|12.|Fastify|`fastify`|
-|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|
-|14.|Homebrew|`homebrew`|
-|15.|Hyper|`hyper`|
-|16.|Gatsby|`gatsby`|
-|17.|Gutenberg|`gutenberg`|
-|18.|Jest|`jest`|
-|19.|Material UI|`material-ui`|
-|20.|Mocha|`mocha`|
-|21.|NativeScript|`nativescript`|
-|22.|Neos|`neos`|
-|23.|Netlify|`netlify`|
-|24.|Node.js|`node`|
-|25.|PHPBignum|`phpbignum`|
-|26.|React|`react`|
-|27.|React Admin|`react-admin`|
-|28.|React Native|`react-native`|
-|29.|React Navigation|`react-navigation`|
-|30.|Rebus|`rebus`|
-|31.|scikit-learn|`scikit-learn`|
-|32.|Scrapy|`scrapy`|
-|33.|Spring Cloud GCP|`spring-cloud-gcp`|
-|34.|Strapi|`strapi`|
-|35.|Storybook|`storybook`|
-|36.|Styled Components|`styled-components`|
-|37.|TypeScript|`typescript`|
-|38.|VS Code|`vscode`|
-|39.|webpack CLI|`webpack-cli`|
-|40.|wolkenkit|`wolkenkit`|
-|41.|Verdaccio|`verdaccio`|
-|42.|Vue.js|`vuejs`|
-|43.|Yarn|`yarn`|
+| S. No. | Name | Project `<project>` | Description |
+| --- | --- | --- | --- |
+|1.|Apollo|`apollo`|A community building flexible open source tools for GraphQL.|
+|2.|Babel|`babel`|Babel is a compiler for writing next generation JavaScript.|
+|3.|BigTestjs.io|`bigtestjs.io`|A Suite of JavaScript libraries and framework extensions to help you answer the question.|
+|4.|Create React App|`create-react-app`|Set up a modern web app by running one command.|
+|5.|debugger.html|`debugger.html`|The Firefox debugger that works anywhere.|
+|6.|Docusaurus|`docusaurus`|Easy to maintain open source documentation websites. |
+|7.|Docz|`docz`|It has never been so easy to document your things!|
+|8.|EasyGraphQL|`easygraphql`|EasyGraphQL is a group of open source tools, with the main focus to help developers that use GraphQL or just want to start using it.|
+|9.|Elasticsearch|`elasticsearch`|Open Source, Distributed, RESTful Search Engine|
+|10.|Electron|`electron`|Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.|
+|11.|ESLint|`eslint`|A fully pluggable tool for identifying and reporting on patterns in JavaScript|
+|12.|Fastify|`fastify`|Fast and low overhead web framework, for Node.js|
+|13.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|Receive a good first issue from any eligible project|
+|14.|Homebrew|`homebrew`|The missing package manager for macOS|
+|15.|Hyper|`hyper`|A terminal built on web technologies|
+|16.|Gatsby|`gatsby`|Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.|
+|17.|Gutenberg|`gutenberg`|The Block Editor project for WordPress and beyond.|
+|18.|Jest|`jest`|Jest is a delightful JavaScript Testing Framework with a focus on simplicity|
+|19.|Material UI|`material-ui`|React components for faster and easier web development. Build your own design system, or start with Material Design|
+|20.|Mocha|`mocha`|Simple, flexible, fun javascript test framework for node.js & the browser.|
+|21.|NativeScript|`nativescript`|Build awesome cross-platform native mobile apps with JavaScript & TypeScript.|
+|22.|Neos|`neos`|Neos is a Content Application Platform with a CMS and an application framework at its core.|
+|23.|Netlify|`netlify`|Netlify builds, deploys and hosts your front-end.|
+|24.|Node.js|`node`|Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.|
+|25.|PHPBignum|`phpbignum`|A bignum library for PHP|
+|26.|React|`react`|A declarative, efficient, and flexible JavaScript library for building user interfaces.|
+|27.|React Admin|`react-admin`|A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design.|
+|28.|React Native|`react-native`|A framework for building native apps with React.|
+|29.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
+|30.|Rebus|`rebus`|Take your first steps as an open source contributor |
+|31.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
+|32.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
+|33.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
+|34.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
+|35.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
+|36.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
+|37.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
+|38.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
+|39.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
+|40.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
+|41.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
+|42.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
+|43.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
