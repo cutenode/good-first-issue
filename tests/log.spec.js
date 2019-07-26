@@ -1,4 +1,4 @@
-const log = require('./log')
+const log = require('../lib/log')
 const chalk = require('chalk')
 const stripAnsi = require('strip-ansi');
 

@@ -35,4 +35,49 @@ describe('goodFirstIssue', () => {
       url: 'fooHtmlUrl',
     }])
   })
+
+  it('returns the expected issues from the GitHub organization', async() => {
+    const actual = await goodFirstIssue('github')
+    expect(actual).toEqual([{
+      assignee: null,
+      assignees: 'fooAssignees',
+      labels: 'fooLabels',
+      locked: false,
+      pr: 123,
+      repo: 'fooRepoUrl',
+      state: 'fooState',
+      title: 'fooTitle',
+      url: 'fooHtmlUrl'
+    }])
+  })
+
+  it('returns the expected issues from the GitHub organization', async() => {
+    const actual = await goodFirstIssue('github')
+    expect(actual).toEqual([{
+      assignee: null,
+      assignees: 'fooAssignees',
+      labels: 'fooLabels',
+      locked: false,
+      pr: 123,
+      repo: 'fooRepoUrl',
+      state: 'fooState',
+      title: 'fooTitle',
+      url: 'fooHtmlUrl'
+    }])
+  })
+
+  it('returns the expected issues from the Go repo', async() => {
+    const actual = await goodFirstIssue('golang/go')
+    expect(actual).toEqual([{
+      assignee: null,
+      assignees: 'fooAssignees',
+      labels: 'fooLabels',
+      locked: false,
+      pr: 123,
+      repo: 'fooRepoUrl',
+      state: 'fooState',
+      title: 'fooTitle',
+      url: 'fooHtmlUrl'
+    }])
+  })
 })
