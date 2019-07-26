@@ -1,7 +1,7 @@
 const path = require('path')
 
 const TABLE_HEADER = `
-| S. No. | Name | Project \`<project>\` | Description |
+| Order | Name | Project \`<project>\` | Description |
 | --- | --- | --- | --- |
 `.trim()
 

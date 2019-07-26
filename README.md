@@ -99,7 +99,7 @@ The table of projects which are _currently_ supported.
   Please do not manually update these contents
 -->
 <!-- AUTO-GENERATED-CONTENT:START (PROJECTS:path=./data/projects.json) -->
-| S. No. | Name | Project `<project>` | Description |
+| Order | Name | Project `<project>` | Description |
 | --- | --- | --- | --- |
 |1.|Apollo|`apollo`|A community building flexible open source tools for GraphQL.|
 |2.|Babel|`babel`|Babel is a compiler for writing next generation JavaScript.|
@@ -154,7 +154,7 @@ If you'd like to add a new project to `good-first-issue`, you're more than welco
   - Add your `<project>` as a property of `projects` with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
 
 - Update `README.md` by running `npm run markdown`
-  - This will automatically update README.md with the new project
+  - This will automatically update README.md with the new project's data.
 
 ### Adding New Projects: More Information
 
@@ -192,11 +192,12 @@ To test locally, using the modules tests with `npm test` and trying out a few di
 
 ```text
 npm i -g # This assumes your current working directory is the module's directory
-good-first-issue
-good-first-issue <the PR's newly added project>
-good-first-issue react
-good-first-issue node
-good-first-issue thisisntarealproject
+good-first-issue # run the interactive CLI
+good-first-issue react # test the react project
+good-first-issue node # test the Node.js project
+good-first-issue github # test the GitHub organization, `github`
+good-first-issue github/semantic # test the GitHub repo, `github/semantic`
+good-first-issue thisisntarealprojectorgithuborg
 ```
 
 ## Contributing
