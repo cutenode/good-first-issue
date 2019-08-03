@@ -19,9 +19,9 @@
     "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\"",
     "description": "Set up a modern web app by running one command."
   },
-  "debugger.html": {
-    "name": "debugger.html",
-    "q": "repo:devtools-html/debugger.html is:issue is:open label:\"good first issue\"",
+  "debugger": {
+    "name": "Firefox Debugger",
+    "q": "repo:firefox-devtools/debugger is:issue is:open label:\":wave:  good first issue\"",
     "description": "The Firefox debugger that works anywhere."
   },
   "docusaurus": {
