@@ -2,7 +2,7 @@
 
 var cli = require('commander')
 var chalk = require('chalk')
-var opn = require('opn')
+var opn = require('open')
 
 var pJson = require('../package.json')
 
