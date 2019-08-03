@@ -144,6 +144,7 @@ The table of projects which are _currently_ supported.
 |41.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
 |42.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
 |43.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
+|44.|@elastic/elasticsearch|`@elastic/elasticsearch`|Official Elasticsearch client library for Node.js|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects

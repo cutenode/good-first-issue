@@ -213,5 +213,10 @@
     "name": "Yarn",
     "q": "repo:yarnpkg/yarn is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "Fast, reliable, and secure dependency management."
+  },
+  "@elastic/elasticsearch": {
+    "name": "@elastic/elasticsearch",
+    "q": "repo:elastic/elasticsearch-js is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description": "Official Elasticsearch client library for Node.js"
   }
 }
