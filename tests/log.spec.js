@@ -1,5 +1,4 @@
 const log = require('../lib/log')
-const chalk = require('chalk')
 const stripAnsi = require('strip-ansi');
 
 test('should return formatted log', async () => {
