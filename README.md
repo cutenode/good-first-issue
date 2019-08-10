@@ -127,24 +127,25 @@ The table of projects which are _currently_ supported.
 |24.|Netlify|`netlify`|Netlify builds, deploys and hosts your front-end.|
 |25.|Node.js|`node`|Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.|
 |26.|PHPBignum|`phpbignum`|A bignum library for PHP|
-|27.|React|`react`|A declarative, efficient, and flexible JavaScript library for building user interfaces.|
-|28.|React Admin|`react-admin`|A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design.|
-|29.|React Native|`react-native`|A framework for building native apps with React.|
-|30.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
-|31.|Rebus|`rebus`|Take your first steps as an open source contributor |
-|32.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
-|33.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
-|34.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
-|35.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
-|36.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
-|37.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
-|38.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
-|39.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
-|40.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
-|41.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
-|42.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
-|43.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
-|44.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
+|27.|Quantum Development Kit|`quantum-development-kit`|Compiler, libraries, editor integration, runtime, samples, and tutorials for the Q# programming language.|
+|28.|React|`react`|A declarative, efficient, and flexible JavaScript library for building user interfaces.|
+|29.|React Admin|`react-admin`|A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design.|
+|30.|React Native|`react-native`|A framework for building native apps with React.|
+|31.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
+|32.|Rebus|`rebus`|Take your first steps as an open source contributor |
+|33.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
+|34.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
+|35.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
+|36.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
+|37.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
+|38.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
+|39.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
+|40.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
+|41.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
+|42.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
+|43.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
+|44.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
+|45.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
