@@ -27,7 +27,9 @@
     "node-cli",
     "good-first-issue",
     "github",
-    "community"
+    "community",
+    "first-timers",
+    "help-wanted"
   ],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
