@@ -5,12 +5,10 @@ var chalk = require('chalk')
 var opn = require('open')
 const gfi = require('libgfi')
 
-
 var packageJSON = require('../package.json')
 const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
-
 
 const options = { // options for libgfi
   projects: projects
@@ -34,16 +32,14 @@ cli
       const issues = await gfi(input, options)
 
       if (issues.length === 0) {
-        console.log('')
-        console.log(chalk.yellow(`No Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.`))
-        console.log('')
+        console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
         process.exitCode = 0
       }
 
-      let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
 
       // Call the log functionality, output the result to the console.
-      let output = await log(issues[key], (input in projects) ? projects[input].name : project)
+      const output = await log(issues[key], (input in projects) ? projects[input].name : project)
 
       // Log the issue!
       console.log(output.toString())
