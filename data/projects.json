@@ -89,6 +89,11 @@
     "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "The Block Editor project for WordPress and beyond."
   },
+  "good-first-issue": {
+    "name": "Good First Issue",
+    "q": " repo:cutenode/good-first-issue is:issue is:open sort:updated-desc label:\"good first issue\"",
+    "description": "CLI for finding good first issues."
+  },
   "jest": {
     "name": "Jest",
     "q": "repo:facebook/jest is:open is:issue label:\":wave: Good First Issue\"",
