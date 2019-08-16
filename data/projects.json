@@ -16,7 +16,7 @@
   },
   "create-react-app": {
     "name": "Create React App",
-    "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\"",
+    "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\" -label:\"contributions: claimed\"",
     "description": "Set up a modern web app by running one command."
   },
   "debugger": {
