@@ -1,24 +1,14 @@
-<h3 align="center">Good First Issue</h3>
+# Good First Issue
 
+[![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
+![[Greenkeeper badge](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)](https://greenkeeper.io/)
+A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
 
-<p align="center">
-  A CLI for finding issues labeled with <kbd>Good First Issue</kbd> to help lower the barrier to contributing to open source projects.
-  <br>
-  <a href="#usage">Usage</a> •
-  <a href="#projects">Projects</a> •
-  <a href="#contributing">Contributing</a>
-</p>
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/good-first-issue"><img src="https://img.shields.io/npm/v/good-first-issue/latest.svg"></a>
-  <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/cutenode/good-first-issue.svg"></a>
-</p>
-
-</p>
+## Table of Contents
 
 ## Prerequisites
 
-To use <kbd>Good First Issue</kbd>, you'll need to have a few things installed:
+To use Good First Issue, you'll need to have a few things installed:
 
 - Node.js 8.0.0 or above
   - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
@@ -29,9 +19,7 @@ To use <kbd>Good First Issue</kbd>, you'll need to have a few things installed:
 
 ## Usage
 
-### As a CLI
-
-This module can be used as an interactive CLI.
+This module is an interactive CLI. If you're looking for a module to use in an application, check out [libgfi](https://www.npmjs.com/package/libgfi).
 
 ### Installation
 
@@ -60,35 +48,16 @@ good-first issue # call the CLI
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
 
-### As Module
-
-```js
-const goodFirstIssue = require('good-first-issue')
-
-let log = async () => {
-  let issues = await goodFirstIssue('node')
-  issues.forEach(function (issue) {
-    console.log('#' + issue.pr + ': ' + issue.title)
-  })
-}
-
-log()
-```
-
-#### Examples
-
-<kbd>Good First Issue</kbd> has an [examples/](./examples) directory, in which we try to maintain various examples of how <kbd>Good First Issue</kbd> can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
-
 ## TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
 
 - [x] `good-first-issue node` command
 - [x] Interactive selector when `good-first-issue` is run without a sub command
-- [ ] Export <kbd>Good First Issue</kbd>s for all repos that have a command
-- [ ] Add tests
-
-If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
+- [ ] Add additional useful commands
+- [ ] Explore adding a secondary selector that shows paginated results from GitHub, allowing the user to select which Good First Issue to pick rather than returning a random one
+- [ ] Improve `Feeling Lucky` to be better about picking a random issue
+- [ ] Add more tests
 
 ## Projects
 
@@ -153,7 +122,7 @@ The table of projects which are _currently_ supported.
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
 - Update `data/projects.json`
-  - Add your `<project>` as a property of `projects` with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
+  - Add your `<project>` as a property of `projects` **in the correct alphabetical position** with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
 
 - Update `README.md` by running `npm run markdown`
   - This will automatically update README.md with the new project's data.
