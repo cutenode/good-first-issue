@@ -129,6 +129,11 @@
     "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\"",
     "description": "A bignum library for PHP"
   },
+  "quantum-development-kit": {
+    "name": "Quantum Development Kit",
+    "q": "is:issue is:open sort:updated-desc label:\"good first issue\" repo:microsoft/quantum repo:microsoft/quantumlibraries repo:microsoft/qsharp-compiler repo:microsoft/qsharp-runtime repo:microsoft/iqsharp repo:microsoft/quantumkatas repo:microsoftdocs/quantum-docs-pr repo:msr-quarc/qsharp.sty",
+    "description": "Compiler, libraries, editor integration, runtime, samples, and tutorials for the Q# programming language."
+  },
   "react": {
     "name": "React",
     "q": "repo:facebook/react is:issue is:open label:\"good first issue\"",
