@@ -3,18 +3,22 @@
 var cli = require('commander')
 var chalk = require('chalk')
 var opn = require('open')
+const gfi = require('libgfi')
 
-var pJson = require('../package.json')
 
+var packageJSON = require('../package.json')
 const log = require('../lib/log')
+const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
-const goodFirstIssue = require('..')
 
-const prompt = require('./prompt')
+
+const options = { // options for libgfi
+  projects: projects
+}
 
 cli
-  .version(pJson.version, '-v, --version')
-  .description(pJson.description)
+  .version(packageJSON.version, '-v, --version')
+  .description(packageJSON.description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
@@ -27,13 +31,13 @@ cli
     }
 
     try {
-      const issues = await goodFirstIssue(input)
+      const issues = await gfi(input, options)
 
       if (issues.length === 0) {
         console.log('')
         console.log(chalk.yellow(`No Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.`))
         console.log('')
-        process.exit(0)
+        process.exitCode = 0
       }
 
       let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
@@ -46,11 +50,11 @@ cli
 
       if (cmd.open) {
         opn(issues[key].url)
-        process.exit(0)
+        process.exitCode = 0
       }
     } catch (err) {
       console.error(err)
-      process.exit(1)
+      process.exitCode = 1
     }
   })
   .parse(process.argv)
