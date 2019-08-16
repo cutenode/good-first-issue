@@ -30,9 +30,7 @@ cli
       const issues = await goodFirstIssue(input)
 
       if (issues.length === 0) {
-        console.log('')
-        console.log(chalk.yellow(`No Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.`))
-        console.log('')
+        console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
         process.exit(0)
       }
 
