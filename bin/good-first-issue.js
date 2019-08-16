@@ -36,10 +36,10 @@ cli
         process.exit(0)
       }
 
-      let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
 
       // Call the log functionality, output the result to the console.
-      let output = await log(issues[key], (input in projects) ? projects[input].name : project)
+      const output = await log(issues[key], (input in projects) ? projects[input].name : project)
 
       // Log the issue!
       console.log(output.toString())
