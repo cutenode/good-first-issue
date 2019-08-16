@@ -164,6 +164,11 @@
     "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open",
     "description": "Take your first steps as an open source contributor "
   },
+  "richtextview": {
+    "name": "RichTextView",
+    "q": "repo:tophat/richtextview is:issue is:open label:\"good first issue\"",
+    "description": "iOS text view (UIView) that properly displays LaTeX, HTML, Markdown, and YouTube/Vimeo links"
+  },
   "scikit-learn": {
     "name": "scikit-learn",
     "q": "repo:scikit-learn/scikit-learn is:issue is:open sort:updated-desc label:\"good first issue\"",
@@ -228,5 +233,10 @@
     "name": "Yarn",
     "q": "repo:yarnpkg/yarn is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "Fast, reliable, and secure dependency management."
+  },
+  "yvm": {
+    "name": "Yarn Version Manager",
+    "q": "repo:tophat/yvm is:issue is:open label:\"good first issue\"",
+    "description": "YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions."
   }
 }
