@@ -48,45 +48,18 @@ good-first issue # call the CLI
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
 
-<<<<<<< HEAD
-### As Module
-
-```js
-const goodFirstIssue = require('good-first-issue')
-
-let log = async () => {
-  let issues = await goodFirstIssue('node')
-  issues.forEach(function (issue) {
-    console.log('#' + issue.pr + ': ' + issue.title)
-  })
-}
-
-log()
-```
-
-#### Examples
-
-Good First Issue has an [examples/](./examples) directory, in which we try to maintain various examples of how Good First Issue can be used as a module. If you'd like to contribute to the examples, please don't hesitate to submit a PR! 🤗
-
-=======
->>>>>>> README.md tweaks
 ## TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
 
 - [x] `good-first-issue node` command
 - [x] Interactive selector when `good-first-issue` is run without a sub command
-<<<<<<< HEAD
-- [ ] Export Good First Issues for all repos that have a command
-- [ ] Add tests
-
-If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
-=======
 - [ ] Add additional useful commands
 - [ ] Explore adding a secondary selector that shows paginated results from GitHub, allowing the user to select which Good First Issue to pick rather than returning a random one
 - [ ] Improve `Feeling Lucky` to be better about picking a random issue
 - [ ] Add more tests
->>>>>>> README.md tweaks
+
+If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
 
 ## Projects
 
