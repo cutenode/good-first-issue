@@ -58,7 +58,7 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
-    "markdown-magic": "^0.1.25",
+    "markdown-magic": "^0.2.0",
     "nock": "^10.0.4",
     "strip-ansi": "^5.0.0",
     "standard": "^13.1.0"
