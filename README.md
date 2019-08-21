@@ -1,8 +1,9 @@
 # Good First Issue
 
+A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
+
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
 ![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
-A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
 
 ## Table of Contents
 
