@@ -32,8 +32,8 @@ cli
       const issues = await gfi(input, options)
 
       if (issues.length === 0) {
-        console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
         process.exitCode = 0
+        return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
       }
 
       const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
