@@ -49,17 +49,16 @@
     "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.github.io)"
   ],
   "dependencies": {
-    "@octokit/rest": "^16.0.1",
     "boxen": "^3.0.0",
     "chalk": "^2.4.1",
     "commander": "^2.19.0",
     "inquirer": "^6.2.0",
+    "libgfi": "^1.0.2",
     "open": "^6.4.0"
   },
   "devDependencies": {
     "jest": "^23.6.0",
     "markdown-magic": "^0.1.25",
-    "nock": "^10.0.4",
     "strip-ansi": "^5.0.0",
     "standard": "^13.1.0"
   }
