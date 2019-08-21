@@ -1,10 +1,29 @@
 # Good First Issue
 
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
-![[Greenkeeper badge](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)](https://greenkeeper.io/)
+![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
 A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
 
 ## Table of Contents
+
+<!-- toc -->
+
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+  * [Installation](#installation)
+  * [Commands](#commands)
+  * [CLI Options](#cli-options)
+- [TODOs: What's coming up next](#todos-whats-coming-up-next)
+- [Projects](#projects)
+- [Adding New Projects](#adding-new-projects)
+  * [Adding New Projects: More Information](#adding-new-projects-more-information)
+- [Release Process](#release-process)
+  * [Versioning](#versioning)
+- [Labels and Milestones](#labels-and-milestones)
+  * [Local Testing](#local-testing)
+- [Contributing](#contributing)
+
+<!-- tocstop -->
 
 ## Prerequisites
 

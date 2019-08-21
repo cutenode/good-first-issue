@@ -4,6 +4,7 @@
   "description": "A CLI for finding good-first-issues in open source projects.",
   "main": "index.js",
   "scripts": {
+    "toc": "npx markdown-toc -i readme.md",
     "markdown": "md-magic",
     "pretest": "standard",
     "test": "jest --collectCoverage"
