@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "toc": "npx markdown-toc -i readme.md",
-    "markdown": "md-magic",
+    "markdown": "npx markdown-magic",
     "pretest": "standard",
     "test": "jest --collectCoverage"
   },
@@ -59,7 +59,6 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
-    "markdown-magic": "^0.1.25",
     "strip-ansi": "^5.0.0",
     "standard": "^13.1.0"
   }
