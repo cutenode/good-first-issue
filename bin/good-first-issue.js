@@ -1,17 +1,17 @@
 #!/usr/bin/env node
 
-var cli = require('commander')
-var chalk = require('chalk')
-var opn = require('open')
+const cli = require('commander')
+const chalk = require('chalk')
+const opn = require('open')
 const gfi = require('libgfi')
 
-var packageJSON = require('../package.json')
+const packageJSON = require('../package.json')
 const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
 
 const options = { // options for libgfi
-  projects: projects
+  projects
 }
 
 cli
