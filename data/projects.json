@@ -159,6 +159,11 @@
     "q": "repo:react-navigation/react-navigation is:issue is:open label:\"good first issue\"",
     "description": "Routing and navigation for your React Native apps."
   },
+  "readme-md-generator": {
+    "name": "Readme-md-generator",
+    "q": "repo:kefranabg/readme-md-generator is:issue is:open label:\"good first issue\" sort:updated-desc state:open",
+    "description": "A CLI that generates beautiful README.md files."
+  },
   "rebus": {
     "name": "Rebus",
     "q": "repo:ollelauribostrom/rebus label:\"good first issue\" state:open",
