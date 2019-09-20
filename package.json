@@ -7,7 +7,8 @@
     "toc": "npx markdown-toc -i readme.md",
     "markdown": "npx markdown-magic",
     "pretest": "standard",
-    "test": "jest --collectCoverage"
+    "test": "jest --collectCoverage",
+    "start": "node bin/good-first-issue"
   },
   "bin": {
     "good-first-issue": "./bin/good-first-issue.js"
