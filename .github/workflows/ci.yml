@@ -1,23 +1,23 @@
-name: Node.js CI
+name: Node.js Cross-platform CI
 
 on: [push]
 
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }} # pull from the os in the matrix – this dynamically loops over all operating systems
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macOS-latest]
-        node-version: [8.x, 10.x, 12.x]
+        os: [ubuntu-latest, windows-latest, macOS-latest] # latest versions of all operating systems
+        node-version: [8.x, 10.x, 12.x] # all supported versions of Node.js at time of commit
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
-      uses: actions/setup-node@v1
+    - uses: actions/checkout@v1 # use the checkout action
+    - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }} # title the GitHub Check
+      uses: actions/setup-node@v1 # use the setup action for Node.js 
       with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install and test
-      run: |
-        npm install
-        npm test
+        node-version: ${{ matrix.node-version }} # pull from the version in the matrix – this dynamically loops over all versions
+    - name: npm install and test # title of our install and test
+      run: | 
+        npm install # runs npm install
+        npm test # runs npm test
       env:
         CI: true
