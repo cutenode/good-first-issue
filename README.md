@@ -59,6 +59,7 @@ good-first issue # call the CLI
 ### Commands
 
 - `good-first-issue`: open up the interactive project selection tool.
+- `good-first-issue -t topic':` open up the interactive project selection on a given topic, i.e. 'ruby'.
 - `good-first-issue [project]`: you can pass in a name from the [list of projects](#projects) which is a curated list of projects that have been verified to have good-first-issues.
 - `good-first-issue [GitHub organization or user]`: similar to `[project]` but will search any GitHub organization or user that exists for issues labeled with "Good First Issue".
 - `good-first-issue [GitHub organization or user]/[repo]`: similar to `[project]`, but will search a specific repository on GitHub within the organization for issues labeled with "Good First Issue".

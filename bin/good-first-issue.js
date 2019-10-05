@@ -7,25 +7,26 @@ const gfi = require('libgfi')
 
 const packageJSON = require('../package.json')
 const log = require('../lib/log')
-const prompt = require('../lib/prompt')
-const projects = require('../data/projects.json')
-
-const options = { // options for libgfi
-  projects
-}
+const picker = require('../lib/input')
 
 cli
   .version(packageJSON.version, '-v, --version')
   .description(packageJSON.description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
+  .option('-t, --topic <topic>', 'Choose a project from a topic')
   .option('-f, --first', 'Return first/top issue')
   .action(async (project, cmd) => {
     let input = project
 
-    if (!project) {
-      console.log('')
-      input = await prompt()
+    const pickerResult = await picker(project, cmd.topic)
+    if (!pickerResult) {
+      return console.log(chalk.yellow('\nNo repositories were found.\n'))
+    }
+    input = pickerResult.id
+    const projects = pickerResult.projects
+    const options = {
+      projects
     }
 
     try {
