@@ -69,6 +69,11 @@
     "description": "Receive a good first issue from any eligible project",
     "q": "is:issue is:open label:\"good first issue\""
   },
+  "freeCodeCamp": {
+    "name": "freeCodeCamp",
+    "description": "The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.",
+    "q": "is:issue is:open label:\"first timers welcome\""
+  },
   "homebrew": {
     "name": "Homebrew",
     "q": "repo:Homebrew/brew is:issue is:open sort:updated-desc label:\"good first issue\"",
