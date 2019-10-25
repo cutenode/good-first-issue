@@ -67,6 +67,8 @@ good-first issue # call the CLI
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
+- '-c, --close ' - close the tab
+
 
 ## TODOs: What's coming up next
 
