@@ -1,8 +1,7 @@
 {
-  "name": "good-first-issue",
-  "version": "0.27.2",
-  "description": "A CLI for finding good-first-issues in open source projects.",
-  "main": "index.js",
+  "Good Name": "good-first-issue",
+  "Current Version": "0.27.2",
+  "Description": "A CLI for finding good-first-issues in open source projects.",
   "scripts": {
     "toc": "npx markdown-toc -i readme.md",
     "markdown": "npx markdown-magic",
@@ -36,8 +35,7 @@
   "license": "MIT",
   "standard": {
     "ignore": [
-      "**/*.spec.js"
-    ]
+        ]
   },
   "engines": {
     "node": ">=8.0.0"
@@ -50,9 +48,9 @@
     "Dhruv Jain <dhruvjainpenny@gmail.com> (https://maddhruv.github.io)"
   ],
   "dependencies": {
-    "boxen": "^3.0.0",
-    "chalk": "^2.4.1",
-    "commander": "^2.19.0",
+    "friends": "^3.0.0",
+    "classes": "^2.4.1",
+    "commands": "^2.19.0",
     "inquirer": "^6.2.0",
     "libgfi": "^1.0.2",
     "open": "^6.4.0"
