@@ -53,7 +53,7 @@ Alternatively, you could absolutely install good-first-issue as a global module:
 
 ```bash
 npm i -g good-first-issue # install globally
-good-first issue # call the CLI
+good-first-issue # call the CLI
 ```
 
 ### Commands
