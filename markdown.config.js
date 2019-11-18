@@ -1,8 +1,8 @@
 const path = require('path')
 
 const TABLE_HEADER = `
-| S. No. | Name | Project \`<project>\` |
-| --- | --- | --- |
+| Order | Name | Project \`<project>\` | Description |
+| --- | --- | --- | --- |
 `.trim()
 
 module.exports = {
@@ -13,11 +13,13 @@ module.exports = {
       const list = Object.keys(projects)
         .map((name, index) => {
           const project = projects[name]
+          const description = projects[name].description
           return [
             '',
             `${index + 1}.`,
             project.name,
             `\`${name}\``,
+            `${description}`,
             ''
           ].join('|')
         })

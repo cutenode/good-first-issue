@@ -1,20 +1,22 @@
 #!/usr/bin/env node
 
-var cli = require('commander')
-var chalk = require('chalk')
-var opn = require('opn')
+const cli = require('commander')
+const chalk = require('chalk')
+const opn = require('open')
+const gfi = require('libgfi')
 
-var pJson = require('../package.json')
-
+const packageJSON = require('../package.json')
 const log = require('../lib/log')
+const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
-const goodFirstIssue = require('..')
 
-const prompt = require('./prompt')
+const options = { // options for libgfi
+  projects
+}
 
 cli
-  .version(pJson.version, '-v, --version')
-  .description(pJson.description)
+  .version(packageJSON.version, '-v, --version')
+  .description(packageJSON.description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
@@ -26,49 +28,29 @@ cli
       input = await prompt()
     }
 
-    // if project is not found
-    if (!(input in projects)) {
-      console.log('')
-      console.log(chalk.red(`"${input}" was not found in good-first-issue.`))
-      console.log('--------------------------------')
-      console.log("If you'd like to add a new project to good-first-issue,")
-      console.log(
-        "Please see the module's Github repository: " +
-        chalk.cyan(
-          'https://github.com/bnb/good-first-issue#adding-new-projects'
-        )
-      )
-      console.log('')
-      process.exit(0)
-    }
-
-    var issues
-
     try {
-      issues = await goodFirstIssue(input)
-    } catch (e) {
+      const issues = await gfi(input, options)
+
+      if (issues.length === 0) {
+        process.exitCode = 0
+        return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
+      }
+
+      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+
+      // Call the log functionality, output the result to the console.
+      const output = await log(issues[key], (input in projects) ? projects[input].name : project)
+
+      // Log the issue!
+      console.log(output.toString())
+
+      if (cmd.open) {
+        opn(issues[key].url)
+        process.exitCode = 0
+      }
+    } catch (err) {
       console.log(chalk.red('Oops! We encountered an issue while searching. Please check your network connection.'))
-      process.exit(1)
-    }
-
-    if (issues.length === 0) {
-      console.log('')
-      console.log(chalk.yellow(`No Good First Issues were found in ${input}`))
-      console.log('')
-      process.exit(0)
-    }
-
-    // Call the log functionality, output the result to the console.
-    let output = await log(issues, projects[input].name)
-
-    let key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(output.length - 1))
-
-    // Log the issue!
-    console.log(output[key].toString())
-
-    if (cmd.open) {
-      opn(issues[key].url)
-      process.exit(0)
+      process.exitCode = 1
     }
   })
   .parse(process.argv)
