@@ -67,7 +67,7 @@
   "freeCodeCamp": {
     "name": "freeCodeCamp",
     "description": "The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.",
-    "q": "is:issue is:open label:\"first timers welcome\""
+    "q": "org:freecodecamp is:issue is:open label:\"first timers welcome\""
   },
   "feeling-lucky": {
     "name": "I'm Feeling Lucky (Random Project)",
