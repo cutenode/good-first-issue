@@ -28,7 +28,7 @@ jobs:
       shell: bash
     - name: good-first-issue babel
       run: good-first-issue babel --auth $PERSONAL_ACCESS_TOKEN
-      shell: bashs
+      shell: bash
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: good-first-issue github
