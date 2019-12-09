@@ -54,7 +54,7 @@
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
     "inquirer": "^7.0.0",
-    "libgfi": "^1.0.2",
+    "libgfi": "^1.1.1",
     "open": "^7.0.0"
   },
   "devDependencies": {
