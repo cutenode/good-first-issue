@@ -10,17 +10,22 @@ const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
 
-const options = { // options for libgfi
-  projects
-}
-
 cli
   .version(packageJSON.version, '-v, --version')
   .description(packageJSON.description)
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
+  .option('-a, --auth <token>', 'Authenticate with the GitHub API (increased rate limits)')
   .action(async (project, cmd) => {
+    const options = { // options for libgfi
+      projects: projects
+    }
+
+    if (cmd.auth) {
+      options.auth = cmd.auth
+    }
+
     let input = project
 
     if (!project) {
