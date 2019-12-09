@@ -16,28 +16,20 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install
-      run: |
-        npm install
+      run: npm install
 - name: npm test
-      run: |
-        npm test
+      run: npm test
       env:
         CI: true
 - name: npm i -g
-      run: |
-          npm i -g
+      run: npm i -g
 - name: good-first-issue babel
-      run: |
-        good-first-issue babel
+      run: good-first-issue babel
 - name: good-first-issue github
-      run: |
-        good-first-issue github
+      run: good-first-issue github
 - name: good-first-issue golang/dep
-      run: |
-        good-first-issue golang/dep
+      run: good-first-issue golang/dep
 - name: good-first-issue fastify -f
-      run: |
-        good-first-issue fastify -f
+      run: good-first-issue fastify -f
 - name: good-first-issue -h
-      run: |
-        good-first-issue -h
+      run: good-first-issue -h
