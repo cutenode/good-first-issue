@@ -105,7 +105,7 @@
     "description": "React components for faster and easier web development. Build your own design system, or start with Material Design"
   },
   "mermaid": {
-    "name": "Mermaid JS",
+    "name": "mermaid",
     "q": "repo:mermaid-js/mermaid label:\"Good first issue!\" is:open is:issue",
     "description": "Generation of diagram and flowchart from text in a similar manner as markdown."
   },
