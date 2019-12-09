@@ -9,20 +9,22 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 
 <!-- toc -->
 
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-  * [Installation](#installation)
-  * [Commands](#commands)
-  * [CLI Options](#cli-options)
-- [TODOs: What's coming up next](#todos-whats-coming-up-next)
-- [Projects](#projects)
-- [Adding New Projects](#adding-new-projects)
-  * [Adding New Projects: More Information](#adding-new-projects-more-information)
-- [Release Process](#release-process)
-  * [Versioning](#versioning)
-- [Labels and Milestones](#labels-and-milestones)
-  * [Local Testing](#local-testing)
-- [Contributing](#contributing)
+- [Good First Issue](#good-first-issue)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+    - [Installation](#installation)
+    - [Commands](#commands)
+    - [CLI Options](#cli-options)
+  - [TODOs: What's coming up next](#todos-whats-coming-up-next)
+  - [Projects](#projects)
+  - [Adding New Projects](#adding-new-projects)
+    - [Adding New Projects: More Information](#adding-new-projects-more-information)
+  - [Release Process](#release-process)
+    - [Versioning](#versioning)
+  - [Labels and Milestones](#labels-and-milestones)
+    - [Local Testing](#local-testing)
+  - [Contributing](#contributing)
 
 <!-- tocstop -->
 
@@ -67,6 +69,7 @@ good-first-issue # call the CLI
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
+- `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
 ## TODOs: What's coming up next
 
