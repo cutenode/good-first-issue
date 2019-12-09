@@ -13,31 +13,40 @@ jobs:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
       uses: actions/setup-node@v1
+      shell: bash
       with:
         node-version: ${{ matrix.node-version }}
     - name: npm install
       run: npm install
+      shell: bash
     - name: npm test
       run: npm test
+      shell: bash
       env:
         CI: true
     - name: npm i -g
       run: npm i -g
+      shell: bash
     - name: good-first-issue babel
       run: good-first-issue babel --auth $PERSONAL_ACCESS_TOKEN
+      shell: bashs
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: good-first-issue github
       run: good-first-issue github --auth $PERSONAL_ACCESS_TOKEN
+      shell: bash
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: good-first-issue golang/dep
       run: good-first-issue golang/dep --auth $PERSONAL_ACCESS_TOKEN
+      shell: bash
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: good-first-issue fastify -f
       run: good-first-issue fastify -f --auth $PERSONAL_ACCESS_TOKEN
+      shell: bash
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
     - name: good-first-issue -h
       run: good-first-issue -h
+      shell: bash
