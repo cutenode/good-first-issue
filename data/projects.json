@@ -9,11 +9,6 @@
     "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\"",
     "description": "Babel is a compiler for writing next generation JavaScript."
   },
-  "bigtestjs.io": {
-    "name": "BigTestjs.io",
-    "q": "repo:bigtestjs/bigtestjs.io is:open is:issue label:\"good first issue\"",
-    "description": "A Suite of JavaScript libraries and framework extensions to help you answer the question."
-  },
   "create-react-app": {
     "name": "Create React App",
     "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\" -label:\"contributions: claimed\"",

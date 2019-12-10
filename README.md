@@ -97,54 +97,53 @@ The table of projects which are _currently_ supported.
 | --- | --- | --- | --- |
 |1.|Apollo|`apollo`|A community building flexible open source tools for GraphQL.|
 |2.|Babel|`babel`|Babel is a compiler for writing next generation JavaScript.|
-|3.|BigTestjs.io|`bigtestjs.io`|A Suite of JavaScript libraries and framework extensions to help you answer the question.|
-|4.|Create React App|`create-react-app`|Set up a modern web app by running one command.|
-|5.|Firefox Debugger|`debugger`|The Firefox debugger that works anywhere.|
-|6.|Docusaurus|`docusaurus`|Easy to maintain open source documentation websites. |
-|7.|Docz|`docz`|It has never been so easy to document your things!|
-|8.|EasyGraphQL|`easygraphql`|EasyGraphQL is a group of open source tools, with the main focus to help developers that use GraphQL or just want to start using it.|
-|9.|Elasticsearch|`elasticsearch`|Open Source, Distributed, RESTful Search Engine|
-|10.|Elasticsearch Node.js Client|`elasticsearch-js`|Official Elasticsearch client library for Node.js|
-|11.|Electron|`electron`|Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.|
-|12.|ESLint|`eslint`|A fully pluggable tool for identifying and reporting on patterns in JavaScript|
-|13.|Fastify|`fastify`|Fast and low overhead web framework, for Node.js|
-|14.|freeCodeCamp|`freeCodeCamp`|The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.|
-|15.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|Receive a good first issue from any eligible project|
-|16.|Homebrew|`homebrew`|The missing package manager for macOS|
-|17.|Hyper|`hyper`|A terminal built on web technologies|
-|18.|Gatsby|`gatsby`|Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.|
-|19.|Gutenberg|`gutenberg`|The Block Editor project for WordPress and beyond.|
-|20.|Good First Issue|`good-first-issue`|CLI for finding good first issues.|
-|21.|Jest|`jest`|Jest is a delightful JavaScript Testing Framework with a focus on simplicity|
-|22.|Material UI|`material-ui`|React components for faster and easier web development. Build your own design system, or start with Material Design|
-|23.|mermaid|`mermaid`|Generation of diagram and flowchart from text in a similar manner as markdown.|
-|24.|Mocha|`mocha`|Simple, flexible, fun javascript test framework for node.js & the browser.|
-|25.|NativeScript|`nativescript`|Build awesome cross-platform native mobile apps with JavaScript & TypeScript.|
-|26.|Neos|`neos`|Neos is a Content Application Platform with a CMS and an application framework at its core.|
-|27.|Netlify|`netlify`|Netlify builds, deploys and hosts your front-end.|
-|28.|Node.js|`node`|Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.|
-|29.|PHPBignum|`phpbignum`|A bignum library for PHP|
-|30.|Quantum Development Kit|`quantum-development-kit`|Compiler, libraries, editor integration, runtime, samples, and tutorials for the Q# programming language.|
-|31.|React|`react`|A declarative, efficient, and flexible JavaScript library for building user interfaces.|
-|32.|React Admin|`react-admin`|A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design.|
-|33.|React Native|`react-native`|A framework for building native apps with React.|
-|34.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
-|35.|Rebus|`rebus`|Take your first steps as an open source contributor |
-|36.|RichTextView|`richtextview`|iOS text view (UIView) that properly displays LaTeX, HTML, Markdown, and YouTube/Vimeo links|
-|37.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
-|38.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
-|39.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
-|40.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
-|41.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
-|42.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
-|43.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
-|44.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
-|45.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
-|46.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
-|47.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
-|48.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
-|49.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
-|50.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
+|3.|Create React App|`create-react-app`|Set up a modern web app by running one command.|
+|4.|Firefox Debugger|`debugger`|The Firefox debugger that works anywhere.|
+|5.|Docusaurus|`docusaurus`|Easy to maintain open source documentation websites. |
+|6.|Docz|`docz`|It has never been so easy to document your things!|
+|7.|EasyGraphQL|`easygraphql`|EasyGraphQL is a group of open source tools, with the main focus to help developers that use GraphQL or just want to start using it.|
+|8.|Elasticsearch|`elasticsearch`|Open Source, Distributed, RESTful Search Engine|
+|9.|Elasticsearch Node.js Client|`elasticsearch-js`|Official Elasticsearch client library for Node.js|
+|10.|Electron|`electron`|Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.|
+|11.|ESLint|`eslint`|A fully pluggable tool for identifying and reporting on patterns in JavaScript|
+|12.|Fastify|`fastify`|Fast and low overhead web framework, for Node.js|
+|13.|freeCodeCamp|`freeCodeCamp`|The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.|
+|14.|I'm Feeling Lucky (Random Project)|`feeling-lucky`|Receive a good first issue from any eligible project|
+|15.|Homebrew|`homebrew`|The missing package manager for macOS|
+|16.|Hyper|`hyper`|A terminal built on web technologies|
+|17.|Gatsby|`gatsby`|Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps.|
+|18.|Gutenberg|`gutenberg`|The Block Editor project for WordPress and beyond.|
+|19.|Good First Issue|`good-first-issue`|CLI for finding good first issues.|
+|20.|Jest|`jest`|Jest is a delightful JavaScript Testing Framework with a focus on simplicity|
+|21.|Material UI|`material-ui`|React components for faster and easier web development. Build your own design system, or start with Material Design|
+|22.|mermaid|`mermaid`|Generation of diagram and flowchart from text in a similar manner as markdown.|
+|23.|Mocha|`mocha`|Simple, flexible, fun javascript test framework for node.js & the browser.|
+|24.|NativeScript|`nativescript`|Build awesome cross-platform native mobile apps with JavaScript & TypeScript.|
+|25.|Neos|`neos`|Neos is a Content Application Platform with a CMS and an application framework at its core.|
+|26.|Netlify|`netlify`|Netlify builds, deploys and hosts your front-end.|
+|27.|Node.js|`node`|Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.|
+|28.|PHPBignum|`phpbignum`|A bignum library for PHP|
+|29.|Quantum Development Kit|`quantum-development-kit`|Compiler, libraries, editor integration, runtime, samples, and tutorials for the Q# programming language.|
+|30.|React|`react`|A declarative, efficient, and flexible JavaScript library for building user interfaces.|
+|31.|React Admin|`react-admin`|A frontend Framework for building admin applications running in the browser on top of REST/GraphQL APIs, using ES6, React and Material Design.|
+|32.|React Native|`react-native`|A framework for building native apps with React.|
+|33.|React Navigation|`react-navigation`|Routing and navigation for your React Native apps.|
+|34.|Rebus|`rebus`|Take your first steps as an open source contributor |
+|35.|RichTextView|`richtextview`|iOS text view (UIView) that properly displays LaTeX, HTML, Markdown, and YouTube/Vimeo links|
+|36.|scikit-learn|`scikit-learn`|scikit-learn: machine learning in Python|
+|37.|Scrapy|`scrapy`|A fast high-level web crawling & scraping framework for Python.|
+|38.|Spring Cloud GCP|`spring-cloud-gcp`|Integration for Google Cloud Platform APIs with Spring|
+|39.|Strapi|`strapi`|Open source Node.js Headless CMS to easily build customisable APIs.|
+|40.|Storybook|`storybook`|Storybook is an open source tool for developing UI components in isolation for React, Vue, and Angular. It makes building stunning UIs organized and efficient.|
+|41.|Styled Components|`styled-components`|Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.|
+|42.|TypeScript|`typescript`|TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|
+|43.|VS Code|`vscode`|VS Code is a type of tool that combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle.|
+|44.|webpack CLI|`webpack-cli`|webpack CLI provides a flexible set of commands for developers to increase speed when setting up a custom webpack project.|
+|45.|wolkenkit|`wolkenkit`|wolkenkit is an open-source CQRS and event-sourcing framework for JavaScript and Node.js that perfectly matches DDD. |
+|46.|Verdaccio|`verdaccio`|A lightweight private npm proxy registry|
+|47.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
+|48.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
+|49.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Adding New Projects
