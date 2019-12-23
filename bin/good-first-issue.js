@@ -2,7 +2,7 @@
 
 const cli = require('commander')
 const chalk = require('chalk')
-const opn = require('open')
+const open = require('open')
 const gfi = require('libgfi')
 
 const { description, version } = require('../package.json')
@@ -50,7 +50,7 @@ cli
       console.log(output.toString())
 
       if (cmd.open) {
-        opn(issues[key].url)
+        open(issues[key].url)
         process.exitCode = 0
       }
     } catch (err) {
