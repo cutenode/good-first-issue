@@ -53,8 +53,7 @@ function getProjectsFromReadme() {
 
     const projects = {};
     while (match != null) {
-        let project = match[2]
-        let name = match[1]
+        let [, name, project] = match
         projects[project] = { name }
 
         match = regex.exec(table)
