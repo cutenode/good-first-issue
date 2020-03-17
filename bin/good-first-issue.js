@@ -10,7 +10,7 @@ const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
 
-cli
+module.exports = cli
   .version(packageJSON.version, '-v, --version')
   .description(packageJSON.description)
   .arguments('[project]')
@@ -58,4 +58,7 @@ cli
       process.exitCode = 1
     }
   })
-  .parse(process.argv)
+
+if (require.main && require.main.filename === __filename) {
+  module.exports.parse(process.argv)
+}

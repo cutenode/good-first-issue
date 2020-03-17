@@ -2,7 +2,7 @@
   "name": "good-first-issue",
   "version": "0.27.2",
   "description": "A CLI for finding good-first-issues in open source projects.",
-  "main": "index.js",
+  "main": "lib/main.js",
   "scripts": {
     "toc": "npx markdown-toc -i readme.md",
     "markdown": "npx markdown-magic",
