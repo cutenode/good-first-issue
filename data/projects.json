@@ -84,6 +84,11 @@
     "q": "org:gatsbyjs is:issue is:open label:\"good first issue\"",
     "description": "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps."
   },
+  "gitsie": {
+    "name": "Gitsie",
+    "q": "repo:hatlesshacker/gitsie is:issue is:open label:\"good-first-issue\"",
+    "description": "Gitsie is an apt-like package manager for github projects."
+  },
   "gutenberg": {
     "name": "Gutenberg",
     "q": " repo:WordPress/gutenberg is:issue is:open sort:updated-desc label:\"good first issue\"",
