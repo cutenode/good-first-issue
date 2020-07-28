@@ -141,7 +141,7 @@
   },
   "qt-calculator": {
       "name": "qtcalculator" ,
-      "q": "is:open label:\"good first issue\" repo:Arsenic",
+      "q": "repo:Arsenic-ATG/Qt-calculator is:open",
       "description": "GUI calculator made with C++ with the help of Qt widget library"
   },
   "quantum-development-kit": {
