@@ -139,6 +139,11 @@
     "q": "repo:hpez/PHPBignum is:issue is:open label:\"good first issue\"",
     "description": "A bignum library for PHP"
   },
+  "qt-calculator": {
+      "name": "qtcalculator" ,
+      "q": "is:open label:\"good first issue\" repo:Arsenic",
+      "description": "GUI calculator made with C++ with the help of Qt widget library"
+  },
   "quantum-development-kit": {
     "name": "Quantum Development Kit",
     "q": "is:issue is:open sort:updated-desc label:\"good first issue\" repo:microsoft/quantum repo:microsoft/quantumlibraries repo:microsoft/qsharp-compiler repo:microsoft/qsharp-runtime repo:microsoft/iqsharp repo:microsoft/quantumkatas repo:microsoftdocs/quantum-docs-pr repo:msr-quarc/qsharp.sty",
