@@ -2,9 +2,9 @@
 
 ## Basics of Contributing
 
-- Use descriptive commit messages
-- Run tests with `npm test` before submitting a PR / pushing
-  - Resolve issues if tests surface them
+- Use descriptive commit messages.
+- Run tests with `npm test` before submitting a PR / pushing.
+  - Resolve issues if tests surface them.
 
 ## How You Can Contribute
 
@@ -20,8 +20,8 @@ Good First Issue can be used as a module! Its original purpose was to be used as
 
 ### Enhancing Tests
 
-We use [Jest](https://www.npmjs.com/package/jest) for tests, and [Standard](https://www.npmjs.com/package/standard) for linting. If you would like to help Good First Issue by enhancing our test suite or improving linting, we more than welcome your contributions.
+We use [Jest](https://www.npmjs.com/package/jest) for tests, and [Standard](https://www.npmjs.com/package/standard) for linting. If you like to help Good First Issue by enhancing our test suite or improving linting, we more than welcome your contributions.
 
 ### Improving Documentation
 
-We keep our documentation in [README.md](./README.md). If there's anything in there that doesn't currently reflect the state of the module or CLI, or anything that's unclear, improvements are *always* welcome.
+We keep our documentation in [README.md](./README.md). If there's anything in there that doesn't currently reflect the state of the module or CLI, or anything that's unclear, improvements are *always* welcomed.
