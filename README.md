@@ -30,13 +30,13 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 
 ## Prerequisites
 
-To use Good First Issue, you'll need to have a few things installed:
+To use Good First Issue, you'll need to have the following things installed:
 
 - Node.js 8.0.0 or above
-  - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
+  - If you need to install Node.js, you can download it from the [official download page](https://nodejs.org/en/download/)
   - If you want to use a dynamic version manager, you can use something like nvm [on macOS, Linux, and WSL](https://gist.github.com/d2s/372b5943bce17b964a79).
 - npm 5.0.0 or above
-  - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
+  - If you already have Node.js 8.0.0 or above, you must have npm 5.0.0 or above.
   - If you need to update your npm CLI, run `npm i -g npm`
 
 ## Usage
@@ -51,7 +51,7 @@ The suggested usage is via npx:
 npx good-first-issue [project] # temporarily install and run the module, optionally passing `project`
 ```
 
-Alternatively, you could absolutely install good-first-issue as a global module:
+Alternatively, you can install good-first-issue as a global module:
 
 ```bash
 npm i -g good-first-issue # install globally
@@ -151,7 +151,7 @@ The table of projects which are _currently_ supported.
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
 - Update `data/projects.json`
-  - Add your `<project>` as a property of `projects` **in the correct alphabetical position** with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
+  - Add your `<project>` as a property of `projects` **in the correct alphabetical order** with an object that includes a `name`, `description`, and a `q` (representing the GitHub search query).
 
 - Update `README.md` by running `npm run markdown`
   - This will automatically update README.md with the new project's data.
@@ -180,7 +180,7 @@ We use both GitHub Labels and Milestones to track releases. Since project additi
 
 We use the release queue [label](https://github.com/bnb/good-first-issue/pulls?q=is%3Apr+is%3Aopen+sort%3Aupdated-desc) and [milestone](https://github.com/bnb/good-first-issue/milestone/16) to queue up PRs that have been reviewed and are ready to be released.
 
-Once a PR is ready to be released, a milestone will be added that correlates to the SemVer version it will be released in. Ideally this will _eventually_ be used for changelog tracking but for now it's just a good way to keep organized. To keep things tidy, once a new version has shipped the milestone will be closed out.
+Once a PR is ready to be released, a milestone will be added that correlates to the SemVer version it will be released in. Ideally this will _eventually_ be used for changelog tracking but for now it's just a good way to keep organized. To keep things tidy, once the new version will ship the milestone will closed out.
 
 ### Local Testing
 
