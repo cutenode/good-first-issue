@@ -32,12 +32,12 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 
 To use Good First Issue, you'll need to have a few things installed:
 
-- Node.js 8.0.0 or above
-  - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/)
+- Node.js 8.0.0 or above:
+  - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/).
   - If you want to use a dynamic version manager, you can use something like nvm [on macOS, Linux, and WSL](https://gist.github.com/d2s/372b5943bce17b964a79).
-- npm 5.0.0 or above
+- npm 5.0.0 or above:
   - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
-  - If you need to update your npm CLI, run `npm i -g npm`
+  - If you need to update your npm CLI, run `npm i -g npm`.
 
 ## Usage
 
@@ -202,4 +202,4 @@ good-first-issue thisisntarealprojectorgithuborg
 
 ## Contributing
 
-If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md)
+If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md).
