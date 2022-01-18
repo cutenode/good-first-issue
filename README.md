@@ -69,6 +69,7 @@ good-first-issue # call the CLI
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
+- `-d, --date` - Return only issues updated from date specified(yyyy-MM-DD)
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
 ## TODOs: What's coming up next

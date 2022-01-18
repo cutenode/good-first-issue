@@ -8,6 +8,7 @@ const gfi = require('libgfi')
 const packageJSON = require('../package.json')
 const log = require('../lib/log')
 const prompt = require('../lib/prompt')
+const { replaceMatchedString, mapObject, getFormattedPastDate, isValidDate } = require('../lib/util')
 const projects = require('../data/projects.json')
 
 cli
@@ -16,10 +17,26 @@ cli
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
+  .option('-d, --date <from>', 'Return only issues updated from date specified(yyyy-MM-DD)')
   .option('-a, --auth <token>', 'Authenticate with the GitHub API (increased rate limits)')
   .action(async (project, cmd) => {
+    /*
+    * If passed invalid date, exit with error
+    */
+    if (cmd.date && !isValidDate(cmd.date)) {
+      console.error('Date formatting must follow the ISO8601 standard (yyyy-MM-DD', cmd.date)
+      process.exit(1)
+    }
+
+    const mappedProjects = mapObject(proj => {
+      return {
+        ...proj,
+        q: replaceMatchedString({ matchToReplace: packageJSON.name, valueToUse: cmd.date ? cmd.date : getFormattedPastDate(new Date(), 'year') }, proj.q) // Replace string "good-first-issue" if exists in data.json with date passed or current date - 1 year (Filter issues too old)
+      }
+    }, projects)
+
     const options = { // options for libgfi
-      projects: projects
+      projects: { ...mappedProjects }
     }
 
     if (cmd.auth) {
