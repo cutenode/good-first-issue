@@ -26,6 +26,13 @@ test('data/project.json should have uniform data shape', () => {
     })
 })
 
+test('data/project.json objects order should be same',()=>{
+    const projects = require(DATA_FILE_PATH)
+    expect(projects[0]).toHaveProperty('name')
+    expect(projects[1]).toHaveProperty('q')
+    expect(projects[2]).toHaveProperty('description')
+})
+
 // The below function is influenced by all-contributers-cli, Thanks to @jfmengels and @kentcdodds
 // https://github.com/jfmengels/all-contributors-cli/blob/master/src/generate/index.js
 function getProjectsFromReadme() {
