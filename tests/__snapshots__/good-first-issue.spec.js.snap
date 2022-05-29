@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CLI returns an object with the correct shape 1`] = `
+Array [
+  "? Choose a project: (Use arrow keys)",
+  "❯ Apollo - A community building flexible open source tools for GraphQL.",
+  "Babel - Babel is a compiler for writing next generation JavaScript.",
+  "Create React App - Set up a modern web app by running one command.",
+  "Firefox Debugger - The Firefox debugger that works anywhere.",
+  "Docusaurus - Easy to maintain open source documentation websites.",
+  "Docz - It has never been so easy to document your things!",
+  "EasyGraphQL - EasyGraphQL is a group of open source tools, with the main focus",
+  "(Move up and down to reveal more choices)",
+  "? Choose a project: Apollo - A community building flexible open source tools for",
+  "GraphQL.",
+  "╭────────────────────────────────────────────────────────────────────╮",
+  "│                                                                    │",
+  "│   Good First Issue in Apollo:                                      │",
+  "│                                                                    │",
+  "│     - Title: Cannot set telemetry.tracing.otlp.grpc.metadata       │",
+  "│     - Repository: apollographql/router                             │",
+  "│     - Issue: #1166                                                 │",
+  "│     - Status: open                                                 │",
+  "│     - Assigned to: unassigned!                                     │",
+  "│                                                                    │",
+  "│   Start now: https://github.com/apollographql/router/issues/1166   │",
+  "│                                                                    │",
+  "╰────────────────────────────────────────────────────────────────────╯",
+]
+`;
