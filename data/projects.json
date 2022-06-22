@@ -60,7 +60,7 @@
     "description": "Fast and low overhead web framework, for Node.js"
   },
   "freeCodeCamp": {
-    "name": "freeCodeCamp",
+    "name": "FreeCodeCamp",
     "description": "The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.",
     "q": "org:freecodecamp is:issue is:open label:\"first timers welcome\""
   },
@@ -105,7 +105,7 @@
     "description": "React components for faster and easier web development. Build your own design system, or start with Material Design"
   },
   "mermaid": {
-    "name": "mermaid",
+    "name": "Mermaid",
     "q": "repo:mermaid-js/mermaid label:\"Good first issue!\" is:open is:issue",
     "description": "Generation of diagram and flowchart from text in a similar manner as markdown."
   },
