@@ -17,6 +17,7 @@ cli
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
   .option('-a, --auth <token>', 'Authenticate with the GitHub API (increased rate limits)')
+  .option('-i, --issues', 'Select from a list of all relevant issues in a project.')
   .action(async (project, cmd) => {
     const options = { // options for libgfi
       projects: projects
@@ -30,7 +31,7 @@ cli
 
     if (!project) {
       console.log('')
-      input = await prompt()
+      input = await prompt.projectsPrompt()
     }
 
     try {
@@ -41,16 +42,24 @@ cli
         return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
       }
 
-      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      let issue
+
+      if (cmd.issues && issues.length > 1) {
+        console.log('')
+        issue = await prompt.issuesPrompt(issues)
+      } else {
+        const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+        issue = issues[key]
+      }
 
       // Call the log functionality, output the result to the console.
-      const output = await log(issues[key], (input in projects) ? projects[input].name : project)
+      const output = await log(issue, (input in projects) ? projects[input].name : project)
 
       // Log the issue!
       console.log(output.toString())
 
       if (cmd.open) {
-        opn(issues[key].url)
+        opn(issue.url)
         process.exitCode = 0
       }
     } catch (err) {
