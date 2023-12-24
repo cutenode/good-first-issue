@@ -16,8 +16,7 @@ See [Adding New Projects](https://github.com/bnb/good-first-issue#adding-new-pro
 
 ### Solidifying the Module
 
-Good First Issue can be used as a module! Its original purpose was to be used as a CLI, but it can also be used as a module to surface good first issues for a specific project. If you'd like to help out with solidifying the interface and ensuring that it's a good experience for end-users to consume, we'd love your help.
-
+Good First Issue can be utilized as a module. While its initial intent was for use as a CLI, it has the added functionality of serving as a module to highlight good first issues for a particular project. If you're interested in contributing to refining the interface and ensuring a positive experience for end-users, your assistance would be greatly appreciated. 😊
 ### Enhancing Tests
 
 We use [Jest](https://www.npmjs.com/package/jest) for tests, and [Standard](https://www.npmjs.com/package/standard) for linting. If you would like to help Good First Issue by enhancing our test suite or improving linting, we more than welcome your contributions.
