@@ -8,7 +8,7 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 ## Table of Contents
 
 <!-- toc -->
-
+a
 - [Good First Issue](#good-first-issue)
   - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
