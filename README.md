@@ -3,14 +3,13 @@
 A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
 
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
-![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
+[![Greenkeeper badge for dependency updates](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)](https://greenkeeper.io/)
 
 ## Table of Contents
 
 <!-- toc -->
 
 - [Good First Issue](#good-first-issue)
-  - [Table of Contents](#table-of-contents)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
     - [Installation](#installation)
@@ -36,6 +35,7 @@ To use Good First Issue, you'll need to have a few things installed:
   - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/).
   - If you want to use a dynamic version manager, you can use something like nvm [on macOS, Linux, and WSL](https://gist.github.com/d2s/372b5943bce17b964a79).
 - npm 5.0.0 or above:
+- ```bash
   - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
   - If you need to update your npm CLI, run `npm i -g npm`.
 
@@ -56,7 +56,7 @@ Alternatively, you could absolutely install good-first-issue as a global module:
 ```bash
 npm i -g good-first-issue # install globally
 good-first-issue # call the CLI
-```
+
 
 ### Commands
 
