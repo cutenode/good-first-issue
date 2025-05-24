@@ -1,9 +1,9 @@
 # Good First Issue
 
-A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
-
+A CLI tool to help new open-source contributors find beginner-friendly GitHub issues quickly and easily.
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
-![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
+[![Greenkeeper badge](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)](https://greenkeeper.io/)
+
 
 ## Table of Contents
 
@@ -71,16 +71,18 @@ good-first-issue # call the CLI
 - `-f, --first` - Return first/top issue
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
+
 ## TODOs: What's coming up next
 
-`good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
-
-- [x] `good-first-issue node` command
-- [x] Interactive selector when `good-first-issue` is run without a sub command
+- [x] Add `good-first-issue node` command
+- [x] Interactive selector when run without a sub-command
 - [ ] Add additional useful commands
-- [ ] Explore adding a secondary selector that shows paginated results from GitHub, allowing the user to select which Good First Issue to pick rather than returning a random one
-- [ ] Improve `Feeling Lucky` to be better about picking a random issue
+- [ ] Paginated GitHub issue selector
+- [ ] Improve “Feeling Lucky” randomizer
 - [ ] Add more tests
+
+Want to help? Submit a PR or open an issue 🤗
+
 
 If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
 
@@ -202,4 +204,17 @@ good-first-issue thisisntarealprojectorgithuborg
 
 ## Contributing
 
+We welcome contributions of all kinds! Whether it's improving documentation, fixing bugs, or adding new features:
+
+1. Fork this repo
+2. Create a feature branch
+3. Commit your changes
+4. Submit a pull request
+
+Feel free to open an issue if you're not sure where to start!
+
 If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+## License
+
+MIT © [sammythedeveloper]
