@@ -1,7 +1,3 @@
-Here is the revised version of your text with **typo fixes**, **grammar corrections**, and **clarity/style improvements** applied:
-
----
-
 ## Good First Issue
 
 A CLI for finding issues labeled with **Good First Issue** to help lower the barrier to contributing to open source projects.
