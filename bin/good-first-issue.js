@@ -1,61 +1,57 @@
 #!/usr/bin/env node
 
-const cli = require('commander')
-const chalk = require('chalk')
-const opn = require('open')
-const gfi = require('libgfi')
+const { Command } = require('commander');
+const chalk = require('chalk');
+const open = require('open');
+const gfi = require('libgfi');
 
-const packageJSON = require('../package.json')
-const log = require('../lib/log')
-const prompt = require('../lib/prompt')
-const projects = require('../data/projects.json')
+const packageJSON = require('../package.json');
+const log = require('../lib/log');
+const prompt = require('../lib/prompt');
+const projects = require('../data/projects.json');
+
+const cli = new Command();
 
 cli
+  .name('good-first-issue')
   .version(packageJSON.version, '-v, --version')
   .description(packageJSON.description)
   .arguments('[project]')
-  .option('-o, --open', 'Open in browser')
-  .option('-f, --first', 'Return first/top issue')
-  .option('-a, --auth <token>', 'Authenticate with the GitHub API (increased rate limits)')
-  .action(async (project, cmd) => {
-    const options = { // options for libgfi
-      projects: projects
-    }
-
-    if (cmd.auth) {
-      options.auth = cmd.auth
-    }
-
-    let input = project
-
-    if (!project) {
-      console.log('')
-      input = await prompt()
-    }
-
+  .option('-o, --open', 'Open the issue in a browser')
+  .option('-f, --first', 'Show the first/top issue')
+  .option('-a, --auth <token>', 'GitHub token for authenticated requests')
+  .action(async (project, options) => {
     try {
-      const issues = await gfi(input, options)
+      const input = project || await prompt();
 
-      if (issues.length === 0) {
-        process.exitCode = 0
-        return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
+      const gfiOptions = {
+        projects,
+        ...(options.auth && { auth: options.auth })
+      };
+
+      const issues = await gfi(input, gfiOptions);
+
+      if (!issues.length) {
+        console.log(chalk.yellow(`\nNo Good First Issues found for "${chalk.white(input)}".\n`));
+        process.exitCode = 0;
+        return;
       }
 
-      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      const selectedIssue = options.first ? issues[0] : issues[Math.floor(Math.random() * issues.length)];
+      const projectName = projects[input]?.name || input;
+      const output = await log(selectedIssue, projectName);
 
-      // Call the log functionality, output the result to the console.
-      const output = await log(issues[key], (input in projects) ? projects[input].name : project)
+      console.log(output.toString());
 
-      // Log the issue!
-      console.log(output.toString())
-
-      if (cmd.open) {
-        opn(issues[key].url)
-        process.exitCode = 0
+      if (options.open) {
+        await open(selectedIssue.url);
       }
-    } catch (err) {
-      console.error(err)
-      process.exitCode = 1
+
+      process.exitCode = 0;
+    } catch (error) {
+      console.error(chalk.red('Error:'), error.message || error);
+      process.exitCode = 1;
     }
-  })
-  .parse(process.argv)
+  });
+
+cli.parse(process.argv);
