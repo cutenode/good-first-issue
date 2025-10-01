@@ -43,6 +43,12 @@ To use Good First Issue, you'll need to have a few things installed:
 
 This module is an interactive CLI. If you're looking for a module to use in an application, check out [libgfi](https://www.npmjs.com/package/libgfi).
 
+### Avoiding GitHub Rate Limits
+
+By default, the GitHub API allows only **10 unauthenticated search requests per minute**.  
+If you use the CLI often, you may see:
+
+
 ### Installation
 
 The suggested usage is via npx:

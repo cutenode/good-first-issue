@@ -53,8 +53,20 @@ cli
         opn(issues[key].url)
         process.exitCode = 0
       }
-    } catch (err) {
-      console.error(err)
+      } catch (err) {
+    // Handle GitHub rate limit errors gracefully
+    if (err.status === 403 && err.response?.data?.message?.includes("API rate limit exceeded")) {
+      console.error(
+        chalk.red("\n❌ GitHub API rate limit exceeded!\n") +
+        chalk.yellow("GitHub allows only 10 unauthenticated search requests per minute.\n") +
+        chalk.yellow("Tip: Authenticate with a personal access token for higher limits.\n\n") +
+        chalk.cyan("  good-first-issue <project> --auth YOUR_GITHUB_TOKEN\n\n") +
+        "Learn more: https://docs.github.com/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token\n"
+      )
+    } else {
+      // Show a cleaner error message
+      console.error(chalk.red(`\nError: ${err.message || err}\n`))
+    }
       process.exitCode = 1
     }
   })
