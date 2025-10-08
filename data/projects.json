@@ -114,6 +114,11 @@
     "q": "org:mochajs is:issue is:open label:good-first-issue",
     "description": "Simple, flexible, fun javascript test framework for node.js & the browser."
   },
+  "mui-org": {
+    "name ": "Material UI (MUI)",
+    "q": "repo:mui/material-ui label:\"good-first-issue\" language:TypeScript",
+    "description":"React components for faster and easier developmet, implementing google's material design"
+  },
   "nativescript": {
     "name": "NativeScript",
     "q": "org:nativescript is:issue is:open sort:updated-desc label:\"good first issue\"",
