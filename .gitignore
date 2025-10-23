@@ -80,3 +80,6 @@ typings/
 
 # npm lockfile
 package-lock.json
+
+#temp files
+TEST_CONTRIBUTION_SUMMARY.md
