@@ -13,7 +13,9 @@ module.exports = {
       const list = Object.keys(projects)
         .map((name, index) => {
           const project = projects[name]
-          const description = projects[name].description
+          // check if the project and its description exist before adding it
+          if (!project || project.description) return 
+          const description = projects[name].description // short project description for README table 
           return [
             '',
             `${index + 1}.`,
