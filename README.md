@@ -71,6 +71,30 @@ good-first-issue # call the CLI
 - `-f, --first` - Return first/top issue
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
+### Troubleshooting
+This will cover common setup and runtime problems and shows quick fixes so you can get the CLI working fast.
+
+- “API rate limit exceeded” / not getting results
+  - GitHub limits requests if you aren’t signed in. Use a token:
+    - `npx good-first-issue <project-or-org> -a <YOUR_TOKEN>`
+
+- good-first-issue (or npx) isn’t working
+  - Make sure Node.js and npm are installed. Then try:
+    - `npx good-first-issue`
+  - If that still fails, install it globally:
+    - `npm i -g good-first-issue`
+    - `good-first-issue`
+
+- “No issues found”
+  - Try a bigger org first (like node). Also make sure you use one of these formats:
+
+    - `good-first-issue <project>`
+
+    - `good-first-issue <org>`
+
+    - `good-first-issue <org>/<repo>`
+
+
 ## TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
