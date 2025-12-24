@@ -60,8 +60,8 @@ good-first-issue # call the CLI
 
 ### Commands
 
-- `good-first-issue`: open up the interactive project selection tool.
-- `good-first-issue [project]`: you can pass in a name from the [list of projects](#projects) which is a curated list of projects that have been verified to have good-first-issues.
+- `good-first-issue`: Opens an interactive selector where you can choose a project and receive a random good first issue.
+- `good-first-issue [project]`: Pass a project name from the [list of supported projects](#projects) to directly fetch a good first issue.
 - `good-first-issue [GitHub organization or user]`: similar to `[project]` but will search any GitHub organization or user that exists for issues labeled with "Good First Issue".
 - `good-first-issue [GitHub organization or user]/[repo]`: similar to `[project]`, but will search a specific repository on GitHub within the organization for issues labeled with "Good First Issue".
 
@@ -69,7 +69,10 @@ good-first-issue # call the CLI
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
-- `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
+- `-a, --auth <github personal access token>`  
+  Authenticate with the GitHub API to increase rate limits.
+  Example:
+  good-first-issue react --auth YOUR_GITHUB_TOKEN
 
 ## TODOs: What's coming up next
 
