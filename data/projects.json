@@ -189,6 +189,11 @@
     "q": "repo:spring-cloud/spring-cloud-gcp label:\"good first issue\" state:open",
     "description": "Integration for Google Cloud Platform APIs with Spring"
   },
+  "stdlib": {
+    "name": "stdlib",
+    "q": "repo:stdlib-js/stdlib label:\"good first issue\"",
+    "description": "The fundamental numerical library for JavaScript and Node.js."
+  },
   "strapi": {
     "name": "Strapi",
     "q": "repo:strapi/strapi is:issue is:open label:\"Good for new contributors\"",
