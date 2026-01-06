@@ -54,7 +54,7 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
+      console.error(`Error: Unable to fetch issues for "${input}". Please check the project name or your network connection.`)
       process.exitCode = 1
     }
   })
