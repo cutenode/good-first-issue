@@ -54,8 +54,25 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
-      process.exitCode = 1
-    }
+  if (
+    err &&
+    err.status === 403 &&
+    err.message &&
+    err.message.toLowerCase().includes('rate limit')
+  ) {
+    console.error(
+      '\n⚠️ GitHub API rate limit exceeded.\n' +
+      'Please authenticate using --auth <token> to get a higher rate limit.\n' +
+      'Docs: https://docs.github.com/en/rest/overview/resources-in-the-rest-api#rate-limiting\n'
+    )
+    process.exitCode = 1
+    return
+  }
+
+  // fallback for other errors
+  console.error(err)
+  process.exitCode = 1
+}
+
   })
   .parse(process.argv)
