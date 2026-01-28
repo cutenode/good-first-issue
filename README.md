@@ -71,6 +71,10 @@ good-first-issue # call the CLI
 - `-f, --first` - Return first/top issue
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
+---
+
+> 💡 **Pro Tip**: If you plan to use this tool frequently, we highly recommend using the `--auth` option. Unauthenticated requests to the GitHub API are limited to 60 per hour, whereas authenticated requests allow for up to 5,000 per hour.
+
 ## TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
