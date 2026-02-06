@@ -45,7 +45,7 @@ This module is an interactive CLI. If you're looking for a module to use in an a
 
 ### Installation
 
-The suggested usage is via npx:
+The suggested way to use this CLI is via npx:
 
 ```bash
 npx good-first-issue [project] # temporarily install and run the module, optionally passing `project`
@@ -188,7 +188,7 @@ Prior to each release, whoever is releasing should be testing the release locall
 
 It is worth noting that we limit the file we publish to npm with the `files` property in [`package.json`](https://github.com/bnb/good-first-issue/blob/master/package.json). This property prevents code that's not explicitly listed from being shipped. We have had a situation where local testing and the published module differed because a PR was merged that added needed code in a directory that wasn't included. So, what works on your machine may not work for the end user.
 
-To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is reccomended. For example:
+To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is recommended. For example:
 
 ```text
 npm i -g # This assumes your current working directory is the module's directory
