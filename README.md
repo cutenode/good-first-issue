@@ -58,6 +58,26 @@ npm i -g good-first-issue # install globally
 good-first-issue # call the CLI
 ```
 
+## GitHub API Rate Limits
+
+This CLI uses the GitHub API to fetch issues.
+
+Unauthenticated requests are limited to ~50 requests per hour by GitHub.
+If you hit this limit, the CLI may stop working temporarily.
+
+### Recommended: Use a GitHub Personal Access Token
+
+Using a token increases the limit to 5000 requests per hour.
+
+Create a token here:
+https://github.com/settings/tokens
+
+#### Option 1: Environment Variable (recommended)
+
+```bash
+export GITHUB_TOKEN=your_token_here
+
+
 ### Commands
 
 - `good-first-issue`: open up the interactive project selection tool.
