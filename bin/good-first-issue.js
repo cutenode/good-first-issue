@@ -22,8 +22,11 @@ cli
       projects: projects
     }
 
-    if (cmd.auth) {
-      options.auth = cmd.auth
+    const token = cmd.auth || process.env.GITHUB_TOKEN
+
+    if(token)
+    {
+      options.auth =token
     }
 
     let input = project
@@ -54,8 +57,37 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
-      process.exitCode = 1
+     if(
+      err &&
+      err.message &&
+      err.message.toLowerCase().include('rate limit')
+     )
+     {
+       console.error(chalk.red(`
+❌ GitHub API rate limit exceeded.
+
+Why this happened:
+- You are using the GitHub API without authentication
+- GitHub allows ~50 requests/hour for unauthenticated users
+
+How to fix:
+1. Create a GitHub Personal Access Token
+   https://github.com/settings/tokens
+2. Run the command with ONE of the following:
+
+   export GITHUB_TOKEN=your_token
+   OR
+   good-first-issue --auth your_token
+
+This increases the limit to 5000 requests/hour.
+`))
+    process.exitCode = 1
+    return
+     }
+
+  console.error(chalk.red('❌ An unexpected error occurred:'))
+  console.error(err.message || err)
+  process.exitCode = 1
     }
   })
   .parse(process.argv)
