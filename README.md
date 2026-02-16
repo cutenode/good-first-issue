@@ -3,7 +3,7 @@
 A CLI for finding issues labeled with Good First Issue to help lower the barrier to contributing to open source projects.
 
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
-![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
+[![Greenkeeper badge](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)](https://greenkeeper.io/)
 
 ## Table of Contents
 
@@ -188,7 +188,7 @@ Prior to each release, whoever is releasing should be testing the release locall
 
 It is worth noting that we limit the file we publish to npm with the `files` property in [`package.json`](https://github.com/bnb/good-first-issue/blob/master/package.json). This property prevents code that's not explicitly listed from being shipped. We have had a situation where local testing and the published module differed because a PR was merged that added needed code in a directory that wasn't included. So, what works on your machine may not work for the end user.
 
-To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is reccomended. For example:
+To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is recommended. For example:
 
 ```text
 npm i -g # This assumes your current working directory is the module's directory
