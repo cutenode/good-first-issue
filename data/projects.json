@@ -4,6 +4,11 @@
     "q": "org:apollographql is:issue is:open label:\"good first issue\"",
     "description": "A community building flexible open source tools for GraphQL."
   },
+  "astro": {
+    "name": "Astro",
+    "description": "Build fast websites with less client-side JavaScript.",
+    "q": "org:withastro label:\"good first issue\" state:open"
+  },
   "babel": {
     "name": "Babel",
     "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\"",
