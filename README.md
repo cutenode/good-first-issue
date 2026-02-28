@@ -32,7 +32,7 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 
 To use Good First Issue, you'll need to have a few things installed:
 
-- Node.js 8.0.0 or above:
+- Node.js 8.0.0 or above (using the latest Node.js LTS version is recommended):
   - If you need to install Node.js, you can download it from the [official downloads page](https://nodejs.org/en/download/).
   - If you want to use a dynamic version manager, you can use something like nvm [on macOS, Linux, and WSL](https://gist.github.com/d2s/372b5943bce17b964a79).
 - npm 5.0.0 or above:
@@ -188,7 +188,7 @@ Prior to each release, whoever is releasing should be testing the release locall
 
 It is worth noting that we limit the file we publish to npm with the `files` property in [`package.json`](https://github.com/bnb/good-first-issue/blob/master/package.json). This property prevents code that's not explicitly listed from being shipped. We have had a situation where local testing and the published module differed because a PR was merged that added needed code in a directory that wasn't included. So, what works on your machine may not work for the end user.
 
-To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is reccomended. For example:
+To test locally, using the modules tests with `npm test` and trying out a few different commands (like the selector, a specific project, a failed project, and so on) is recommended. For example:
 
 ```text
 npm i -g # This assumes your current working directory is the module's directory
