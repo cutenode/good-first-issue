@@ -243,5 +243,10 @@
     "name": "Yarn Version Manager",
     "q": "repo:tophat/yvm is:issue is:open label:\"good first issue\"",
     "description": "YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions."
+  },
+  "supabase": {
+    "name": "Supabase",
+    "q": "org:supabase is:issue is:open label:\"good first issue\"",
+    "description": "Open source Firebase alternative with a Postgres database."
   }
 }
