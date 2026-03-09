@@ -6,6 +6,7 @@ const opn = require('open')
 const gfi = require('libgfi')
 
 const packageJSON = require('../package.json')
+const formatError = require('../lib/format-error')
 const log = require('../lib/log')
 const prompt = require('../lib/prompt')
 const projects = require('../data/projects.json')
@@ -54,7 +55,7 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
+      console.error(`\n${formatError(err, input)}\n`)
       process.exitCode = 1
     }
   })
