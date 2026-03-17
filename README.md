@@ -144,7 +144,7 @@ The table of projects which are _currently_ supported.
 |47.|Vue.js|`vuejs`|Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|
 |48.|Yarn|`yarn`|Fast, reliable, and secure dependency management.|
 |49.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
-<!-- AUTO-GENERATED-CONTENT:END -->
+<!--- AUTO-GENERATED-CONTENT:END --->
 
 ## Adding New Projects
 
