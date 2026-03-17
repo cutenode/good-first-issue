@@ -49,6 +49,11 @@
     "q": "org:electron is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS."
   },
+  "express": {
+    "name": "Express",
+    "description": "Fast, unopinionated, minimalist web framework for Node.js",
+    "q": "repo:expressjs/express is:issue is:open label:\"good first issue\""
+  },
   "eslint": {
     "name": "ESLint",
     "q": "repo:eslint/eslint is:issue is:open sort:updated-desc label:\"good first issue\"",
@@ -244,4 +249,5 @@
     "q": "repo:tophat/yvm is:issue is:open label:\"good first issue\"",
     "description": "YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions."
   }
+
 }
