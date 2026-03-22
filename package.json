@@ -1,7 +1,7 @@
 {
   "name": "good-first-issue",
   "version": "0.27.2",
-  "description": "A CLI for finding good-first-issues in open source projects.",
+  "description": "A CLI tool that helps beginners easily find good first issues in open source projects.",
   "main": "index.js",
   "scripts": {
     "toc": "npx markdown-toc -i readme.md",
@@ -24,14 +24,17 @@
   },
   "homepage": "https://github.com/bnb/good-first-issue",
   "keywords": [
-    "cli",
-    "node-cli",
-    "good-first-issue",
-    "github",
-    "community",
-    "first-timers",
-    "help-wanted"
-  ],
+  "cli",
+  "node-cli",
+  "good-first-issue",
+  "github",
+  "community",
+  "first-timers",
+  "help-wanted",
+  "open-source",
+  "beginner",
+  "first-contribution"
+],
   "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
   "standard": {
