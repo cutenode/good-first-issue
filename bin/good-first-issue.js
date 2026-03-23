@@ -54,7 +54,8 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
+      console.error(chalk.red(`\nError: Unable to fetch issues for "${chalk.white(input)}".`))
+      console.error(chalk.yellow('Please check the project name or your network connection.\n'))
       process.exitCode = 1
     }
   })
