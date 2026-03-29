@@ -243,5 +243,11 @@
     "name": "Yarn Version Manager",
     "q": "repo:tophat/yvm is:issue is:open label:\"good first issue\"",
     "description": "YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions."
+  },
+  "codeit": {
+  "name": "CodeIt",
+  "q": "repo:keshav0774/CodeIt is:issue is:open label:\"good first issue\"",
+  "description": "An AI-powered LeetCode-like platform for practicing coding with real-time code execution and assistant support"
   }
 }
+ 
