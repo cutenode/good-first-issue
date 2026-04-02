@@ -229,6 +229,11 @@
     "q": "org:verdaccio is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "A lightweight private npm proxy registry"
   },
+  "vite": {
+    "name": "Vite",
+    "q": "repo:vitejs/vite is:issue is:open label:\"good first issue\"",
+    "description": "Next generation frontend tooling that is fast and lean."
+  },
   "vuejs": {
     "name": "Vue.js",
     "q": "org:vuejs is:issue is:open label:\"good first issue\"",
