@@ -71,6 +71,25 @@ good-first-issue # call the CLI
 - `-f, --first` - Return first/top issue
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
+## Documentation proposal 
+
+Closes #1078 
+
+This PR introduces a community-driven documentation site to improve onboarding and usage of the good-first-issue CLI beyond the current README. 
+
+I noticed gaps in areas such as quickstart guidance, command reference, automation workflows, and troubleshooting. To address this, I built a dedicated docs site using Docusaurus. 
+
+The site includes: 
+- Quickstart guide 
+- Command reference 
+- Automation and scripting workflows (including GitHub Actions examples) 
+- Contributing guide 
+- Troubleshooting section 
+
+Live preview: https://good-first-issue-docs.vercel.app/ 
+
+This is a proposed structure and is open to feedback. Happy to adjust content or integrate it in a way that fits the project.
+
 ## TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
