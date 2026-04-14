@@ -199,6 +199,7 @@ good-first-issue github # test the GitHub organization, `github`
 good-first-issue github/semantic # test the GitHub repo, `github/semantic`
 good-first-issue thisisntarealprojectorgithuborg
 ```
+"This Project is Amazing"
 
 ## Contributing
 
