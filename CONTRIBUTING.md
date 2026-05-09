@@ -1,10 +1,10 @@
-# Contributing
+#Contributing
 
 ## Basics of Contributing
 
 - Use descriptive commit messages
 - Run tests with `npm test` before submitting a PR / pushing
-  - Resolve issues if tests surface them
+- Resolve issues if tests surface them
 
 ## How You Can Contribute
 
