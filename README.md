@@ -6,7 +6,6 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 ![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
 
 ## Table of Contents
-
 <!-- toc -->
 
 - [Good First Issue](#good-first-issue)
@@ -40,7 +39,6 @@ To use Good First Issue, you'll need to have a few things installed:
   - If you need to update your npm CLI, run `npm i -g npm`.
 
 ## Usage
-
 This module is an interactive CLI. If you're looking for a module to use in an application, check out [libgfi](https://www.npmjs.com/package/libgfi).
 
 ### Installation
