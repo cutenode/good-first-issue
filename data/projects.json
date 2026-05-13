@@ -9,6 +9,11 @@
     "q": "repo:babel/babel is:issue is:open label:\"good first issue\" -label:\"Has PR\" -label:\"claimed\"",
     "description": "Babel is a compiler for writing next generation JavaScript."
   },
+  "bilig": {
+    "name": "bilig",
+    "q": "repo:proompteng/bilig is:issue is:open label:\"good first issue\" label:first-timers-only",
+    "description": "Headless workbook runtime for TypeScript services, spreadsheet formulas, and coding-agent tools."
+  },
   "create-react-app": {
     "name": "Create React App",
     "q": "repo:facebook/create-react-app is:issue is:open label:\"good first issue\" -label:\"contributions: claimed\"",
