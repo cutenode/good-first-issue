@@ -124,6 +124,11 @@
     "q": "org:neos is:issue is:open sort:updated-desc label:\"good first issue\"",
     "description": "Neos is a Content Application Platform with a CMS and an application framework at its core."
   },
+  "open-source-starter-lab": {
+    "name": "Open Source Starter Lab",
+    "q": "repo:P-r-e-m-i-u-m/open-source-starter-lab is:issue is:open label:\"good first issue\"",
+    "description": "A beginner-friendly lab for practicing Git, GitHub, pull requests, CI, and maintainer workflows."
+  },
   "netlify": {
     "name": "Netlify",
     "q": "org:netlify is:issue is:open sort:updated-desc label:\"good first issue\"",
