@@ -54,7 +54,14 @@ cli
         process.exitCode = 0
       }
     } catch (err) {
-      console.error(err)
+      const message = [
+        `\nUnable to fetch issues for "${input}".`,
+        /rate limit/i.test(err.message)
+          ? 'Please check the project name, your network connection, or your GitHub API rate limit.\n'
+          : 'Please check the project name or your network connection.\n'
+      ].join('\n')
+
+      console.error(chalk.red(message))
       process.exitCode = 1
     }
   })
