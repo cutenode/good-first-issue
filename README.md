@@ -64,11 +64,13 @@ good-first-issue # call the CLI
 - `good-first-issue [project]`: you can pass in a name from the [list of projects](#projects) which is a curated list of projects that have been verified to have good-first-issues.
 - `good-first-issue [GitHub organization or user]`: similar to `[project]` but will search any GitHub organization or user that exists for issues labeled with "Good First Issue".
 - `good-first-issue [GitHub organization or user]/[repo]`: similar to `[project]`, but will search a specific repository on GitHub within the organization for issues labeled with "Good First Issue".
+- `good-first-issue [target] --label "help wanted"`: search the same target using a custom label instead of the default "Good First Issue".
 
 ### CLI Options
 
 - `-o, --open` - open in browser
 - `-f, --first` - Return first/top issue
+- `-l, --label <label>` - Search using a custom issue label such as `help wanted` or `first-timers-only`
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
 ## TODOs: What's coming up next
