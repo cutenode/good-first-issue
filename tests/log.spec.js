@@ -36,3 +36,21 @@ test('should return formatted log', async () => {
 
     expect(expectedOutput).toBe(stripAnsi(actualOutput))
 })
+
+test('should not include undefined in formatted output', async () => {
+    const issue = {
+        title: 'Clarify repo output',
+        pr: 456,
+        labels: [],
+        state: 'open',
+        url: 'https://github.com/cutenode/good-first-issue/issues/456',
+        assignee: null,
+        assignees: [],
+        locked: false
+    }
+
+    const actualOutput = await log(issue, 'Good First Issue')
+
+    expect(stripAnsi(actualOutput)).toContain('Repository: cutenode/good-first-issue')
+    expect(stripAnsi(actualOutput)).not.toContain('undefined')
+})
