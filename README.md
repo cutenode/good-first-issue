@@ -96,11 +96,11 @@ The table of projects which are _currently_ supported.
 | Order | Name | Project `<project>` | Description |
 | --- | --- | --- | --- |
 |1.|Apollo|`apollo`|A community building flexible open source tools for GraphQL.|
-|2.|Babel|`babel`|Babel is a compiler for writing next generation JavaScript.|
+|2.|Babel|`babel`|Babel is a JavaScript compiler that converts modern JavaScript code into backward-compatible versions so it can run in older browsers and environments.|
 |3.|Create React App|`create-react-app`|Set up a modern web app by running one command.|
 |4.|Firefox Debugger|`debugger`|The Firefox debugger that works anywhere.|
 |5.|Docusaurus|`docusaurus`|Easy to maintain open source documentation websites. |
-|6.|Docz|`docz`|It has never been so easy to document your things!|
+|6.|Docs|`docs`|It has never been so easy to document your things!|
 |7.|EasyGraphQL|`easygraphql`|EasyGraphQL is a group of open source tools, with the main focus to help developers that use GraphQL or just want to start using it.|
 |8.|Elasticsearch|`elasticsearch`|Open Source, Distributed, RESTful Search Engine|
 |9.|Elasticsearch Node.js Client|`elasticsearch-js`|Official Elasticsearch client library for Node.js|
