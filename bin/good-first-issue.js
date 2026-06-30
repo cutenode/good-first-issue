@@ -16,6 +16,7 @@ cli
   .arguments('[project]')
   .option('-o, --open', 'Open in browser')
   .option('-f, --first', 'Return first/top issue')
+  .option('-n, --number <count>', 'List top N issues (e.g., -n 5)')
   .option('-a, --auth <token>', 'Authenticate with the GitHub API (increased rate limits)')
   .action(async (project, cmd) => {
     const options = { // options for libgfi
@@ -41,13 +42,26 @@ cli
         return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
       }
 
-      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      const key = cmd.first ? 0 : Math.floor(Math.random() * issues.length)
 
       // Call the log functionality, output the result to the console.
       const output = await log(issues[key], (input in projects) ? projects[input].name : project)
 
       // Log the issue!
-      console.log(output.toString())
+      if (cmd.number) {
+        const count = Math.min(parseInt(cmd.number), issues.length)
+        console.log(chalk.blue(`\nTop ${count} Good First Issues:\n`))
+        for (let i = 0; i < count; i++) {
+          const output = await log(issues[i], (input in projects) ? projects[input].name : project)
+          console.log(chalk.yellow(`[${i+1}]`) + output.toString())
+          console.log('---')
+        }
+      } else {
+        // 原有的随机/第一个逻辑（记得修复上面的 off-by-one bug）
+        const key = cmd.first ? 0 : Math.floor(Math.random() * issues.length)
+        const output = await log(issues[key], (input in projects) ? projects[input].name : project)
+        console.log(output.toString())
+      }
 
       if (cmd.open) {
         opn(issues[key].url)
