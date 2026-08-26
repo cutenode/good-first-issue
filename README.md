@@ -51,7 +51,7 @@ The suggested usage is via npx:
 npx good-first-issue [project] # temporarily install and run the module, optionally passing `project`
 ```
 
-Alternatively, you could absolutely install good-first-issue as a global module:
+Alternatively, you could also install good-first-issue as a global module:
 
 ```bash
 npm i -g good-first-issue # install globally
