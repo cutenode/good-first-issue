@@ -59,3 +59,5 @@ cli
     }
   })
   .parse(process.argv)
+let a=1;
+console.log(a);
