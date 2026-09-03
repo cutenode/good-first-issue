@@ -5,7 +5,7 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 [![Shields.io badge for the latest version of good-first-issue](https://img.shields.io/npm/v/good-first-issue/latest.svg)](https://www.npmjs.com/package/good-first-issue)
 ![[Greenkeeper badge](https://greenkeeper.io/)](https://badges.greenkeeper.io/cutenode/good-first-issue.svg)
 
-## Table of Contents
+### Table of Contents
 
 <!-- toc -->
 
@@ -28,7 +28,7 @@ A CLI for finding issues labeled with Good First Issue to help lower the barrier
 
 <!-- tocstop -->
 
-## Prerequisites
+### Prerequisites
 
 To use Good First Issue, you'll need to have a few things installed:
 
@@ -39,7 +39,7 @@ To use Good First Issue, you'll need to have a few things installed:
   - If you already have Node.js 8.0.0 or above, you will have npm 5.0.0 or above.
   - If you need to update your npm CLI, run `npm i -g npm`.
 
-## Usage
+### Usage
 
 This module is an interactive CLI. If you're looking for a module to use in an application, check out [libgfi](https://www.npmjs.com/package/libgfi).
 
@@ -71,7 +71,7 @@ good-first-issue # call the CLI
 - `-f, --first` - Return first/top issue
 - `-a, --auth <github personal access token>` - Authenticate with the GitHub API (increased rate limits)
 
-## TODOs: What's coming up next
+### TODOs: What's coming up next
 
 `good-first-issue` is still in an early state. I wanted to get `good-first-issue node` out the door, but have some other things I'm planning on implementing. Here's a list:
 
@@ -84,7 +84,7 @@ good-first-issue # call the CLI
 
 If you'd like to help with any of these, feel free to submit a PR or ask how you can help 🤗
 
-## Projects
+### Projects
 
 The table of projects which are _currently_ supported.
 
@@ -146,7 +146,7 @@ The table of projects which are _currently_ supported.
 |49.|Yarn Version Manager|`yvm`|YVM is a version manager for yarn that makes it easy to handle projects with differing yarn versions.|
 <!-- AUTO-GENERATED-CONTENT:END -->
 
-## Adding New Projects
+### Adding New Projects
 
 If you'd like to add a new project to `good-first-issue`, you're more than welcome to submit a PR! There are a few components you'll need to submit:
 
@@ -162,7 +162,7 @@ You can pull your queries directly from a standard GitHub search! If you want to
 
 As a CLI, `good-first-issue` uses the Commander.js CLI framework. If you want to better understand how our CLI is built, commander.js is pretty [well documented](https://github.com/tj/commander.js/). Also used are Chalk for terminal coloring and [boxen](https://github.com/sindresorhus/boxen) to simplify the output container implementation.
 
-## Release Process
+### Release Process
 
 Good First Issue follows a relatively strict release process intended to ensure the spice flows.
 
@@ -200,6 +200,6 @@ good-first-issue github/semantic # test the GitHub repo, `github/semantic`
 good-first-issue thisisntarealprojectorgithuborg
 ```
 
-## Contributing
+### Contributing
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md).
