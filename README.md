@@ -203,3 +203,5 @@ good-first-issue thisisntarealprojectorgithuborg
 ## Contributing
 
 If you are interested in fixing issues and contributing directly to the code base, please see the document [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+New contributors are welcome to fix issues, improve documentation, and submit pull requests.
