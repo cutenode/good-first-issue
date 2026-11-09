@@ -1,3 +1,4 @@
+
 #!/usr/bin/env node
 
 const cli = require('commander')
@@ -41,7 +42,8 @@ cli
         return console.log(chalk.yellow(`\nNo Good First Issues were found for the GitHub organization, repo, or project ${chalk.white(input)}.\n`))
       }
 
-      const key = cmd.first ? 0 : Math.floor(Math.random() * Math.floor(issues.length - 1))
+      // Select a random issue, including the last issue.
+      const key = cmd.first ? 0 : Math.floor(Math.random() * issues.length)
 
       // Call the log functionality, output the result to the console.
       const output = await log(issues[key], (input in projects) ? projects[input].name : project)
